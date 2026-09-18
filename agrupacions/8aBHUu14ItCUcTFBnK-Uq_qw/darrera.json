@@ -1,0 +1,365 @@
+{
+ "exportedAt": "2026-09-18T02:50:13.716733Z",
+ "app": "a-tempo",
+ "version": 1,
+ "group": "8aBHUu14ItCUcTFBnK-Uq_qw",
+ "config": {
+  "name": "lalala",
+  "minAttendance": 80,
+  "sections": [
+   {
+    "id": "V1",
+    "name": "Violins primers",
+    "short": "V1"
+   },
+   {
+    "id": "V2",
+    "name": "Violins segons",
+    "short": "V2"
+   },
+   {
+    "id": "Va",
+    "name": "Violes",
+    "short": "Va"
+   },
+   {
+    "id": "Vc",
+    "name": "Violoncels",
+    "short": "Vc"
+   },
+   {
+    "id": "Cb",
+    "name": "Contrabaixos",
+    "short": "Cb"
+   },
+   {
+    "id": "Fu",
+    "name": "Vent fusta",
+    "short": "Fu"
+   },
+   {
+    "id": "Me",
+    "name": "Vent metall",
+    "short": "Me"
+   },
+   {
+    "id": "Pc",
+    "name": "Percussió i arpa",
+    "short": "Pc"
+   },
+   {
+    "id": "Tr",
+    "name": "Triangle",
+    "short": "Tr"
+   },
+   {
+    "id": "Or",
+    "name": "Orgue",
+    "short": "Or"
+   }
+  ],
+  "alertFNJ": 3,
+  "createdAt": "2026-09-17T20:22:19.362Z",
+  "kind": "orquestra",
+  "demo": false
+ },
+ "members": [
+  {
+   "id": "mmu5z90yhaw0d",
+   "section": "V1",
+   "leader": false,
+   "active": true,
+   "name": "Anna Puig"
+  }
+ ],
+ "productions": [
+  {
+   "excluded": [],
+   "name": "Requime de mozart",
+   "start": "2026-09-17",
+   "id": "pmu5z7kh52fqn",
+   "end": "2026-10-29",
+   "hue": 150,
+   "sessions": [
+    {
+     "id": "smu5z8g1h77i9",
+     "date": "2026-09-18",
+     "time": "20:30",
+     "end": "21:30",
+     "type": "Assaig",
+     "place": "",
+     "note": ""
+    },
+    {
+     "id": "smu5z8g1h7z7g",
+     "date": "2026-09-21",
+     "time": "20:30",
+     "end": "21:30",
+     "type": "Assaig",
+     "place": "",
+     "note": ""
+    },
+    {
+     "id": "smu5z8g1hbg9m",
+     "date": "2026-09-23",
+     "time": "20:30",
+     "end": "21:30",
+     "type": "Assaig",
+     "place": "",
+     "note": ""
+    },
+    {
+     "id": "smu5z8g1ht513",
+     "date": "2026-09-25",
+     "time": "20:30",
+     "end": "21:30",
+     "type": "Assaig",
+     "place": "",
+     "note": ""
+    },
+    {
+     "id": "smu5z8g1hp9ga",
+     "date": "2026-09-28",
+     "time": "20:30",
+     "end": "21:30",
+     "type": "Assaig",
+     "place": "",
+     "note": ""
+    },
+    {
+     "id": "smu5z8g1h3xwh",
+     "date": "2026-09-30",
+     "time": "20:30",
+     "end": "21:30",
+     "type": "Assaig",
+     "place": "",
+     "note": ""
+    },
+    {
+     "id": "smu5z8g1hdhtb",
+     "date": "2026-10-02",
+     "time": "20:30",
+     "end": "21:30",
+     "type": "Assaig",
+     "place": "",
+     "note": ""
+    },
+    {
+     "id": "smu5z8g1het70",
+     "date": "2026-10-05",
+     "time": "20:30",
+     "end": "21:30",
+     "type": "Assaig",
+     "place": "",
+     "note": ""
+    },
+    {
+     "id": "smu5z8g1h4dln",
+     "date": "2026-10-07",
+     "time": "20:30",
+     "end": "21:30",
+     "type": "Assaig",
+     "place": "",
+     "note": ""
+    },
+    {
+     "id": "smu5z8g1hc6pi",
+     "date": "2026-10-09",
+     "time": "20:30",
+     "end": "21:30",
+     "type": "Assaig",
+     "place": "",
+     "note": ""
+    },
+    {
+     "id": "smu5z8g1hmiyp",
+     "date": "2026-10-12",
+     "time": "20:30",
+     "end": "21:30",
+     "type": "Assaig",
+     "place": "",
+     "note": ""
+    },
+    {
+     "id": "smu5z8g1hg35l",
+     "date": "2026-10-14",
+     "time": "20:30",
+     "end": "21:30",
+     "type": "Assaig",
+     "place": "",
+     "note": ""
+    },
+    {
+     "id": "smu5z8g1hzpj4",
+     "date": "2026-10-16",
+     "time": "20:30",
+     "end": "21:30",
+     "type": "Assaig",
+     "place": "",
+     "note": ""
+    },
+    {
+     "id": "smu5z8g1hndj7",
+     "date": "2026-10-19",
+     "time": "20:30",
+     "end": "21:30",
+     "type": "Assaig",
+     "place": "",
+     "note": ""
+    },
+    {
+     "id": "smu5z8g1h059u",
+     "date": "2026-10-21",
+     "time": "20:30",
+     "end": "21:30",
+     "type": "Assaig",
+     "place": "",
+     "note": ""
+    },
+    {
+     "id": "smu5z8g1hyho2",
+     "date": "2026-10-23",
+     "time": "20:30",
+     "end": "21:30",
+     "type": "Assaig",
+     "place": "",
+     "note": ""
+    },
+    {
+     "id": "smu5z8g1hx9aq",
+     "date": "2026-10-26",
+     "time": "20:30",
+     "end": "21:30",
+     "type": "Assaig",
+     "place": "",
+     "note": ""
+    },
+    {
+     "id": "smu5z8g1h0mx3",
+     "date": "2026-10-28",
+     "time": "20:30",
+     "end": "21:30",
+     "type": "Assaig",
+     "place": "",
+     "note": ""
+    },
+    {
+     "id": "smu5z8g1hrnm7",
+     "date": "2026-10-30",
+     "time": "20:30",
+     "end": "21:30",
+     "type": "Assaig",
+     "place": "",
+     "note": ""
+    },
+    {
+     "id": "smu5z8g1hpc4b",
+     "date": "2026-11-02",
+     "time": "20:30",
+     "end": "21:30",
+     "type": "Assaig",
+     "place": "",
+     "note": ""
+    },
+    {
+     "id": "smu5z8g1hgcyp",
+     "date": "2026-11-04",
+     "time": "20:30",
+     "end": "21:30",
+     "type": "Assaig",
+     "place": "",
+     "note": ""
+    },
+    {
+     "id": "smu5z8g1h9ksf",
+     "date": "2026-11-06",
+     "time": "20:30",
+     "end": "21:30",
+     "type": "Assaig",
+     "place": "",
+     "note": ""
+    },
+    {
+     "id": "smu5z8g1hzpti",
+     "date": "2026-11-09",
+     "time": "20:30",
+     "end": "21:30",
+     "type": "Assaig",
+     "place": "",
+     "note": ""
+    },
+    {
+     "id": "smu5z8g1hb0bf",
+     "date": "2026-11-11",
+     "time": "20:30",
+     "end": "21:30",
+     "type": "Assaig",
+     "place": "",
+     "note": ""
+    },
+    {
+     "id": "smu5z8g1hz1ay",
+     "date": "2026-11-13",
+     "time": "20:30",
+     "end": "21:30",
+     "type": "Assaig",
+     "place": "",
+     "note": ""
+    },
+    {
+     "id": "smu5z8g1h5pm7",
+     "date": "2026-11-16",
+     "time": "20:30",
+     "end": "21:30",
+     "type": "Assaig",
+     "place": "",
+     "note": ""
+    },
+    {
+     "id": "smu5z8g1hyrkq",
+     "date": "2026-11-18",
+     "time": "20:30",
+     "end": "21:30",
+     "type": "Assaig",
+     "place": "",
+     "note": ""
+    }
+   ]
+  }
+ ],
+ "attendance": {
+  "smu5z8g1h77i9_V1": {
+   "sessionId": "smu5z8g1h77i9",
+   "section": "V1",
+   "marks": {
+    "mmu5z90yhaw0d": {
+     "s": "R",
+     "min": 54
+    }
+   },
+   "updatedAt": "2026-09-17T20:25:00.440Z"
+  }
+ },
+ "absences": [],
+ "rsvp": [],
+ "subs": [],
+ "staff": [
+  {
+   "addedAt": "2026-09-17T20:22:19.362Z",
+   "roles": [
+    "admin"
+   ],
+   "lastSeen": "2026-09-17T20:22:20.962Z",
+   "email": "quinglesdavipol@gmail.com",
+   "name": "",
+   "role": "admin"
+  }
+ ],
+ "announcements": [],
+ "polls": [],
+ "pollVotes": [],
+ "classes": [],
+ "classReq": [],
+ "classPlan": [],
+ "classNotes": []
+}

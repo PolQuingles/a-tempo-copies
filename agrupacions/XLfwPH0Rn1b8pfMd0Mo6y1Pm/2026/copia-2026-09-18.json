@@ -1,0 +1,86 @@
+{
+ "exportedAt": "2026-09-18T02:50:13.716733Z",
+ "app": "a-tempo",
+ "version": 1,
+ "group": "XLfwPH0Rn1b8pfMd0Mo6y1Pm",
+ "config": {
+  "name": "kakakask",
+  "demo": false,
+  "alertFNJ": 3,
+  "sections": [
+   {
+    "id": "V1",
+    "name": "Violins primers",
+    "short": "V1"
+   },
+   {
+    "id": "V2",
+    "name": "Violins segons",
+    "short": "V2"
+   },
+   {
+    "id": "Va",
+    "name": "Violes",
+    "short": "Va"
+   },
+   {
+    "id": "Vc",
+    "name": "Violoncels",
+    "short": "Vc"
+   },
+   {
+    "id": "Cb",
+    "name": "Contrabaixos",
+    "short": "Cb"
+   },
+   {
+    "id": "Fu",
+    "name": "Vent fusta",
+    "short": "Fu"
+   },
+   {
+    "id": "Me",
+    "name": "Vent metall",
+    "short": "Me"
+   },
+   {
+    "id": "Pc",
+    "name": "Percussió i arpa",
+    "short": "Pc"
+   },
+   {
+    "id": "or",
+    "name": "orgeu",
+    "short": "or"
+   }
+  ],
+  "createdAt": "2026-09-17T21:07:25.300Z",
+  "kind": "orquestra",
+  "minAttendance": 80
+ },
+ "members": [],
+ "productions": [],
+ "attendance": {},
+ "absences": [],
+ "rsvp": [],
+ "subs": [],
+ "staff": [
+  {
+   "email": "quinglesdavipol@gmail.com",
+   "lastSeen": "2026-09-17T21:07:27.071Z",
+   "role": "admin",
+   "addedAt": "2026-09-17T21:07:25.300Z",
+   "name": "",
+   "roles": [
+    "admin"
+   ]
+  }
+ ],
+ "announcements": [],
+ "polls": [],
+ "pollVotes": [],
+ "classes": [],
+ "classReq": [],
+ "classPlan": [],
+ "classNotes": []
+}
