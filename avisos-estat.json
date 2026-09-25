@@ -367,11 +367,11 @@
    "Concert"
   ],
   "cj-santesteve-01": [
-   "2026-12-13",
+   "2026-11-15",
    "10:00",
    "14:00",
-   "",
-   "Assaig pregeneral"
+   "Sala de concerts",
+   "Assaig"
   ],
   "cj-santesteve-02": [
    "2026-12-20",
@@ -575,6 +575,41 @@
    "",
    "",
    "Concert"
+  ],
+  "smugs6gtt8pdg": [
+   "2026-11-12",
+   "19:40",
+   "23:00",
+   "L’Auditori",
+   "Assaig general"
+  ],
+  "smugs6gttbi52": [
+   "2026-11-14",
+   "19:00",
+   "",
+   "L’Auditori",
+   "Concert"
+  ],
+  "smugs6gttd93m": [
+   "2026-11-11",
+   "18:40",
+   "23:00",
+   "L’Auditori",
+   "Assaig amb orquestra"
+  ],
+  "smugs6gttnxhl": [
+   "2026-11-13",
+   "19:00",
+   "",
+   "L’Auditori",
+   "Concert"
+  ],
+  "smugs6gttv7pq": [
+   "2026-11-05",
+   "",
+   "",
+   "",
+   "Assaig"
   ]
  },
  "class_since": "2026-09-17T17:43:50.370964Z",
@@ -585,7 +620,13 @@
   "doc:dmu46geu7zot8": "2026-09-16T16:30:29+02:00",
   "doc:dmu46gr11zg2b": "2026-09-16T16:30:29+02:00",
   "mat:cj-dido:mt1a0aa87f80bzx1c": "2026-09-16T16:30:29+02:00",
-  "mat:cj-dido:mtmu46h5r9wp01": "2026-09-16T16:30:29+02:00"
+  "mat:cj-dido:mtmu46h5r9wp01": "2026-09-16T16:30:29+02:00",
+  "mat:cj-dido:mtmugsm0lgvhh0": "2026-09-25T12:18:10+02:00",
+  "mat:cj-dido:mtmugsm10xxmc7": "2026-09-25T12:18:10+02:00",
+  "mat:cj-dido:mtmugsm1abdgbi": "2026-09-25T12:18:10+02:00",
+  "mat:cj-dido:mtmugsm1yvq9sq": "2026-09-25T12:18:10+02:00",
+  "mat:cj-dido:mtmugsm28img09": "2026-09-25T12:18:10+02:00",
+  "mat:pmugs6gtth6gg:mtmugsn9ku2pcm": "2026-09-25T12:18:10+02:00"
  },
  "messages": [],
  "nudges": [],
@@ -669,6 +710,12 @@
   "cj-whitacre": {}
  },
  "sent": {
+  "cal:cj-santesteve-01:98bceb52:0uW9TB62P5TC09Ys0Fm_XpFs": "2026-09-25T12:18:10+02:00",
+  "cal:cj-santesteve-01:98bceb52:1Yl2tTMPymp0Him5G6GQz5Hg": "2026-09-25T12:18:10+02:00",
+  "cal:cj-santesteve-01:98bceb52:8XTi8w_bK6tl9WrQgss_3a0x": "2026-09-25T12:18:10+02:00",
+  "cal:cj-santesteve-01:98bceb52:GzYCuo5NSrdoEjr0i9lGUAwQ": "2026-09-25T12:18:10+02:00",
+  "cal:cj-santesteve-01:98bceb52:d5e839b-mqGIMAWKn3cInbld": "2026-09-25T12:18:10+02:00",
+  "cal:cj-santesteve-01:98bceb52:duQsHNSInAIWgvWhg6RTkqgN": "2026-09-25T12:18:10+02:00",
   "cls:crmu5zw8970r41:accepted:GzYCuo5NSrdoEjr0i9lGUAwQ": "2026-09-24T16:19:13+02:00",
   "cls:crmuef8l26zale:pending:GzYCuo5NSrdoEjr0i9lGUAwQ": "2026-09-24T16:19:13+02:00",
   "doc:dmu46frrlhkcy:0uW9TB62P5TC09Ys0Fm_XpFs": "2026-09-16T16:45:53+02:00",
@@ -696,6 +743,36 @@
   "mat:cj-dido:mtmu46h5r9wp01:8XTi8w_bK6tl9WrQgss_3a0x": "2026-09-16T16:45:53+02:00",
   "mat:cj-dido:mtmu46h5r9wp01:d5e839b-mqGIMAWKn3cInbld": "2026-09-16T16:45:53+02:00",
   "mat:cj-dido:mtmu46h5r9wp01:duQsHNSInAIWgvWhg6RTkqgN": "2026-09-16T16:45:53+02:00",
+  "mat:cj-dido:mtmugsm0lgvhh0:0uW9TB62P5TC09Ys0Fm_XpFs": "2026-09-25T12:18:10+02:00",
+  "mat:cj-dido:mtmugsm0lgvhh0:1Yl2tTMPymp0Him5G6GQz5Hg": "2026-09-25T12:18:10+02:00",
+  "mat:cj-dido:mtmugsm0lgvhh0:8XTi8w_bK6tl9WrQgss_3a0x": "2026-09-25T12:18:10+02:00",
+  "mat:cj-dido:mtmugsm0lgvhh0:d5e839b-mqGIMAWKn3cInbld": "2026-09-25T12:18:10+02:00",
+  "mat:cj-dido:mtmugsm0lgvhh0:duQsHNSInAIWgvWhg6RTkqgN": "2026-09-25T12:18:10+02:00",
+  "mat:cj-dido:mtmugsm10xxmc7:0uW9TB62P5TC09Ys0Fm_XpFs": "2026-09-25T12:18:10+02:00",
+  "mat:cj-dido:mtmugsm10xxmc7:1Yl2tTMPymp0Him5G6GQz5Hg": "2026-09-25T12:18:10+02:00",
+  "mat:cj-dido:mtmugsm10xxmc7:8XTi8w_bK6tl9WrQgss_3a0x": "2026-09-25T12:18:10+02:00",
+  "mat:cj-dido:mtmugsm10xxmc7:d5e839b-mqGIMAWKn3cInbld": "2026-09-25T12:18:10+02:00",
+  "mat:cj-dido:mtmugsm10xxmc7:duQsHNSInAIWgvWhg6RTkqgN": "2026-09-25T12:18:10+02:00",
+  "mat:cj-dido:mtmugsm1abdgbi:0uW9TB62P5TC09Ys0Fm_XpFs": "2026-09-25T12:18:10+02:00",
+  "mat:cj-dido:mtmugsm1abdgbi:1Yl2tTMPymp0Him5G6GQz5Hg": "2026-09-25T12:18:10+02:00",
+  "mat:cj-dido:mtmugsm1abdgbi:8XTi8w_bK6tl9WrQgss_3a0x": "2026-09-25T12:18:10+02:00",
+  "mat:cj-dido:mtmugsm1abdgbi:d5e839b-mqGIMAWKn3cInbld": "2026-09-25T12:18:10+02:00",
+  "mat:cj-dido:mtmugsm1abdgbi:duQsHNSInAIWgvWhg6RTkqgN": "2026-09-25T12:18:10+02:00",
+  "mat:cj-dido:mtmugsm1yvq9sq:0uW9TB62P5TC09Ys0Fm_XpFs": "2026-09-25T12:18:10+02:00",
+  "mat:cj-dido:mtmugsm1yvq9sq:1Yl2tTMPymp0Him5G6GQz5Hg": "2026-09-25T12:18:10+02:00",
+  "mat:cj-dido:mtmugsm1yvq9sq:8XTi8w_bK6tl9WrQgss_3a0x": "2026-09-25T12:18:10+02:00",
+  "mat:cj-dido:mtmugsm1yvq9sq:d5e839b-mqGIMAWKn3cInbld": "2026-09-25T12:18:10+02:00",
+  "mat:cj-dido:mtmugsm1yvq9sq:duQsHNSInAIWgvWhg6RTkqgN": "2026-09-25T12:18:10+02:00",
+  "mat:cj-dido:mtmugsm28img09:0uW9TB62P5TC09Ys0Fm_XpFs": "2026-09-25T12:18:10+02:00",
+  "mat:cj-dido:mtmugsm28img09:1Yl2tTMPymp0Him5G6GQz5Hg": "2026-09-25T12:18:10+02:00",
+  "mat:cj-dido:mtmugsm28img09:8XTi8w_bK6tl9WrQgss_3a0x": "2026-09-25T12:18:10+02:00",
+  "mat:cj-dido:mtmugsm28img09:d5e839b-mqGIMAWKn3cInbld": "2026-09-25T12:18:10+02:00",
+  "mat:cj-dido:mtmugsm28img09:duQsHNSInAIWgvWhg6RTkqgN": "2026-09-25T12:18:10+02:00",
+  "matgroup:2ab41a7010:0uW9TB62P5TC09Ys0Fm_XpFs": "2026-09-25T12:18:10+02:00",
+  "matgroup:2ab41a7010:1Yl2tTMPymp0Him5G6GQz5Hg": "2026-09-25T12:18:10+02:00",
+  "matgroup:2ab41a7010:8XTi8w_bK6tl9WrQgss_3a0x": "2026-09-25T12:18:10+02:00",
+  "matgroup:2ab41a7010:d5e839b-mqGIMAWKn3cInbld": "2026-09-25T12:18:10+02:00",
+  "matgroup:2ab41a7010:duQsHNSInAIWgvWhg6RTkqgN": "2026-09-25T12:18:10+02:00",
   "risk:cj-dido:cj-T01:risk:GzYCuo5NSrdoEjr0i9lGUAwQ": "2026-09-24T19:17:03+02:00",
   "risk:cj-dido:cj-T03:risk:GzYCuo5NSrdoEjr0i9lGUAwQ": "2026-09-24T19:17:03+02:00",
   "risk:cj-dido:cj-T07:risk:GzYCuo5NSrdoEjr0i9lGUAwQ": "2026-09-24T19:17:03+02:00",
