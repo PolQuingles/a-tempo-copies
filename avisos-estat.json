@@ -687,11 +687,11 @@
    "cj-S21": "ok",
    "cj-T01": "risk",
    "cj-T02": "ok",
-   "cj-T03": "ok",
+   "cj-T03": "risk",
    "cj-T04": "ok",
    "cj-T05": "ok",
    "cj-T06": "ok",
-   "cj-T07": "ok",
+   "cj-T07": "risk",
    "cj-T08": "risk",
    "cj-T09": "ok",
    "cj-T10": "ok",
@@ -711,6 +711,7 @@
   "pmugs6gtth6gg": {}
  },
  "sent": {
+  "abs:amul8mci77n11:accepted:8XTi8w_bK6tl9WrQgss_3a0x": "2026-09-28T19:18:55+02:00",
   "cal:cj-santesteve-01:98bceb52:0uW9TB62P5TC09Ys0Fm_XpFs": "2026-09-25T12:18:10+02:00",
   "cal:cj-santesteve-01:98bceb52:1Yl2tTMPymp0Him5G6GQz5Hg": "2026-09-25T12:18:10+02:00",
   "cal:cj-santesteve-01:98bceb52:8XTi8w_bK6tl9WrQgss_3a0x": "2026-09-25T12:18:10+02:00",
