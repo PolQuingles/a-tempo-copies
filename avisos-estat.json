@@ -135,13 +135,6 @@
    "",
    "Concert"
   ],
-  "cj-dido-06": [
-   "2026-09-30",
-   "20:30",
-   "22:30",
-   "",
-   "Assaig"
-  ],
   "cj-dido-07": [
    "2026-10-03",
    "",
@@ -704,6 +697,8 @@
  },
  "sent": {
   "abs:amul8mci77n11:accepted:8XTi8w_bK6tl9WrQgss_3a0x": "2026-09-28T19:18:55+02:00",
+  "abs:amuoik3f1e9ri:accepted:6wV-sr20Zm_8oKdLvh3NjWld": "2026-10-01T08:26:22+02:00",
+  "abs:amuoilf6gr75g:accepted:6wV-sr20Zm_8oKdLvh3NjWld": "2026-10-01T08:26:22+02:00",
   "cal:cj-santesteve-01:98bceb52:0uW9TB62P5TC09Ys0Fm_XpFs": "2026-09-25T12:18:10+02:00",
   "cal:cj-santesteve-01:98bceb52:1Yl2tTMPymp0Him5G6GQz5Hg": "2026-09-25T12:18:10+02:00",
   "cal:cj-santesteve-01:98bceb52:8XTi8w_bK6tl9WrQgss_3a0x": "2026-09-25T12:18:10+02:00",
@@ -715,6 +710,10 @@
   "cls:crmuef8l26zale:pending:GzYCuo5NSrdoEjr0i9lGUAwQ": "2026-09-24T16:19:13+02:00",
   "cls:crmugv76mpgk3r:cancelled:GzYCuo5NSrdoEjr0i9lGUAwQ": "2026-09-29T11:20:59+02:00",
   "cls:crmugv76mpgk3r:pending:GzYCuo5NSrdoEjr0i9lGUAwQ": "2026-09-25T13:18:14+02:00",
+  "cls:crmuoiunal6zss:pending:GzYCuo5NSrdoEjr0i9lGUAwQ": "2026-10-01T08:26:22+02:00",
+  "cls:crmuoj0dt0g6t8:cancelled:GzYCuo5NSrdoEjr0i9lGUAwQ": "2026-10-01T08:26:22+02:00",
+  "cls:crmuoj27mtiasi:cancelled:GzYCuo5NSrdoEjr0i9lGUAwQ": "2026-10-01T08:26:22+02:00",
+  "cls:crmuoj4iolv9vg:pending:GzYCuo5NSrdoEjr0i9lGUAwQ": "2026-10-01T08:26:22+02:00",
   "doc:dmu46frrlhkcy:0uW9TB62P5TC09Ys0Fm_XpFs": "2026-09-16T16:45:53+02:00",
   "doc:dmu46frrlhkcy:1Yl2tTMPymp0Him5G6GQz5Hg": "2026-09-16T16:45:53+02:00",
   "doc:dmu46frrlhkcy:8XTi8w_bK6tl9WrQgss_3a0x": "2026-09-16T16:45:53+02:00",
