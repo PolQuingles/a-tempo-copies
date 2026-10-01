@@ -137,15 +137,15 @@
   ],
   "cj-dido-07": [
    "2026-10-03",
-   "",
-   "",
+   "09:15",
+   "20:30",
    "La Conreria (Tiana)",
    "Cap de setmana de treball"
   ],
   "cj-dido-08": [
    "2026-10-04",
-   "",
-   "",
+   "10:00",
+   "13:15",
    "La Conreria (Tiana)",
    "Cap de setmana de treball"
   ],
@@ -599,7 +599,9 @@
   ]
  },
  "class_since": "2026-09-17T17:43:50.370964Z",
- "dead": [],
+ "dead": [
+  "https://fcm.googleapis.com/fcm/send/c7tZ0-Xfnvo:APA91bEjm3OOo8gVL1gzl67VdgWXrDz9xnx0-9fVnqtQZ8atpE65JryaccvMguT_hX3M2YvckTfhf1yIdRxY81TGsvFuih__lp9FFzwdrzI6c20-mPXCyN0uHHuuA-4fBv0M2PZ7DQF0"
+ ],
  "fails": {},
  "materials": {
   "doc:dmu46frrlhkcy": "2026-09-16T16:30:29+02:00",
@@ -694,6 +696,23 @@
   "abs:amul8mci77n11:accepted:8XTi8w_bK6tl9WrQgss_3a0x": "2026-09-28T19:18:55+02:00",
   "abs:amuoik3f1e9ri:accepted:6wV-sr20Zm_8oKdLvh3NjWld": "2026-10-01T08:26:22+02:00",
   "abs:amuoilf6gr75g:accepted:6wV-sr20Zm_8oKdLvh3NjWld": "2026-10-01T08:26:22+02:00",
+  "cal:cj-dido-07:65cd720a:0uW9TB62P5TC09Ys0Fm_XpFs": "2026-10-01T18:19:52+02:00",
+  "cal:cj-dido-07:65cd720a:1Yl2tTMPymp0Him5G6GQz5Hg": "2026-10-01T18:19:52+02:00",
+  "cal:cj-dido-07:65cd720a:8XTi8w_bK6tl9WrQgss_3a0x": "2026-10-01T18:19:52+02:00",
+  "cal:cj-dido-07:65cd720a:GzYCuo5NSrdoEjr0i9lGUAwQ": "2026-10-01T18:19:52+02:00",
+  "cal:cj-dido-07:65cd720a:Rr54w1DmdvsqtP1wPkGF1pec": "2026-10-01T18:19:52+02:00",
+  "cal:cj-dido-07:65cd720a:d5e839b-mqGIMAWKn3cInbld": "2026-10-01T18:19:52+02:00",
+  "cal:cj-dido-07:65cd720a:duQsHNSInAIWgvWhg6RTkqgN": "2026-10-01T18:19:52+02:00",
+  "cal:cj-dido-07:65cd720a:dxg5ld-zVxwxWOUN_Qe5vaI4": "2026-10-01T18:19:52+02:00",
+  "cal:cj-dido-07:65cd720a:qZeX8muHnBzERrksk6SydIsQ": "2026-10-01T18:19:52+02:00",
+  "cal:cj-dido-08:47fc4cbc:0uW9TB62P5TC09Ys0Fm_XpFs": "2026-10-01T18:19:52+02:00",
+  "cal:cj-dido-08:47fc4cbc:1Yl2tTMPymp0Him5G6GQz5Hg": "2026-10-01T18:19:52+02:00",
+  "cal:cj-dido-08:47fc4cbc:8XTi8w_bK6tl9WrQgss_3a0x": "2026-10-01T18:19:52+02:00",
+  "cal:cj-dido-08:47fc4cbc:Rr54w1DmdvsqtP1wPkGF1pec": "2026-10-01T18:19:52+02:00",
+  "cal:cj-dido-08:47fc4cbc:d5e839b-mqGIMAWKn3cInbld": "2026-10-01T18:19:52+02:00",
+  "cal:cj-dido-08:47fc4cbc:duQsHNSInAIWgvWhg6RTkqgN": "2026-10-01T18:19:52+02:00",
+  "cal:cj-dido-08:47fc4cbc:dxg5ld-zVxwxWOUN_Qe5vaI4": "2026-10-01T18:19:52+02:00",
+  "cal:cj-dido-08:47fc4cbc:qZeX8muHnBzERrksk6SydIsQ": "2026-10-01T18:19:52+02:00",
   "cal:cj-santesteve-01:98bceb52:0uW9TB62P5TC09Ys0Fm_XpFs": "2026-09-25T12:18:10+02:00",
   "cal:cj-santesteve-01:98bceb52:1Yl2tTMPymp0Him5G6GQz5Hg": "2026-09-25T12:18:10+02:00",
   "cal:cj-santesteve-01:98bceb52:8XTi8w_bK6tl9WrQgss_3a0x": "2026-09-25T12:18:10+02:00",
