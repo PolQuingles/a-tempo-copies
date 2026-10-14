@@ -1,25 +1,14 @@
 {
- "exportedAt": "2026-10-13T02:56:26.217698Z",
+ "exportedAt": "2026-10-14T03:07:12.461088Z",
  "app": "a-tempo",
  "version": 1,
  "group": "q5dAVLP2BQ4g2o584FdQ7svN",
  "config": {
-  "brand": {
-   "accent": "#1F4E99"
-  },
-  "season": {
-   "name": "Temporada 2026-27",
-   "from": "2026-09-01",
-   "to": "2027-07-31"
-  },
-  "attPrivate": true,
   "demo": false,
-  "prodChoice": true,
-  "prodChoiceMin": 60,
-  "alertFNJ": 3,
   "wardrobe": {
    "items": [
     {
+     "name": "Americana",
      "sizes": [
       "44",
       "46",
@@ -32,7 +21,6 @@
       "60",
       "62"
      ],
-     "name": "Americana",
      "id": "americana"
     },
     {
@@ -50,10 +38,21 @@
    ],
    "on": true
   },
+  "season": {
+   "name": "Temporada 2026-27",
+   "from": "2026-09-01",
+   "to": "2027-07-31"
+  },
+  "brand": {
+   "accent": "#1F4E99"
+  },
   "createdAt": "2026-10-08T23:46:37.310Z",
-  "teamRoles": [
-   "admin"
-  ],
+  "alertFNJ": 3,
+  "name": "Orfeó Català",
+  "kind": "cor",
+  "prodChoice": true,
+  "feesOn": false,
+  "askDocs": [],
   "sections": [
    {
     "id": "S",
@@ -61,1980 +60,1983 @@
     "short": "S"
    },
    {
+    "name": "Contralts",
     "id": "C",
-    "short": "C",
-    "name": "Contralts"
+    "short": "C"
    },
    {
-    "name": "Tenors",
+    "short": "T",
     "id": "T",
-    "short": "T"
+    "name": "Tenors"
    },
    {
-    "short": "B",
+    "name": "Baixos",
     "id": "B",
-    "name": "Baixos"
+    "short": "B"
    }
+  ],
+  "teamRoles": [
+   "admin"
   ],
   "shortName": "Orfeó",
   "minAttendance": 80,
-  "kind": "cor",
-  "name": "Orfeó Català"
+  "prodChoiceMin": 60,
+  "attPrivate": true
  },
  "members": [
   {
    "id": "oc-B01",
-   "leader": false,
-   "syncAt": "2026-10-09T00:20:22.066Z",
-   "name": "Palau Sallent, Roger",
    "section": "B",
    "active": true,
+   "leader": false,
    "part": "1",
-   "joined": "2024-09-04"
+   "joined": "2024-09-04",
+   "syncAt": "2026-10-09T00:20:22.066Z",
+   "name": "Palau Sallent, Roger"
   },
   {
+   "syncAt": "2026-10-09T00:20:22.066Z",
    "joined": "1992-09-01",
-   "name": "Gasull Giralt, Ernest",
    "id": "oc-B02",
-   "active": true,
-   "section": "B",
-   "part": "1",
    "leader": false,
-   "syncAt": "2026-10-09T00:20:22.066Z"
+   "active": true,
+   "part": "1",
+   "name": "Gasull Giralt, Ernest",
+   "section": "B"
   },
   {
-   "active": true,
-   "name": "Simó Comas, Adrià",
-   "joined": "1992-09-12",
-   "id": "oc-B03",
-   "leader": false,
    "syncAt": "2026-10-09T00:20:22.066Z",
+   "joined": "1992-09-12",
+   "name": "Simó Comas, Adrià",
+   "section": "B",
+   "leader": false,
    "part": "1",
+   "active": true,
+   "id": "oc-B03"
+  },
+  {
+   "id": "oc-B04",
+   "joined": "2010-09-06",
+   "part": "1",
+   "syncAt": "2026-10-09T00:20:22.066Z",
+   "name": "Simó Fuster, Jordi",
+   "leader": false,
+   "active": true,
    "section": "B"
   },
   {
    "section": "B",
-   "syncAt": "2026-10-09T00:20:22.066Z",
-   "leader": false,
-   "name": "Simó Fuster, Jordi",
    "active": true,
-   "part": "1",
-   "joined": "2010-09-06",
-   "id": "oc-B04"
-  },
-  {
    "name": "Casals Mas, Oriol",
-   "active": true,
-   "section": "B",
    "id": "oc-B05",
-   "joined": "2017-09-15",
-   "leader": false,
-   "syncAt": "2026-10-09T00:20:22.066Z",
-   "part": "1"
-  },
-  {
-   "name": "Busquets Casals, Joaquim",
-   "leader": false,
-   "syncAt": "2026-10-09T00:20:22.066Z",
-   "section": "B",
-   "id": "oc-B06",
-   "active": true,
-   "joined": "2015-09-23",
-   "part": "1"
-  },
-  {
-   "name": "Cortés Riera, Gerard",
-   "leader": false,
-   "syncAt": "2026-10-09T00:20:22.066Z",
-   "joined": "2010-09-07",
    "part": "1",
+   "joined": "2017-09-15",
+   "syncAt": "2026-10-09T00:20:22.066Z",
+   "leader": false
+  },
+  {
+   "active": true,
+   "id": "oc-B06",
+   "section": "B",
+   "syncAt": "2026-10-09T00:20:22.066Z",
+   "joined": "2015-09-23",
+   "part": "1",
+   "name": "Busquets Casals, Joaquim",
+   "leader": false
+  },
+  {
+   "joined": "2010-09-07",
+   "syncAt": "2026-10-09T00:20:22.066Z",
    "id": "oc-B07",
    "section": "B",
+   "leader": false,
+   "part": "1",
+   "name": "Cortés Riera, Gerard",
    "active": true
   },
   {
-   "section": "B",
-   "leader": false,
-   "syncAt": "2026-10-09T00:20:22.066Z",
-   "name": "Palau Casals, Xavier",
-   "active": true,
+   "part": "1",
    "id": "oc-B08",
    "joined": "2011-09-28",
-   "part": "1"
+   "syncAt": "2026-10-09T00:20:22.066Z",
+   "name": "Palau Casals, Xavier",
+   "leader": false,
+   "active": true,
+   "section": "B"
   },
   {
-   "name": "Riu Ribas, Ignasi",
-   "id": "oc-B09",
    "syncAt": "2026-10-09T00:20:22.066Z",
-   "leader": false,
    "joined": "1995-09-23",
+   "leader": false,
+   "name": "Riu Ribas, Ignasi",
+   "active": true,
+   "part": "1",
+   "section": "B",
+   "id": "oc-B09"
+  },
+  {
+   "id": "oc-B10",
    "section": "B",
    "active": true,
-   "part": "1"
-  },
-  {
+   "part": "1",
    "name": "Balaguer Ribera, Narcís",
    "syncAt": "2026-10-09T00:20:22.066Z",
-   "leader": false,
-   "section": "B",
-   "active": true,
-   "id": "oc-B10",
    "joined": "2011-09-21",
-   "part": "1"
+   "leader": false
   },
   {
-   "name": "Montsant Ribas, Ramon",
-   "leader": false,
-   "syncAt": "2026-10-09T00:20:22.066Z",
    "joined": "2011-09-03",
-   "id": "oc-B11",
-   "section": "B",
-   "active": true,
-   "part": "1"
-  },
-  {
-   "joined": "1989-09-07",
-   "part": "1",
-   "active": true,
-   "name": "Rafart Coll, Biel",
    "syncAt": "2026-10-09T00:20:22.066Z",
    "leader": false,
+   "name": "Montsant Ribas, Ramon",
+   "part": "1",
    "section": "B",
+   "active": true,
+   "id": "oc-B11"
+  },
+  {
+   "leader": false,
+   "name": "Rafart Coll, Biel",
+   "joined": "1989-09-07",
+   "syncAt": "2026-10-09T00:20:22.066Z",
+   "part": "1",
+   "section": "B",
+   "active": true,
    "id": "oc-B12"
   },
   {
-   "part": "1",
-   "active": true,
-   "joined": "2022-09-17",
-   "leader": false,
-   "syncAt": "2026-10-09T00:20:22.066Z",
    "section": "B",
+   "active": true,
    "id": "oc-B13",
-   "name": "Duran Bertran, Bernat"
-  },
-  {
-   "active": true,
-   "section": "B",
-   "name": "Montsant Riu, Miquel",
-   "joined": "2012-09-05",
-   "id": "oc-B14",
-   "leader": false,
-   "syncAt": "2026-10-09T00:20:22.066Z",
-   "part": "1"
-  },
-  {
-   "id": "oc-B15",
-   "syncAt": "2026-10-09T00:20:22.066Z",
-   "leader": false,
    "part": "1",
-   "section": "B",
-   "active": true,
-   "name": "Marcet Camps, Francesc",
-   "joined": "2020-09-21"
+   "name": "Duran Bertran, Bernat",
+   "joined": "2022-09-17",
+   "syncAt": "2026-10-09T00:20:22.066Z",
+   "leader": false
   },
   {
    "leader": false,
+   "section": "B",
+   "joined": "2012-09-05",
    "syncAt": "2026-10-09T00:20:22.066Z",
+   "part": "1",
+   "id": "oc-B14",
+   "name": "Montsant Riu, Miquel",
+   "active": true
+  },
+  {
+   "part": "1",
+   "name": "Marcet Camps, Francesc",
+   "active": true,
+   "id": "oc-B15",
+   "leader": false,
+   "section": "B",
+   "joined": "2020-09-21",
+   "syncAt": "2026-10-09T00:20:22.066Z"
+  },
+  {
+   "active": true,
+   "section": "B",
    "id": "oc-B16",
    "part": "2",
    "name": "Bassols Abelló, Francesc",
    "joined": "1998-09-23",
-   "section": "B",
-   "active": true
+   "syncAt": "2026-10-09T00:20:22.066Z",
+   "leader": false
   },
   {
-   "leader": false,
-   "syncAt": "2026-10-09T00:20:22.066Z",
-   "name": "Figueras Gasull, Sergi",
-   "active": true,
-   "part": "2",
+   "section": "B",
    "id": "oc-B17",
+   "active": true,
+   "leader": false,
+   "part": "2",
+   "name": "Figueras Gasull, Sergi",
    "joined": "2010-09-19",
+   "syncAt": "2026-10-09T00:20:22.066Z"
+  },
+  {
+   "active": true,
+   "section": "B",
+   "name": "Arnau Vendrell, Oriol",
+   "joined": "2013-09-21",
+   "syncAt": "2026-10-09T00:20:22.066Z",
+   "part": "2",
+   "leader": false,
+   "id": "oc-B18"
+  },
+  {
+   "syncAt": "2026-10-09T00:20:22.066Z",
+   "joined": "1999-09-15",
+   "id": "oc-B19",
+   "leader": false,
+   "part": "2",
+   "active": true,
+   "name": "Simó Soler, Quim",
    "section": "B"
   },
   {
+   "joined": "1994-09-05",
    "syncAt": "2026-10-09T00:20:22.066Z",
-   "leader": false,
-   "id": "oc-B18",
-   "part": "2",
    "section": "B",
-   "name": "Arnau Vendrell, Oriol",
-   "active": true,
-   "joined": "2013-09-21"
-  },
-  {
-   "name": "Simó Soler, Quim",
-   "id": "oc-B19",
-   "syncAt": "2026-10-09T00:20:22.066Z",
    "leader": false,
-   "section": "B",
-   "active": true,
-   "joined": "1999-09-15",
-   "part": "2"
-  },
-  {
    "id": "oc-B20",
-   "syncAt": "2026-10-09T00:20:22.066Z",
-   "leader": false,
-   "part": "2",
-   "section": "B",
+   "active": true,
    "name": "Montsant Alsina, Jordi",
-   "active": true,
-   "joined": "1994-09-05"
+   "part": "2"
   },
   {
-   "section": "B",
-   "joined": "2006-09-28",
-   "active": true,
-   "name": "Roca Cortés, Ferran",
-   "part": "2",
-   "id": "oc-B21",
-   "syncAt": "2026-10-09T00:20:22.066Z",
-   "leader": false
-  },
-  {
-   "active": true,
-   "section": "B",
-   "joined": "1995-09-10",
-   "name": "Mas Noguera, Arnau",
-   "part": "2",
-   "id": "oc-B22",
-   "syncAt": "2026-10-09T00:20:22.066Z",
-   "leader": false
-  },
-  {
-   "name": "Roura Bassols, Quim",
-   "id": "oc-B23",
    "leader": false,
+   "part": "2",
+   "joined": "2006-09-28",
    "syncAt": "2026-10-09T00:20:22.066Z",
-   "joined": "2001-09-12",
+   "id": "oc-B21",
+   "name": "Roca Cortés, Ferran",
    "section": "B",
+   "active": true
+  },
+  {
+   "syncAt": "2026-10-09T00:20:22.066Z",
+   "joined": "1995-09-10",
+   "section": "B",
+   "name": "Mas Noguera, Arnau",
+   "leader": false,
+   "part": "2",
+   "active": true,
+   "id": "oc-B22"
+  },
+  {
+   "leader": false,
+   "section": "B",
+   "joined": "2001-09-12",
+   "syncAt": "2026-10-09T00:20:22.066Z",
+   "id": "oc-B23",
+   "name": "Roura Bassols, Quim",
    "active": true,
    "part": "2"
   },
   {
-   "id": "oc-B24",
+   "part": "2",
    "joined": "2003-09-10",
-   "active": true,
-   "part": "2",
-   "section": "B",
+   "syncAt": "2026-10-09T00:20:22.066Z",
    "name": "Xirau Alsina, Gerard",
+   "id": "oc-B24",
    "leader": false,
-   "syncAt": "2026-10-09T00:20:22.066Z"
+   "active": true,
+   "section": "B"
   },
   {
-   "id": "oc-B25",
    "joined": "2025-09-14",
+   "syncAt": "2026-10-09T00:20:22.066Z",
+   "id": "oc-B25",
+   "leader": false,
+   "section": "B",
    "active": true,
    "part": "2",
-   "name": "Palau Pagès, Esteve",
+   "name": "Palau Pagès, Esteve"
+  },
+  {
+   "id": "oc-B26",
+   "active": true,
+   "part": "2",
+   "name": "Tarrés Abelló, Guillem",
    "section": "B",
    "leader": false,
+   "joined": "2013-09-26",
    "syncAt": "2026-10-09T00:20:22.066Z"
   },
   {
-   "section": "B",
-   "part": "2",
-   "joined": "2013-09-26",
    "active": true,
-   "leader": false,
-   "syncAt": "2026-10-09T00:20:22.066Z",
-   "id": "oc-B26",
-   "name": "Tarrés Abelló, Guillem"
-  },
-  {
-   "syncAt": "2026-10-09T00:20:22.066Z",
-   "leader": true,
    "id": "oc-B27",
    "part": "2",
-   "section": "B",
-   "active": true,
+   "joined": "1992-09-10",
+   "syncAt": "2026-10-09T00:20:22.066Z",
    "name": "Juncà Bosch, Ernest",
-   "joined": "1992-09-10"
+   "leader": true,
+   "section": "B"
   },
   {
-   "part": "2",
-   "active": true,
+   "leader": false,
    "section": "B",
    "joined": "2000-09-14",
    "syncAt": "2026-10-09T00:20:22.066Z",
-   "leader": false,
+   "id": "oc-B28",
    "name": "Busquets Ferrer, Jaume",
-   "id": "oc-B28"
+   "active": true,
+   "part": "2"
   },
   {
+   "active": true,
+   "part": "2",
+   "name": "Morató Balaguer, Pere",
+   "id": "oc-B29",
    "section": "B",
    "joined": "2011-09-17",
-   "part": "2",
-   "active": true,
-   "id": "oc-B29",
-   "name": "Morató Balaguer, Pere",
-   "leader": false,
-   "syncAt": "2026-10-09T00:20:22.066Z"
+   "syncAt": "2026-10-09T00:20:22.066Z",
+   "leader": false
   },
   {
-   "part": "2",
-   "syncAt": "2026-10-09T00:20:22.066Z",
-   "leader": false,
-   "section": "B",
-   "active": true,
    "id": "oc-B30",
+   "section": "B",
+   "part": "2",
+   "active": true,
+   "name": "Espinàs Guardiola, Guillem",
+   "leader": false,
    "joined": "2011-09-14",
-   "name": "Espinàs Guardiola, Guillem"
+   "syncAt": "2026-10-09T00:20:22.066Z"
   },
   {
-   "name": "Padrós Aguilar, Montse",
-   "leader": false,
-   "syncAt": "2026-10-09T00:20:22.066Z",
-   "section": "C",
    "active": true,
+   "section": "C",
+   "leader": false,
    "id": "oc-C01",
-   "joined": "2006-09-20",
-   "part": "1"
+   "name": "Padrós Aguilar, Montse",
+   "part": "1",
+   "syncAt": "2026-10-09T00:20:22.066Z",
+   "joined": "2006-09-20"
   },
   {
-   "part": "1",
-   "leader": false,
-   "syncAt": "2026-10-09T00:20:22.066Z",
-   "id": "oc-C02",
    "joined": "2010-09-08",
-   "name": "Rafart Escarré, Mireia",
-   "section": "C",
-   "active": true
-  },
-  {
-   "part": "1",
-   "joined": "1997-09-02",
-   "id": "oc-C03",
-   "active": true,
-   "section": "C",
-   "name": "Vendrell Roig, Victòria",
-   "leader": false,
-   "syncAt": "2026-10-09T00:20:22.066Z"
-  },
-  {
-   "section": "C",
-   "joined": "1990-09-01",
-   "active": true,
-   "name": "Sala Duran, Mariona",
-   "part": "1",
-   "id": "oc-C04",
-   "leader": false,
-   "syncAt": "2026-10-09T00:20:22.066Z"
-  },
-  {
-   "id": "oc-C05",
-   "name": "Gasull Abelló, Gemma",
-   "section": "C",
    "syncAt": "2026-10-09T00:20:22.066Z",
+   "name": "Rafart Escarré, Mireia",
+   "part": "1",
+   "leader": false,
+   "section": "C",
+   "active": true,
+   "id": "oc-C02"
+  },
+  {
+   "name": "Vendrell Roig, Victòria",
+   "part": "1",
+   "active": true,
+   "leader": false,
+   "id": "oc-C03",
+   "section": "C",
+   "joined": "1997-09-02",
+   "syncAt": "2026-10-09T00:20:22.066Z"
+  },
+  {
+   "leader": false,
+   "id": "oc-C04",
+   "joined": "1990-09-01",
+   "syncAt": "2026-10-09T00:20:22.066Z",
+   "part": "1",
+   "name": "Sala Duran, Mariona",
+   "active": true,
+   "section": "C"
+  },
+  {
    "leader": false,
    "joined": "2015-09-23",
+   "syncAt": "2026-10-09T00:20:22.066Z",
+   "id": "oc-C05",
    "part": "1",
-   "active": true
+   "name": "Gasull Abelló, Gemma",
+   "active": true,
+   "section": "C"
   },
   {
    "active": true,
    "name": "Vendrell Aguilar, Roser",
-   "id": "oc-C06",
-   "joined": "1991-09-15",
    "leader": false,
-   "syncAt": "2026-10-09T00:20:22.066Z",
+   "part": "1",
+   "id": "oc-C06",
    "section": "C",
-   "part": "1"
+   "joined": "1991-09-15",
+   "syncAt": "2026-10-09T00:20:22.066Z"
   },
   {
-   "section": "C",
    "joined": "1992-09-26",
+   "syncAt": "2026-10-09T00:20:22.066Z",
+   "id": "oc-C07",
+   "leader": false,
    "part": "1",
    "active": true,
    "name": "Moliner Mundet, Helena",
-   "leader": false,
-   "syncAt": "2026-10-09T00:20:22.066Z",
-   "id": "oc-C07"
+   "section": "C"
   },
   {
-   "leader": false,
-   "syncAt": "2026-10-09T00:20:22.066Z",
-   "section": "C",
-   "name": "Sallent Riera, Txell",
-   "id": "oc-C08",
    "active": true,
+   "section": "C",
+   "id": "oc-C08",
    "part": "1",
-   "joined": "2002-09-01"
+   "name": "Sallent Riera, Txell",
+   "syncAt": "2026-10-09T00:20:22.066Z",
+   "joined": "2002-09-01",
+   "leader": false
   },
   {
    "active": true,
    "id": "oc-C09",
    "section": "C",
-   "joined": "2013-09-16",
-   "name": "Sallent Espinàs, Neus",
-   "leader": false,
    "syncAt": "2026-10-09T00:20:22.066Z",
-   "part": "1"
+   "joined": "2013-09-16",
+   "part": "1",
+   "name": "Sallent Espinàs, Neus",
+   "leader": false
   },
   {
+   "active": true,
+   "part": "1",
    "name": "Pallarès Bassols, Anna",
    "id": "oc-C10",
-   "section": "C",
-   "syncAt": "2026-10-09T00:20:22.066Z",
    "leader": false,
+   "section": "C",
    "joined": "2022-09-04",
-   "active": true,
-   "part": "1"
+   "syncAt": "2026-10-09T00:20:22.066Z"
   },
   {
-   "id": "oc-C11",
-   "syncAt": "2026-10-09T00:20:22.066Z",
-   "leader": false,
-   "part": "1",
-   "section": "C",
    "name": "Clos Mas, Aina",
+   "syncAt": "2026-10-09T00:20:22.066Z",
    "joined": "1993-09-17",
-   "active": true
-  },
-  {
-   "syncAt": "2026-10-09T00:20:22.066Z",
-   "leader": false,
-   "name": "Vilalta Cuscó, Elisenda",
-   "section": "C",
-   "active": true,
    "part": "1",
-   "joined": "2001-09-25",
-   "id": "oc-C12"
-  },
-  {
-   "syncAt": "2026-10-09T00:20:22.066Z",
    "leader": false,
-   "part": "1",
    "active": true,
-   "section": "C",
-   "id": "oc-C13",
-   "name": "Balaguer Pons, Montse",
-   "joined": "1999-09-21"
-  },
-  {
-   "section": "C",
-   "id": "oc-C14",
-   "active": true,
-   "part": "1",
-   "joined": "1999-09-08",
-   "leader": false,
-   "syncAt": "2026-10-09T00:20:22.066Z",
-   "name": "Ballester Tarrés, Rosa"
-  },
-  {
-   "name": "Capdevila Palau, Victòria",
-   "syncAt": "2026-10-09T00:20:22.066Z",
-   "leader": false,
-   "joined": "1990-09-27",
-   "part": "1",
-   "active": true,
-   "section": "C",
-   "id": "oc-C15"
-  },
-  {
-   "leader": false,
-   "syncAt": "2026-10-09T00:20:22.066Z",
-   "part": "2",
-   "section": "C",
-   "id": "oc-C16",
-   "active": true,
-   "name": "Carbó Comas, Montse",
-   "joined": "2020-09-21"
-  },
-  {
-   "part": "2",
-   "leader": false,
-   "syncAt": "2026-10-09T00:20:22.066Z",
-   "section": "C",
-   "active": true,
-   "id": "oc-C17",
-   "joined": "1993-09-28",
-   "name": "Ferrer Esteve, Joana"
-  },
-  {
-   "leader": false,
-   "syncAt": "2026-10-09T00:20:22.066Z",
-   "section": "C",
-   "part": "2",
-   "name": "Prat Cabré, Carla",
-   "id": "oc-C18",
-   "joined": "2015-09-28",
-   "active": true
-  },
-  {
-   "joined": "2018-09-25",
-   "name": "Mundet Ribera, Mariona",
-   "active": true,
-   "section": "C",
-   "part": "2",
-   "syncAt": "2026-10-09T00:20:22.066Z",
-   "leader": false,
-   "id": "oc-C19"
-  },
-  {
-   "part": "2",
-   "leader": false,
-   "syncAt": "2026-10-09T00:20:22.066Z",
-   "id": "oc-C20",
-   "joined": "1989-09-26",
-   "name": "Prat Sala, Emma",
-   "section": "C",
-   "active": true
-  },
-  {
-   "name": "Margalef Bertran, Queralt",
-   "leader": false,
-   "syncAt": "2026-10-09T00:20:22.066Z",
-   "id": "oc-C21",
-   "active": true,
-   "joined": "2021-09-02",
-   "part": "2",
+   "id": "oc-C11",
    "section": "C"
   },
   {
-   "part": "2",
-   "leader": false,
+   "joined": "2001-09-25",
    "syncAt": "2026-10-09T00:20:22.066Z",
+   "leader": false,
+   "active": true,
    "section": "C",
-   "id": "oc-C22",
-   "joined": "1995-09-23",
-   "name": "Xirau Puigdollers, Txell",
-   "active": true
+   "name": "Vilalta Cuscó, Elisenda",
+   "part": "1",
+   "id": "oc-C12"
   },
   {
-   "part": "2",
    "active": true,
-   "joined": "1998-09-09",
+   "name": "Balaguer Pons, Montse",
    "leader": false,
-   "syncAt": "2026-10-09T00:20:22.066Z",
+   "part": "1",
    "section": "C",
-   "id": "oc-C23",
-   "name": "Busquets Puigdollers, Ona"
-  },
-  {
-   "part": "2",
-   "syncAt": "2026-10-09T00:20:22.066Z",
-   "leader": false,
-   "section": "C",
-   "id": "oc-C24",
-   "joined": "2020-09-24",
-   "active": true,
-   "name": "Clos Jordà, Núria"
-  },
-  {
-   "name": "Garriga Esteve, Meritxell",
-   "leader": false,
-   "syncAt": "2026-10-09T00:20:22.066Z",
-   "section": "C",
-   "active": true,
-   "id": "oc-C25",
-   "part": "2",
-   "joined": "2016-09-17"
+   "id": "oc-C13",
+   "joined": "1999-09-21",
+   "syncAt": "2026-10-09T00:20:22.066Z"
   },
   {
    "leader": false,
+   "id": "oc-C14",
+   "joined": "1999-09-08",
    "syncAt": "2026-10-09T00:20:22.066Z",
-   "name": "Carbó Oliva, Helena",
-   "section": "C",
-   "joined": "2023-09-04",
-   "part": "2",
+   "part": "1",
+   "name": "Ballester Tarrés, Rosa",
    "active": true,
-   "id": "oc-C26"
+   "section": "C"
   },
   {
+   "name": "Capdevila Palau, Victòria",
+   "active": true,
+   "part": "1",
+   "leader": false,
+   "joined": "1990-09-27",
+   "syncAt": "2026-10-09T00:20:22.066Z",
+   "id": "oc-C15",
+   "section": "C"
+  },
+  {
+   "id": "oc-C16",
+   "active": true,
    "section": "C",
-   "joined": "2008-09-19",
-   "id": "oc-C27",
+   "joined": "2020-09-21",
+   "syncAt": "2026-10-09T00:20:22.066Z",
+   "part": "2",
+   "leader": false,
+   "name": "Carbó Comas, Montse"
+  },
+  {
+   "leader": false,
+   "joined": "1993-09-28",
+   "syncAt": "2026-10-09T00:20:22.066Z",
+   "name": "Ferrer Esteve, Joana",
+   "id": "oc-C17",
    "part": "2",
    "active": true,
-   "name": "Margalef Bertran, Pilar",
+   "section": "C"
+  },
+  {
+   "leader": false,
+   "id": "oc-C18",
+   "joined": "2015-09-28",
+   "syncAt": "2026-10-09T00:20:22.066Z",
+   "part": "2",
+   "name": "Prat Cabré, Carla",
+   "active": true,
+   "section": "C"
+  },
+  {
+   "syncAt": "2026-10-09T00:20:22.066Z",
+   "joined": "2018-09-25",
+   "leader": false,
+   "active": true,
+   "name": "Mundet Ribera, Mariona",
+   "section": "C",
+   "part": "2",
+   "id": "oc-C19"
+  },
+  {
+   "active": true,
+   "section": "C",
+   "part": "2",
+   "id": "oc-C20",
+   "name": "Prat Sala, Emma",
+   "joined": "1989-09-26",
    "syncAt": "2026-10-09T00:20:22.066Z",
    "leader": false
   },
   {
+   "leader": false,
+   "section": "C",
+   "id": "oc-C21",
+   "joined": "2021-09-02",
+   "syncAt": "2026-10-09T00:20:22.066Z",
+   "part": "2",
+   "active": true,
+   "name": "Margalef Bertran, Queralt"
+  },
+  {
+   "joined": "1995-09-23",
+   "syncAt": "2026-10-09T00:20:22.066Z",
+   "leader": false,
+   "name": "Xirau Puigdollers, Txell",
+   "section": "C",
+   "part": "2",
+   "active": true,
+   "id": "oc-C22"
+  },
+  {
+   "syncAt": "2026-10-09T00:20:22.066Z",
+   "joined": "1998-09-09",
+   "id": "oc-C23",
+   "leader": false,
+   "part": "2",
+   "active": true,
+   "name": "Busquets Puigdollers, Ona",
+   "section": "C"
+  },
+  {
+   "active": true,
+   "part": "2",
+   "name": "Clos Jordà, Núria",
+   "id": "oc-C24",
+   "joined": "2020-09-24",
+   "syncAt": "2026-10-09T00:20:22.066Z",
+   "leader": false,
+   "section": "C"
+  },
+  {
+   "joined": "2016-09-17",
+   "syncAt": "2026-10-09T00:20:22.066Z",
+   "id": "oc-C25",
+   "leader": false,
+   "part": "2",
+   "name": "Garriga Esteve, Meritxell",
+   "section": "C",
+   "active": true
+  },
+  {
+   "active": true,
+   "id": "oc-C26",
+   "section": "C",
+   "part": "2",
+   "syncAt": "2026-10-09T00:20:22.066Z",
+   "joined": "2023-09-04",
+   "name": "Carbó Oliva, Helena",
+   "leader": false
+  },
+  {
+   "leader": false,
+   "id": "oc-C27",
+   "section": "C",
+   "joined": "2008-09-19",
+   "syncAt": "2026-10-09T00:20:22.066Z",
+   "part": "2",
+   "name": "Margalef Bertran, Pilar",
+   "active": true
+  },
+  {
+   "active": true,
+   "part": "2",
    "name": "Padrós Camps, Mireia",
    "id": "oc-C28",
-   "leader": false,
+   "joined": "1997-09-09",
    "syncAt": "2026-10-09T00:20:22.066Z",
    "section": "C",
-   "active": true,
-   "joined": "1997-09-09",
-   "part": "2"
+   "leader": false
   },
   {
-   "leader": true,
-   "syncAt": "2026-10-09T00:20:22.066Z",
+   "id": "oc-C29",
    "part": "2",
-   "active": true,
    "name": "Serra Capdevila, Àngels",
+   "active": true,
+   "leader": true,
    "section": "C",
    "joined": "1990-09-05",
-   "id": "oc-C29"
-  },
-  {
-   "section": "C",
-   "part": "2",
-   "joined": "2004-09-16",
-   "id": "oc-C30",
-   "active": true,
-   "name": "Massana Guardiola, Txell",
-   "leader": false,
    "syncAt": "2026-10-09T00:20:22.066Z"
   },
   {
-   "part": "1",
+   "leader": false,
    "syncAt": "2026-10-09T00:20:22.066Z",
-   "leader": false,
-   "section": "S",
+   "joined": "2004-09-16",
+   "name": "Massana Guardiola, Txell",
+   "part": "2",
+   "section": "C",
    "active": true,
-   "id": "oc-S01",
+   "id": "oc-C30"
+  },
+  {
+   "leader": false,
    "joined": "1997-09-17",
-   "name": "Gasull Arnau, Elisenda"
+   "syncAt": "2026-10-09T00:20:22.066Z",
+   "name": "Gasull Arnau, Elisenda",
+   "part": "1",
+   "id": "oc-S01",
+   "active": true,
+   "section": "S"
   },
   {
    "section": "S",
-   "joined": "2000-09-01",
    "active": true,
-   "name": "Roig Duran, Berta",
-   "part": "1",
    "id": "oc-S02",
-   "leader": false,
-   "syncAt": "2026-10-09T00:20:22.066Z"
+   "part": "1",
+   "name": "Roig Duran, Berta",
+   "joined": "2000-09-01",
+   "syncAt": "2026-10-09T00:20:22.066Z",
+   "leader": false
   },
   {
-   "id": "oc-S03",
+   "section": "S",
    "active": true,
    "name": "Galí Sala, Laia",
-   "joined": "1997-09-05",
+   "part": "1",
    "leader": false,
    "syncAt": "2026-10-09T00:20:22.066Z",
-   "section": "S",
-   "part": "1"
+   "joined": "1997-09-05",
+   "id": "oc-S03"
   },
   {
-   "syncAt": "2026-10-09T00:20:22.066Z",
    "leader": false,
-   "part": "1",
+   "joined": "2012-09-20",
    "id": "oc-S04",
-   "active": true,
+   "syncAt": "2026-10-09T00:20:22.066Z",
+   "part": "1",
    "name": "Vilalta Cuscó, Valèria",
    "section": "S",
-   "joined": "2012-09-20"
+   "active": true
   },
   {
+   "leader": false,
+   "section": "S",
+   "joined": "2014-09-13",
+   "syncAt": "2026-10-09T00:20:22.066Z",
    "id": "oc-S05",
-   "leader": false,
-   "syncAt": "2026-10-09T00:20:22.066Z",
-   "part": "1",
-   "section": "S",
-   "active": true,
    "name": "Aguilar Figueras, Carme",
-   "joined": "2014-09-13"
+   "part": "1",
+   "active": true
   },
   {
-   "part": "1",
-   "section": "S",
-   "active": true,
    "joined": "2017-09-24",
-   "leader": false,
    "syncAt": "2026-10-09T00:20:22.066Z",
+   "leader": false,
+   "active": true,
    "id": "oc-S06",
-   "name": "Bosch Llobet, Montserrat"
-  },
-  {
-   "syncAt": "2026-10-09T00:20:22.066Z",
-   "part": "1",
-   "leader": true,
-   "active": true,
-   "section": "S",
-   "name": "Dalmau Tomàs, Laia",
-   "id": "oc-S07",
-   "joined": "1994-09-21"
-  },
-  {
-   "active": true,
-   "section": "S",
-   "joined": "2014-09-16",
-   "name": "Serra Grau, Victòria",
-   "part": "1",
-   "leader": false,
-   "syncAt": "2026-10-09T00:20:22.066Z",
-   "id": "oc-S08"
-  },
-  {
-   "name": "Castells Llopis, Olga",
-   "id": "oc-S09",
-   "leader": false,
-   "syncAt": "2026-10-09T00:20:22.066Z",
-   "active": true,
-   "joined": "2011-09-13",
+   "name": "Bosch Llobet, Montserrat",
    "section": "S",
    "part": "1"
   },
   {
-   "syncAt": "2026-10-09T00:20:22.066Z",
-   "leader": false,
-   "part": "1",
-   "name": "Bertran Ribera, Elena",
    "active": true,
-   "id": "oc-S10",
+   "id": "oc-S07",
+   "part": "1",
+   "joined": "1994-09-21",
+   "syncAt": "2026-10-09T00:20:22.066Z",
+   "name": "Dalmau Tomàs, Laia",
    "section": "S",
-   "joined": "2014-09-08"
+   "leader": true
   },
   {
    "leader": false,
+   "joined": "2014-09-16",
    "syncAt": "2026-10-09T00:20:22.066Z",
+   "id": "oc-S08",
+   "name": "Serra Grau, Victòria",
+   "active": true,
    "part": "1",
+   "section": "S"
+  },
+  {
+   "leader": false,
+   "joined": "2011-09-13",
+   "syncAt": "2026-10-09T00:20:22.066Z",
+   "name": "Castells Llopis, Olga",
+   "id": "oc-S09",
+   "part": "1",
+   "section": "S",
+   "active": true
+  },
+  {
+   "name": "Bertran Ribera, Elena",
+   "section": "S",
+   "part": "1",
+   "active": true,
+   "id": "oc-S10",
+   "leader": false,
+   "joined": "2014-09-08",
+   "syncAt": "2026-10-09T00:20:22.066Z"
+  },
+  {
    "section": "S",
    "active": true,
    "id": "oc-S11",
+   "part": "1",
+   "joined": "2008-09-16",
+   "syncAt": "2026-10-09T00:20:22.066Z",
    "name": "Casals Canals, Anna",
-   "joined": "2008-09-16"
+   "leader": false
   },
   {
-   "name": "Busquets Moliner, Valèria",
-   "leader": false,
-   "syncAt": "2026-10-09T00:20:22.066Z",
-   "section": "S",
+   "active": true,
    "id": "oc-S12",
-   "active": true,
+   "section": "S",
+   "leader": false,
+   "name": "Busquets Moliner, Valèria",
+   "part": "1",
    "joined": "1994-09-23",
-   "part": "1"
-  },
-  {
-   "part": "1",
-   "leader": false,
-   "syncAt": "2026-10-09T00:20:22.066Z",
-   "joined": "2023-09-12",
-   "section": "S",
-   "id": "oc-S13",
-   "active": true,
-   "name": "Palau Torrent, Raquel"
-  },
-  {
-   "active": true,
-   "section": "S",
-   "joined": "2000-09-12",
-   "name": "Cabré Massana, Montserrat",
-   "part": "1",
-   "id": "oc-S14",
-   "leader": false,
    "syncAt": "2026-10-09T00:20:22.066Z"
   },
   {
+   "active": true,
+   "id": "oc-S13",
+   "leader": false,
+   "section": "S",
+   "part": "1",
+   "name": "Palau Torrent, Raquel",
+   "syncAt": "2026-10-09T00:20:22.066Z",
+   "joined": "2023-09-12"
+  },
+  {
+   "name": "Cabré Massana, Montserrat",
+   "part": "1",
+   "section": "S",
+   "active": true,
+   "leader": false,
+   "id": "oc-S14",
+   "joined": "2000-09-12",
+   "syncAt": "2026-10-09T00:20:22.066Z"
+  },
+  {
+   "part": "1",
+   "syncAt": "2026-10-09T00:20:22.066Z",
+   "joined": "2001-09-24",
+   "name": "Dalmau Giralt, Alba",
    "section": "S",
    "id": "oc-S15",
-   "name": "Dalmau Giralt, Alba",
-   "joined": "2001-09-24",
-   "active": true,
    "leader": false,
-   "syncAt": "2026-10-09T00:20:22.066Z",
-   "part": "1"
+   "active": true
   },
   {
-   "name": "Vidal Mundet, Glòria",
-   "section": "S",
-   "id": "oc-S16",
-   "leader": false,
    "syncAt": "2026-10-09T00:20:22.066Z",
    "joined": "1999-09-02",
+   "leader": false,
+   "name": "Vidal Mundet, Glòria",
+   "part": "1",
    "active": true,
-   "part": "1"
+   "section": "S",
+   "id": "oc-S16"
   },
   {
-   "leader": false,
-   "syncAt": "2026-10-09T00:20:22.066Z",
-   "part": "2",
-   "id": "oc-S17",
    "active": true,
-   "name": "Gasull Noguera, Dolors",
    "section": "S",
-   "joined": "2022-09-09"
+   "part": "2",
+   "name": "Gasull Noguera, Dolors",
+   "id": "oc-S17",
+   "syncAt": "2026-10-09T00:20:22.066Z",
+   "joined": "2022-09-09",
+   "leader": false
   },
   {
    "id": "oc-S18",
-   "leader": false,
    "syncAt": "2026-10-09T00:20:22.066Z",
-   "name": "Xirau Pagès, Txell",
-   "active": true,
-   "part": "2",
+   "joined": "2006-09-22",
    "section": "S",
-   "joined": "2006-09-22"
+   "leader": false,
+   "part": "2",
+   "active": true,
+   "name": "Xirau Pagès, Txell"
   },
   {
-   "joined": "2004-09-23",
+   "active": true,
+   "name": "Tomàs Comas, Neus",
+   "section": "S",
+   "part": "2",
+   "leader": false,
    "id": "oc-S19",
-   "section": "S",
-   "active": true,
-   "name": "Tomàs Comas, Neus",
-   "part": "2",
-   "syncAt": "2026-10-09T00:20:22.066Z",
-   "leader": false
-  },
-  {
-   "part": "2",
-   "leader": false,
-   "syncAt": "2026-10-09T00:20:22.066Z",
-   "id": "oc-S20",
-   "joined": "2009-09-20",
-   "name": "Mas Escarré, Elisenda",
-   "section": "S",
-   "active": true
-  },
-  {
-   "leader": false,
-   "syncAt": "2026-10-09T00:20:22.066Z",
-   "section": "S",
-   "name": "Vallès Gasull, Eulàlia",
-   "active": true,
-   "part": "2",
-   "id": "oc-S21",
-   "joined": "2017-09-12"
-  },
-  {
-   "section": "S",
-   "leader": false,
-   "syncAt": "2026-10-09T00:20:22.066Z",
-   "name": "Figueras Morató, Mariona",
-   "part": "2",
-   "joined": "2011-09-01",
-   "id": "oc-S22",
-   "active": true
-  },
-  {
-   "active": true,
-   "id": "oc-S23",
-   "part": "2",
-   "joined": "2015-09-14",
-   "leader": false,
-   "syncAt": "2026-10-09T00:20:22.066Z",
-   "name": "Serra Torrent, Sònia",
-   "section": "S"
-  },
-  {
-   "part": "2",
-   "leader": false,
-   "syncAt": "2026-10-09T00:20:22.066Z",
-   "section": "S",
-   "id": "oc-S24",
-   "joined": "1996-09-04",
-   "name": "Bassols Fuster, Laia",
-   "active": true
-  },
-  {
-   "name": "Escarré Roig, Joana",
-   "leader": false,
-   "syncAt": "2026-10-09T00:20:22.066Z",
-   "part": "2",
-   "joined": "2018-09-05",
-   "active": true,
-   "id": "oc-S25",
-   "section": "S"
-  },
-  {
-   "active": true,
-   "id": "oc-S26",
-   "joined": "1988-09-16",
-   "part": "2",
-   "section": "S",
-   "name": "Capdevila Morató, Glòria",
-   "leader": false,
+   "joined": "2004-09-23",
    "syncAt": "2026-10-09T00:20:22.066Z"
   },
   {
-   "name": "Guardiola Marsal, Sílvia",
+   "leader": false,
+   "name": "Mas Escarré, Elisenda",
+   "joined": "2009-09-20",
+   "syncAt": "2026-10-09T00:20:22.066Z",
+   "part": "2",
+   "section": "S",
+   "active": true,
+   "id": "oc-S20"
+  },
+  {
+   "joined": "2017-09-12",
+   "syncAt": "2026-10-09T00:20:22.066Z",
+   "section": "S",
+   "leader": false,
+   "part": "2",
+   "id": "oc-S21",
+   "name": "Vallès Gasull, Eulàlia",
+   "active": true
+  },
+  {
+   "section": "S",
+   "active": true,
+   "name": "Figueras Morató, Mariona",
+   "part": "2",
+   "id": "oc-S22",
    "leader": false,
    "syncAt": "2026-10-09T00:20:22.066Z",
-   "id": "oc-S27",
+   "joined": "2011-09-01"
+  },
+  {
+   "id": "oc-S23",
+   "section": "S",
+   "part": "2",
+   "active": true,
+   "name": "Serra Torrent, Sònia",
+   "leader": false,
+   "joined": "2015-09-14",
+   "syncAt": "2026-10-09T00:20:22.066Z"
+  },
+  {
+   "joined": "1996-09-04",
+   "syncAt": "2026-10-09T00:20:22.066Z",
+   "section": "S",
+   "leader": false,
+   "name": "Bassols Fuster, Laia",
+   "part": "2",
+   "active": true,
+   "id": "oc-S24"
+  },
+  {
+   "syncAt": "2026-10-09T00:20:22.066Z",
+   "joined": "2018-09-05",
+   "leader": false,
+   "name": "Escarré Roig, Joana",
+   "part": "2",
+   "active": true,
+   "section": "S",
+   "id": "oc-S25"
+  },
+  {
+   "part": "2",
+   "section": "S",
+   "name": "Capdevila Morató, Glòria",
+   "active": true,
+   "id": "oc-S26",
+   "leader": false,
+   "joined": "1988-09-16",
+   "syncAt": "2026-10-09T00:20:22.066Z"
+  },
+  {
+   "leader": false,
    "joined": "2022-09-17",
-   "part": "2",
    "section": "S",
-   "active": true
+   "syncAt": "2026-10-09T00:20:22.066Z",
+   "name": "Guardiola Marsal, Sílvia",
+   "id": "oc-S27",
+   "active": true,
+   "part": "2"
   },
   {
-   "part": "2",
-   "id": "oc-S28",
-   "leader": false,
-   "syncAt": "2026-10-09T00:20:22.066Z",
+   "active": true,
+   "section": "S",
    "joined": "1997-09-20",
-   "section": "S",
+   "syncAt": "2026-10-09T00:20:22.066Z",
+   "id": "oc-S28",
    "name": "Serra Mas, Carme",
-   "active": true
-  },
-  {
-   "active": true,
    "part": "2",
-   "section": "S",
-   "id": "oc-S29",
-   "joined": "2000-09-09",
-   "leader": false,
-   "syncAt": "2026-10-09T00:20:22.066Z",
-   "name": "Gelabert Esteve, Roser"
-  },
-  {
-   "id": "oc-S30",
-   "joined": "1994-09-25",
-   "name": "Espinàs Riera, Laura",
-   "active": true,
-   "section": "S",
-   "part": "2",
-   "syncAt": "2026-10-09T00:20:22.066Z",
    "leader": false
   },
   {
-   "active": true,
    "section": "S",
-   "name": "Arnau Esteve, Sílvia",
-   "joined": "1994-09-03",
-   "syncAt": "2026-10-09T00:20:22.066Z",
-   "leader": false,
+   "active": true,
+   "name": "Gelabert Esteve, Roser",
    "part": "2",
-   "id": "oc-S31"
+   "leader": false,
+   "id": "oc-S29",
+   "syncAt": "2026-10-09T00:20:22.066Z",
+   "joined": "2000-09-09"
   },
   {
-   "id": "oc-S32",
+   "section": "S",
+   "active": true,
+   "id": "oc-S30",
+   "joined": "1994-09-25",
+   "syncAt": "2026-10-09T00:20:22.066Z",
+   "part": "2",
+   "name": "Espinàs Riera, Laura",
+   "leader": false
+  },
+  {
+   "section": "S",
+   "name": "Arnau Esteve, Sílvia",
    "active": true,
    "part": "2",
-   "joined": "2023-09-06",
+   "id": "oc-S31",
    "leader": false,
-   "syncAt": "2026-10-09T00:20:22.066Z",
+   "joined": "1994-09-03",
+   "syncAt": "2026-10-09T00:20:22.066Z"
+  },
+  {
+   "active": true,
    "section": "S",
-   "name": "Ferrer Roura, Elisenda"
+   "joined": "2023-09-06",
+   "syncAt": "2026-10-09T00:20:22.066Z",
+   "id": "oc-S32",
+   "name": "Ferrer Roura, Elisenda",
+   "leader": false,
+   "part": "2"
   },
   {
    "active": true,
    "id": "oc-T01",
    "section": "T",
    "part": "1",
+   "name": "Palau Forcadell, Manel",
    "joined": "1998-09-25",
-   "leader": false,
    "syncAt": "2026-10-09T00:20:22.066Z",
-   "name": "Palau Forcadell, Manel"
+   "leader": false
   },
   {
-   "active": true,
-   "section": "T",
-   "name": "Cabré Casals, Guillem",
    "joined": "1994-09-04",
    "syncAt": "2026-10-09T00:20:22.066Z",
+   "part": "1",
+   "name": "Cabré Casals, Guillem",
    "leader": false,
+   "section": "T",
    "id": "oc-T02",
-   "part": "1"
-  },
-  {
-   "active": true,
-   "id": "oc-T03",
-   "section": "T",
-   "joined": "1992-09-28",
-   "name": "Prat Solà, Oriol",
-   "part": "1",
-   "leader": true,
-   "syncAt": "2026-10-09T00:20:22.066Z"
-  },
-  {
-   "active": true,
-   "id": "oc-T04",
-   "name": "Costa Garriga, Oriol",
-   "joined": "1998-09-28",
-   "part": "1",
-   "leader": false,
-   "syncAt": "2026-10-09T00:20:22.066Z",
-   "section": "T"
-  },
-  {
-   "leader": false,
-   "syncAt": "2026-10-09T00:20:22.066Z",
-   "name": "Tarrés Casas, Ricard",
-   "id": "oc-T05",
-   "active": true,
-   "part": "1",
-   "joined": "2012-09-12",
-   "section": "T"
-  },
-  {
-   "syncAt": "2026-10-09T00:20:22.066Z",
-   "leader": false,
-   "part": "1",
-   "active": true,
-   "name": "Marcet Ribas, Daniel",
-   "id": "oc-T06",
-   "joined": "1995-09-02",
-   "section": "T"
-  },
-  {
-   "active": true,
-   "id": "oc-T07",
-   "part": "1",
-   "joined": "1988-09-27",
-   "name": "Miró Viñas, Francesc",
-   "leader": false,
-   "syncAt": "2026-10-09T00:20:22.066Z",
-   "section": "T"
-  },
-  {
-   "part": "1",
-   "section": "T",
-   "leader": false,
-   "syncAt": "2026-10-09T00:20:22.066Z",
-   "id": "oc-T08",
-   "joined": "1997-09-14",
-   "name": "Pons Arnau, Isaac",
    "active": true
   },
   {
+   "joined": "1992-09-28",
+   "syncAt": "2026-10-09T00:20:22.066Z",
+   "leader": true,
+   "name": "Prat Solà, Oriol",
+   "active": true,
+   "part": "1",
+   "id": "oc-T03",
+   "section": "T"
+  },
+  {
+   "part": "1",
+   "id": "oc-T04",
+   "active": true,
+   "name": "Costa Garriga, Oriol",
    "section": "T",
+   "joined": "1998-09-28",
+   "syncAt": "2026-10-09T00:20:22.066Z",
+   "leader": false
+  },
+  {
+   "section": "T",
+   "id": "oc-T05",
+   "active": true,
+   "part": "1",
+   "name": "Tarrés Casas, Ricard",
    "leader": false,
    "syncAt": "2026-10-09T00:20:22.066Z",
+   "joined": "2012-09-12"
+  },
+  {
+   "leader": false,
+   "part": "1",
+   "name": "Marcet Ribas, Daniel",
+   "id": "oc-T06",
+   "joined": "1995-09-02",
+   "syncAt": "2026-10-09T00:20:22.066Z",
+   "active": true,
+   "section": "T"
+  },
+  {
+   "name": "Miró Viñas, Francesc",
+   "leader": false,
+   "part": "1",
+   "joined": "1988-09-27",
+   "syncAt": "2026-10-09T00:20:22.066Z",
+   "active": true,
+   "id": "oc-T07",
+   "section": "T"
+  },
+  {
+   "active": true,
+   "id": "oc-T08",
+   "part": "1",
+   "section": "T",
+   "name": "Pons Arnau, Isaac",
+   "joined": "1997-09-14",
+   "syncAt": "2026-10-09T00:20:22.066Z",
+   "leader": false
+  },
+  {
+   "part": "1",
    "name": "Vilaró Juncà, Francesc",
    "id": "oc-T09",
-   "part": "1",
+   "active": true,
+   "section": "T",
+   "leader": false,
    "joined": "2022-09-17",
+   "syncAt": "2026-10-09T00:20:22.066Z"
+  },
+  {
+   "leader": false,
+   "name": "Montsant Puigdollers, Narcís",
+   "part": "1",
+   "joined": "2007-09-11",
+   "syncAt": "2026-10-09T00:20:22.066Z",
+   "section": "T",
+   "id": "oc-T10",
    "active": true
   },
   {
    "joined": "2007-09-11",
-   "name": "Montsant Puigdollers, Narcís",
-   "id": "oc-T10",
-   "active": true,
-   "section": "T",
    "syncAt": "2026-10-09T00:20:22.066Z",
+   "name": "Esteve Roura, Esteve",
    "leader": false,
+   "part": "1",
+   "active": true,
+   "id": "oc-T11",
+   "section": "T"
+  },
+  {
+   "id": "oc-T12",
+   "active": true,
+   "leader": false,
+   "section": "T",
+   "part": "1",
+   "joined": "2024-09-22",
+   "syncAt": "2026-10-09T00:20:22.066Z",
+   "name": "Torrent Sallent, Ignasi"
+  },
+  {
+   "joined": "1996-09-11",
+   "syncAt": "2026-10-09T00:20:22.066Z",
+   "section": "T",
+   "leader": false,
+   "id": "oc-T13",
+   "active": true,
+   "name": "Cuscó Marsal, Joan",
    "part": "1"
   },
   {
-   "leader": false,
-   "syncAt": "2026-10-09T00:20:22.066Z",
-   "part": "1",
-   "id": "oc-T11",
-   "section": "T",
-   "active": true,
-   "name": "Esteve Roura, Esteve",
-   "joined": "2007-09-11"
-  },
-  {
-   "leader": false,
-   "syncAt": "2026-10-09T00:20:22.066Z",
-   "part": "1",
-   "id": "oc-T12",
-   "name": "Torrent Sallent, Ignasi",
-   "joined": "2024-09-22",
-   "section": "T",
-   "active": true
-  },
-  {
-   "part": "1",
-   "section": "T",
-   "leader": false,
-   "syncAt": "2026-10-09T00:20:22.066Z",
-   "id": "oc-T13",
-   "joined": "1996-09-11",
-   "name": "Cuscó Marsal, Joan",
-   "active": true
-  },
-  {
-   "section": "T",
-   "leader": false,
-   "syncAt": "2026-10-09T00:20:22.066Z",
    "name": "Clos Carbó, Ignasi",
-   "id": "oc-T14",
-   "active": true,
+   "leader": false,
    "part": "1",
-   "joined": "2008-09-20"
+   "joined": "2008-09-20",
+   "syncAt": "2026-10-09T00:20:22.066Z",
+   "section": "T",
+   "id": "oc-T14",
+   "active": true
   },
   {
-   "section": "T",
    "part": "2",
+   "leader": false,
+   "name": "Margalef Giralt, Biel",
+   "syncAt": "2026-10-09T00:20:22.066Z",
    "joined": "1991-09-14",
-   "active": true,
-   "syncAt": "2026-10-09T00:20:22.066Z",
-   "leader": false,
    "id": "oc-T15",
-   "name": "Margalef Giralt, Biel"
-  },
-  {
-   "syncAt": "2026-10-09T00:20:22.066Z",
-   "leader": false,
-   "part": "2",
-   "section": "T",
    "active": true,
-   "id": "oc-T16",
-   "name": "Espinàs Cortés, Jordi",
-   "joined": "2014-09-06"
-  },
-  {
-   "part": "2",
-   "joined": "2021-09-19",
-   "active": true,
-   "section": "T",
-   "id": "oc-T17",
-   "leader": false,
-   "syncAt": "2026-10-09T00:20:22.066Z",
-   "name": "Guardiola Bonet, Joaquim"
-  },
-  {
-   "active": true,
-   "part": "2",
-   "joined": "2010-09-06",
-   "syncAt": "2026-10-09T00:20:22.066Z",
-   "leader": false,
-   "name": "Abelló Figueras, Sergi",
-   "section": "T",
-   "id": "oc-T18"
-  },
-  {
-   "name": "Vidal Tarrés, Jaume",
-   "syncAt": "2026-10-09T00:20:22.066Z",
-   "leader": false,
-   "active": true,
-   "joined": "2000-09-23",
-   "part": "2",
-   "section": "T",
-   "id": "oc-T19"
-  },
-  {
-   "id": "oc-T20",
-   "part": "2",
-   "section": "T",
-   "active": true,
-   "joined": "2015-09-11",
-   "leader": false,
-   "syncAt": "2026-10-09T00:20:22.066Z",
-   "name": "Canals Fontanet, Joaquim"
-  },
-  {
-   "active": true,
-   "joined": "2005-09-25",
-   "name": "Comas Riu, Martí",
-   "part": "2",
-   "syncAt": "2026-10-09T00:20:22.066Z",
-   "leader": false,
-   "id": "oc-T21",
    "section": "T"
   },
   {
-   "name": "Esteve Llopis, Ricard",
    "leader": false,
+   "name": "Espinàs Cortés, Jordi",
+   "joined": "2014-09-06",
    "syncAt": "2026-10-09T00:20:22.066Z",
+   "part": "2",
+   "section": "T",
+   "active": true,
+   "id": "oc-T16"
+  },
+  {
+   "section": "T",
+   "active": true,
+   "name": "Guardiola Bonet, Joaquim",
+   "id": "oc-T17",
+   "joined": "2021-09-19",
+   "syncAt": "2026-10-09T00:20:22.066Z",
+   "part": "2",
+   "leader": false
+  },
+  {
+   "part": "2",
+   "id": "oc-T18",
+   "section": "T",
+   "name": "Abelló Figueras, Sergi",
+   "active": true,
+   "leader": false,
+   "joined": "2010-09-06",
+   "syncAt": "2026-10-09T00:20:22.066Z"
+  },
+  {
+   "active": true,
+   "name": "Vidal Tarrés, Jaume",
+   "part": "2",
+   "section": "T",
+   "joined": "2000-09-23",
+   "syncAt": "2026-10-09T00:20:22.066Z",
+   "id": "oc-T19",
+   "leader": false
+  },
+  {
+   "active": true,
+   "name": "Canals Fontanet, Joaquim",
+   "part": "2",
+   "id": "oc-T20",
+   "leader": false,
+   "section": "T",
+   "joined": "2015-09-11",
+   "syncAt": "2026-10-09T00:20:22.066Z"
+  },
+  {
+   "section": "T",
+   "active": true,
+   "name": "Comas Riu, Martí",
+   "leader": false,
+   "part": "2",
+   "id": "oc-T21",
+   "joined": "2005-09-25",
+   "syncAt": "2026-10-09T00:20:22.066Z"
+  },
+  {
+   "active": true,
    "id": "oc-T22",
+   "part": "2",
+   "name": "Esteve Llopis, Ricard",
    "section": "T",
-   "active": true,
+   "syncAt": "2026-10-09T00:20:22.066Z",
    "joined": "2012-09-25",
-   "part": "2"
+   "leader": false
   },
   {
    "leader": false,
-   "syncAt": "2026-10-09T00:20:22.066Z",
    "name": "Cortés Aguilar, Manel",
+   "part": "2",
    "joined": "2018-09-04",
-   "part": "2",
-   "id": "oc-T23",
-   "section": "T",
-   "active": true
-  },
-  {
-   "part": "2",
-   "section": "T",
+   "syncAt": "2026-10-09T00:20:22.066Z",
    "active": true,
-   "joined": "2023-09-17",
+   "id": "oc-T23",
+   "section": "T"
+  },
+  {
+   "active": true,
+   "name": "Grau Moliner, Enric",
+   "part": "2",
+   "section": "T",
    "syncAt": "2026-10-09T00:20:22.066Z",
-   "leader": false,
+   "joined": "2023-09-17",
    "id": "oc-T24",
-   "name": "Grau Moliner, Enric"
+   "leader": false
   },
   {
    "leader": false,
+   "section": "T",
    "syncAt": "2026-10-09T00:20:22.066Z",
+   "joined": "2005-09-08",
    "name": "Turró Castells, Quim",
    "part": "2",
-   "joined": "2005-09-08",
-   "id": "oc-T25",
+   "active": true,
+   "id": "oc-T25"
+  },
+  {
+   "part": "2",
+   "name": "Riu Tomàs, Marc",
+   "section": "T",
+   "active": true,
+   "id": "oc-T26",
+   "leader": false,
+   "joined": "2008-09-06",
+   "syncAt": "2026-10-09T00:20:22.066Z"
+  },
+  {
+   "joined": "2023-09-12",
+   "syncAt": "2026-10-09T00:20:22.066Z",
+   "id": "oc-T27",
+   "part": "2",
+   "leader": false,
+   "name": "Vilalta Viñas, Jordi",
    "active": true,
    "section": "T"
   },
   {
-   "joined": "2008-09-06",
-   "name": "Riu Tomàs, Marc",
-   "id": "oc-T26",
-   "active": true,
    "section": "T",
-   "leader": false,
-   "syncAt": "2026-10-09T00:20:22.066Z",
-   "part": "2"
-  },
-  {
-   "name": "Vilalta Viñas, Jordi",
-   "active": true,
-   "joined": "2023-09-12",
-   "id": "oc-T27",
-   "leader": false,
-   "syncAt": "2026-10-09T00:20:22.066Z",
-   "section": "T",
-   "part": "2"
-  },
-  {
    "joined": "2021-09-27",
-   "section": "T",
-   "active": true,
-   "name": "Ribas Riera, Roger",
-   "part": "2",
-   "leader": false,
    "syncAt": "2026-10-09T00:20:22.066Z",
-   "id": "oc-T28"
+   "id": "oc-T28",
+   "leader": false,
+   "active": true,
+   "part": "2",
+   "name": "Ribas Riera, Roger"
   }
  ],
  "productions": [
   {
-   "excluded": [],
-   "id": "oc-adams",
+   "start": "2026-10-10",
    "syncAt": "2026-10-09T01:12:51.791Z",
    "end": "2026-10-22",
-   "sessions": [
-    {
-     "type": "Concert",
-     "time": "20:00",
-     "date": "2026-10-10",
-     "id": "oc-adams-01",
-     "place": "Philharmonie de París",
-     "note": "Gira europea amb la New York Philharmonic i Gustavo Dudamel, amb el Cor de Noies i el Cor Infantil",
-     "end": ""
-    },
-    {
-     "end": "",
-     "id": "oc-adams-02",
-     "note": "Gira europea amb la New York Philharmonic i Gustavo Dudamel · BCN Clàssics",
-     "place": "L’Auditori, Barcelona",
-     "type": "Concert",
-     "time": "20:00",
-     "date": "2026-10-12"
-    },
-    {
-     "time": "19:30",
-     "date": "2026-10-13",
-     "type": "Concert",
-     "id": "oc-adams-03",
-     "note": "Gira europea amb la New York Philharmonic i Gustavo Dudamel · Ibermúsica",
-     "end": "",
-     "place": "Auditorio Nacional de Música, Madrid"
-    },
-    {
-     "note": "Gira europea amb la New York Philharmonic i Gustavo Dudamel",
-     "id": "oc-adams-04",
-     "date": "2026-10-19",
-     "type": "Concert",
-     "time": "20:00",
-     "place": "Elbphilharmonie, Hamburg",
-     "end": ""
-    },
-    {
-     "end": "",
-     "id": "oc-adams-05",
-     "type": "Concert",
-     "date": "2026-10-22",
-     "time": "19:30",
-     "place": "Musikverein, Viena",
-     "note": "Gira europea amb la New York Philharmonic i Gustavo Dudamel"
-    }
-   ],
-   "start": "2026-10-10",
+   "excluded": [],
    "name": "On the Transmigration of Souls · Adams",
    "roll": {
     "T": "oc-T13",
     "B": "oc-B10"
-   }
-  },
-  {
-   "end": "2027-02-14",
-   "name": "Diada de l’Antic Cantaire",
-   "syncAt": "2026-10-09T00:24:28.574Z",
-   "sessions": [
-    {
-     "date": "2026-12-29",
-     "type": "Assaig",
-     "time": "20:30",
-     "note": "",
-     "end": "22:30",
-     "id": "oc-anticcantaire-a01",
-     "place": ""
-    },
-    {
-     "end": "22:30",
-     "time": "20:30",
-     "type": "Assaig",
-     "date": "2027-01-05",
-     "id": "oc-anticcantaire-a02",
-     "note": "",
-     "place": ""
-    },
-    {
-     "end": "22:30",
-     "note": "",
-     "place": "",
-     "id": "oc-anticcantaire-a03",
-     "date": "2027-01-07",
-     "type": "Assaig",
-     "time": "20:30"
-    },
-    {
-     "end": "22:30",
-     "note": "",
-     "place": "",
-     "id": "oc-anticcantaire-a04",
-     "date": "2027-01-12",
-     "time": "20:30",
-     "type": "Assaig"
-    },
-    {
-     "id": "oc-anticcantaire-a05",
-     "place": "",
-     "note": "",
-     "time": "20:30",
-     "type": "Assaig",
-     "date": "2027-01-14",
-     "end": "22:30"
-    },
-    {
-     "date": "2027-01-19",
-     "type": "Assaig",
-     "time": "20:30",
-     "note": "",
-     "end": "22:30",
-     "id": "oc-anticcantaire-a06",
-     "place": ""
-    },
-    {
-     "place": "",
-     "end": "22:30",
-     "note": "",
-     "id": "oc-anticcantaire-a07",
-     "type": "Assaig",
-     "time": "20:30",
-     "date": "2027-01-21"
-    },
-    {
-     "date": "2027-01-26",
-     "time": "20:30",
-     "type": "Assaig",
-     "place": "",
-     "note": "",
-     "end": "22:30",
-     "id": "oc-anticcantaire-a08"
-    },
-    {
-     "place": "",
-     "end": "22:30",
-     "note": "",
-     "id": "oc-anticcantaire-a09",
-     "date": "2027-01-28",
-     "type": "Assaig",
-     "time": "20:30"
-    },
-    {
-     "note": "",
-     "place": "",
-     "id": "oc-anticcantaire-a10",
-     "date": "2027-02-02",
-     "time": "20:30",
-     "type": "Assaig",
-     "end": "22:30"
-    },
-    {
-     "note": "",
-     "id": "oc-anticcantaire-a11",
-     "place": "",
-     "type": "Assaig",
-     "time": "20:30",
-     "date": "2027-02-04",
-     "end": "22:30"
-    },
-    {
-     "type": "Assaig",
-     "time": "20:30",
-     "date": "2027-02-09",
-     "note": "",
-     "id": "oc-anticcantaire-a12",
-     "end": "22:30",
-     "place": ""
-    },
-    {
-     "note": "",
-     "date": "2027-02-11",
-     "time": "20:30",
-     "type": "Assaig",
-     "end": "22:30",
-     "place": "",
-     "id": "oc-anticcantaire-a13"
-    },
-    {
-     "end": "",
-     "note": "Xarxa Coral · La Casa dels Cants",
-     "place": "Palau de la Música Catalana",
-     "id": "oc-anticcantaire-01",
-     "type": "Concert",
-     "date": "2027-02-14",
-     "time": "12:00"
-    }
-   ],
-   "id": "oc-anticcantaire",
-   "excluded": [],
-   "start": "2026-12-29"
-  },
-  {
-   "start": "2027-05-20",
-   "syncAt": "2026-10-09T00:24:28.719Z",
-   "name": "Elies · Mendelssohn",
-   "end": "2027-05-30",
-   "sessions": [
-    {
-     "date": "2027-05-20",
-     "time": "20:30",
-     "type": "Assaig",
-     "note": "",
-     "end": "22:30",
-     "id": "oc-elies-a01",
-     "place": ""
-    },
-    {
-     "place": "",
-     "end": "22:30",
-     "note": "",
-     "id": "oc-elies-a02",
-     "time": "20:30",
-     "type": "Assaig",
-     "date": "2027-05-25"
-    },
-    {
-     "end": "22:30",
-     "note": "",
-     "place": "",
-     "id": "oc-elies-a03",
-     "date": "2027-05-27",
-     "type": "Assaig",
-     "time": "20:30"
-    },
-    {
-     "id": "oc-elies-01",
-     "note": "Amb l’Orquestra del Gran Teatre del Liceu, dirigeix Puig · Palau 100",
-     "place": "Palau de la Música Catalana",
-     "date": "2027-05-30",
-     "time": "17:30",
-     "type": "Concert",
-     "end": ""
-    }
-   ],
-   "excluded": [],
-   "id": "oc-elies"
-  },
-  {
-   "roll": {
-    "B": "oc-B02"
    },
-   "syncAt": "2026-10-09T01:12:59.836Z",
-   "id": "oc-mahler2",
-   "name": "Simfonia núm. 2, «Resurrecció» · Mahler",
+   "id": "oc-adams",
    "sessions": [
     {
-     "type": "Assaig",
-     "date": "2026-10-27",
-     "time": "20:30",
-     "id": "oc-mahler2-a01",
-     "place": "",
-     "note": "",
-     "end": "22:30"
-    },
-    {
-     "place": "",
-     "note": "",
-     "id": "oc-mahler2-a02",
-     "type": "Assaig",
-     "time": "20:30",
-     "date": "2026-10-29",
-     "end": "22:30"
-    },
-    {
-     "place": "",
-     "end": "22:30",
-     "note": "",
-     "id": "oc-mahler2-a03",
-     "time": "20:30",
-     "type": "Assaig",
-     "date": "2026-11-03"
-    },
-    {
-     "date": "2026-11-05",
-     "time": "20:30",
-     "type": "Assaig",
-     "place": "",
-     "id": "oc-mahler2-a04",
-     "note": "",
-     "end": "22:30"
-    },
-    {
-     "id": "oc-mahler2-a05",
-     "place": "",
-     "end": "22:30",
-     "type": "Assaig",
-     "date": "2026-11-10",
-     "time": "20:30",
-     "note": ""
-    },
-    {
-     "type": "Assaig",
-     "date": "2026-11-12",
-     "time": "20:30",
-     "id": "oc-mahler2-a06",
-     "note": "",
-     "end": "22:30",
-     "place": ""
-    },
-    {
-     "end": "",
-     "date": "2026-11-13",
-     "time": "19:00",
-     "id": "oc-mahler2-01",
      "type": "Concert",
-     "place": "L’Auditori, Barcelona",
-     "note": "Amb l’OBC i Ludovic Morlot · Temporada OBC"
-    },
-    {
-     "end": "",
-     "time": "19:00",
-     "type": "Concert",
-     "date": "2026-11-14",
-     "id": "oc-mahler2-02",
-     "note": "Amb l’OBC i Ludovic Morlot · Temporada OBC",
-     "place": "L’Auditori, Barcelona"
-    }
-   ],
-   "excluded": [],
-   "end": "2026-11-14",
-   "start": "2026-10-27"
-  },
-  {
-   "name": "La Novena · Beethoven",
-   "end": "2027-05-18",
-   "id": "oc-novena",
-   "syncAt": "2026-10-09T00:24:28.687Z",
-   "start": "2027-04-13",
-   "excluded": [],
-   "sessions": [
-    {
-     "note": "",
-     "date": "2027-04-13",
-     "time": "20:30",
-     "type": "Assaig",
-     "end": "22:30",
-     "place": "",
-     "id": "oc-novena-a01"
-    },
-    {
-     "note": "",
-     "place": "",
-     "date": "2027-04-15",
-     "time": "20:30",
-     "type": "Assaig",
-     "id": "oc-novena-a02",
-     "end": "22:30"
-    },
-    {
-     "id": "oc-novena-a03",
-     "place": "",
-     "note": "",
-     "date": "2027-04-20",
-     "type": "Assaig",
-     "time": "20:30",
-     "end": "22:30"
-    },
-    {
-     "id": "oc-novena-a04",
-     "place": "",
-     "note": "",
-     "date": "2027-04-22",
-     "time": "20:30",
-     "type": "Assaig",
-     "end": "22:30"
-    },
-    {
-     "time": "20:30",
-     "type": "Assaig",
-     "date": "2027-04-27",
-     "id": "oc-novena-a05",
-     "note": "",
-     "end": "22:30",
-     "place": ""
-    },
-    {
-     "place": "",
-     "end": "22:30",
-     "note": "",
-     "id": "oc-novena-a06",
-     "date": "2027-04-29",
-     "type": "Assaig",
-     "time": "20:30"
-    },
-    {
-     "end": "22:30",
-     "place": "",
-     "id": "oc-novena-a07",
-     "type": "Assaig",
-     "time": "20:30",
-     "date": "2027-05-04",
-     "note": ""
-    },
-    {
-     "note": "",
-     "id": "oc-novena-a08",
-     "place": "",
-     "type": "Assaig",
-     "time": "20:30",
-     "date": "2027-05-06",
-     "end": "22:30"
-    },
-    {
-     "place": "Palau de la Música Catalana",
-     "end": "",
-     "note": "Amb la Staatskapelle Dresden i el Cor de Cambra del Palau, dirigeix Gatti · BCN Clàssics",
-     "type": "Concert",
+     "date": "2026-10-10",
+     "note": "Gira europea amb la New York Philharmonic i Gustavo Dudamel, amb el Cor de Noies i el Cor Infantil",
+     "id": "oc-adams-01",
      "time": "20:00",
-     "date": "2027-05-11",
-     "id": "oc-novena-01"
+     "place": "Philharmonie de París",
+     "end": ""
     },
     {
-     "place": "",
-     "end": "22:30",
-     "id": "oc-novena-a09",
-     "note": "",
-     "type": "Assaig",
-     "time": "20:30",
-     "date": "2027-05-13"
-    },
-    {
-     "end": "",
-     "time": "19:00",
-     "date": "2027-05-16",
-     "place": "Palau de la Música, València",
      "type": "Concert",
-     "id": "oc-novena-02",
-     "note": "Amb la Staatskapelle Dresden i el Cor de Cambra del Palau, dirigeix Gatti"
+     "date": "2026-10-12",
+     "id": "oc-adams-02",
+     "note": "Gira europea amb la New York Philharmonic i Gustavo Dudamel · BCN Clàssics",
+     "time": "20:00",
+     "end": "",
+     "place": "L’Auditori, Barcelona"
     },
     {
+     "place": "Auditorio Nacional de Música, Madrid",
+     "time": "19:30",
+     "end": "",
+     "note": "Gira europea amb la New York Philharmonic i Gustavo Dudamel · Ibermúsica",
+     "date": "2026-10-13",
+     "id": "oc-adams-03",
+     "type": "Concert"
+    },
+    {
+     "type": "Concert",
+     "date": "2026-10-19",
+     "note": "Gira europea amb la New York Philharmonic i Gustavo Dudamel",
+     "end": "",
+     "time": "20:00",
+     "id": "oc-adams-04",
+     "place": "Elbphilharmonie, Hamburg"
+    },
+    {
+     "note": "Gira europea amb la New York Philharmonic i Gustavo Dudamel",
+     "id": "oc-adams-05",
      "time": "19:30",
      "type": "Concert",
-     "date": "2027-05-18",
-     "id": "oc-novena-03",
-     "note": "Amb la Staatskapelle Dresden i el Cor de Cambra del Palau, dirigeix Gatti",
+     "place": "Musikverein, Viena",
      "end": "",
-     "place": "Auditorio Nacional de Música, Madrid"
+     "date": "2026-10-22"
     }
    ]
   },
   {
-   "name": "Concert participatiu",
-   "end": "2027-06-06",
    "sessions": [
     {
+     "type": "Assaig",
+     "date": "2026-12-29",
      "note": "",
-     "id": "oc-participatiu-a01",
-     "date": "2027-06-01",
+     "end": "22:30",
+     "time": "20:30",
+     "id": "oc-anticcantaire-a01",
+     "place": ""
+    },
+    {
+     "place": "",
+     "note": "",
+     "id": "oc-anticcantaire-a02",
+     "time": "20:30",
+     "end": "22:30",
+     "type": "Assaig",
+     "date": "2027-01-05"
+    },
+    {
+     "place": "",
+     "time": "20:30",
+     "note": "",
+     "end": "22:30",
+     "date": "2027-01-07",
+     "type": "Assaig",
+     "id": "oc-anticcantaire-a03"
+    },
+    {
+     "id": "oc-anticcantaire-a04",
+     "note": "",
      "time": "20:30",
      "type": "Assaig",
+     "end": "22:30",
      "place": "",
-     "end": "22:30"
+     "date": "2027-01-12"
+    },
+    {
+     "id": "oc-anticcantaire-a05",
+     "note": "",
+     "time": "20:30",
+     "end": "22:30",
+     "place": "",
+     "type": "Assaig",
+     "date": "2027-01-14"
+    },
+    {
+     "time": "20:30",
+     "place": "",
+     "end": "22:30",
+     "note": "",
+     "date": "2027-01-19",
+     "type": "Assaig",
+     "id": "oc-anticcantaire-a06"
+    },
+    {
+     "type": "Assaig",
+     "date": "2027-01-21",
+     "note": "",
+     "time": "20:30",
+     "end": "22:30",
+     "place": "",
+     "id": "oc-anticcantaire-a07"
     },
     {
      "end": "22:30",
-     "id": "oc-participatiu-a02",
      "time": "20:30",
-     "type": "Assaig",
-     "date": "2027-06-03",
-     "place": "",
-     "note": ""
-    },
-    {
-     "date": "2027-06-06",
-     "time": "12:00",
-     "type": "Concert",
-     "id": "oc-participatiu-01",
-     "note": "Amb el Cor de Noies de l’Orfeó Català, dirigeix Puig · La Casa dels Cants",
-     "end": "",
-     "place": "Palau de la Música Catalana"
-    }
-   ],
-   "syncAt": "2026-10-09T00:24:28.766Z",
-   "excluded": [],
-   "start": "2027-06-01",
-   "id": "oc-participatiu"
-  },
-  {
-   "id": "oc-santesteve",
-   "name": "Concert de Sant Esteve",
-   "start": "2026-11-17",
-   "excluded": [],
-   "end": "2026-12-26",
-   "sessions": [
-    {
-     "place": "",
-     "end": "22:30",
+     "id": "oc-anticcantaire-a08",
      "note": "",
-     "id": "oc-santesteve-a01",
-     "type": "Assaig",
-     "time": "20:30",
-     "date": "2026-11-17"
-    },
-    {
-     "note": "",
+     "date": "2027-01-26",
      "place": "",
-     "date": "2026-11-19",
-     "time": "20:30",
-     "type": "Assaig",
-     "id": "oc-santesteve-a02",
-     "end": "22:30"
-    },
-    {
-     "place": "",
-     "id": "oc-santesteve-a03",
-     "end": "22:30",
-     "note": "",
-     "date": "2026-11-24",
-     "time": "20:30",
      "type": "Assaig"
     },
     {
      "place": "",
-     "end": "22:30",
-     "note": "",
-     "id": "oc-santesteve-a04",
      "time": "20:30",
+     "note": "",
+     "end": "22:30",
+     "date": "2027-01-28",
      "type": "Assaig",
-     "date": "2026-11-26"
+     "id": "oc-anticcantaire-a09"
     },
     {
+     "id": "oc-anticcantaire-a10",
+     "time": "20:30",
+     "end": "22:30",
      "note": "",
      "place": "",
-     "end": "22:30",
-     "date": "2026-12-01",
-     "type": "Assaig",
-     "time": "20:30",
-     "id": "oc-santesteve-a05"
+     "date": "2027-02-02",
+     "type": "Assaig"
     },
     {
-     "date": "2026-12-03",
-     "time": "20:30",
-     "type": "Assaig",
-     "id": "oc-santesteve-a06",
+     "id": "oc-anticcantaire-a11",
      "place": "",
      "note": "",
+     "time": "20:30",
+     "end": "22:30",
+     "type": "Assaig",
+     "date": "2027-02-04"
+    },
+    {
+     "id": "oc-anticcantaire-a12",
+     "note": "",
+     "place": "",
+     "time": "20:30",
+     "type": "Assaig",
+     "end": "22:30",
+     "date": "2027-02-09"
+    },
+    {
+     "end": "22:30",
+     "date": "2027-02-11",
+     "place": "",
+     "type": "Assaig",
+     "id": "oc-anticcantaire-a13",
+     "time": "20:30",
+     "note": ""
+    },
+    {
+     "date": "2027-02-14",
+     "type": "Concert",
+     "end": "",
+     "time": "12:00",
+     "note": "Xarxa Coral · La Casa dels Cants",
+     "place": "Palau de la Música Catalana",
+     "id": "oc-anticcantaire-01"
+    }
+   ],
+   "start": "2026-12-29",
+   "excluded": [],
+   "id": "oc-anticcantaire",
+   "end": "2027-02-14",
+   "syncAt": "2026-10-09T00:24:28.574Z",
+   "name": "Diada de l’Antic Cantaire"
+  },
+  {
+   "excluded": [],
+   "start": "2027-05-20",
+   "sessions": [
+    {
+     "date": "2027-05-20",
+     "type": "Assaig",
+     "end": "22:30",
+     "time": "20:30",
+     "id": "oc-elies-a01",
+     "place": "",
+     "note": ""
+    },
+    {
+     "date": "2027-05-25",
+     "type": "Assaig",
+     "place": "",
+     "end": "22:30",
+     "id": "oc-elies-a02",
+     "time": "20:30",
+     "note": ""
+    },
+    {
+     "date": "2027-05-27",
+     "end": "22:30",
+     "type": "Assaig",
+     "time": "20:30",
+     "note": "",
+     "place": "",
+     "id": "oc-elies-a03"
+    },
+    {
+     "id": "oc-elies-01",
+     "type": "Concert",
+     "date": "2027-05-30",
+     "note": "Amb l’Orquestra del Gran Teatre del Liceu, dirigeix Puig · Palau 100",
+     "end": "",
+     "time": "17:30",
+     "place": "Palau de la Música Catalana"
+    }
+   ],
+   "end": "2027-05-30",
+   "id": "oc-elies",
+   "name": "Elies · Mendelssohn",
+   "syncAt": "2026-10-09T00:24:28.719Z"
+  },
+  {
+   "syncAt": "2026-10-09T01:12:59.836Z",
+   "roll": {
+    "B": "oc-B02"
+   },
+   "name": "Simfonia núm. 2, «Resurrecció» · Mahler",
+   "end": "2026-11-14",
+   "id": "oc-mahler2",
+   "start": "2026-10-27",
+   "sessions": [
+    {
+     "id": "oc-mahler2-a01",
+     "type": "Assaig",
+     "date": "2026-10-27",
+     "end": "22:30",
+     "note": "",
+     "time": "20:30",
+     "place": ""
+    },
+    {
+     "date": "2026-10-29",
+     "end": "22:30",
+     "id": "oc-mahler2-a02",
+     "type": "Assaig",
+     "time": "20:30",
+     "place": "",
+     "note": ""
+    },
+    {
+     "id": "oc-mahler2-a03",
+     "note": "",
+     "time": "20:30",
+     "type": "Assaig",
+     "place": "",
+     "end": "22:30",
+     "date": "2026-11-03"
+    },
+    {
+     "time": "20:30",
+     "note": "",
+     "end": "22:30",
+     "place": "",
+     "id": "oc-mahler2-a04",
+     "date": "2026-11-05",
+     "type": "Assaig"
+    },
+    {
+     "end": "22:30",
+     "time": "20:30",
+     "id": "oc-mahler2-a05",
+     "note": "",
+     "place": "",
+     "date": "2026-11-10",
+     "type": "Assaig"
+    },
+    {
+     "date": "2026-11-12",
+     "type": "Assaig",
+     "end": "22:30",
+     "id": "oc-mahler2-a06",
+     "time": "20:30",
+     "note": "",
+     "place": ""
+    },
+    {
+     "date": "2026-11-13",
+     "type": "Concert",
+     "end": "",
+     "id": "oc-mahler2-01",
+     "time": "19:00",
+     "note": "Amb l’OBC i Ludovic Morlot · Temporada OBC",
+     "place": "L’Auditori, Barcelona"
+    },
+    {
+     "date": "2026-11-14",
+     "id": "oc-mahler2-02",
+     "end": "",
+     "type": "Concert",
+     "time": "19:00",
+     "place": "L’Auditori, Barcelona",
+     "note": "Amb l’OBC i Ludovic Morlot · Temporada OBC"
+    }
+   ],
+   "excluded": []
+  },
+  {
+   "sessions": [
+    {
+     "time": "20:30",
+     "place": "",
+     "note": "",
+     "end": "22:30",
+     "date": "2027-04-13",
+     "id": "oc-novena-a01",
+     "type": "Assaig"
+    },
+    {
+     "time": "20:30",
+     "place": "",
+     "note": "",
+     "end": "22:30",
+     "id": "oc-novena-a02",
+     "date": "2027-04-15",
+     "type": "Assaig"
+    },
+    {
+     "date": "2027-04-20",
+     "type": "Assaig",
+     "end": "22:30",
+     "time": "20:30",
+     "note": "",
+     "place": "",
+     "id": "oc-novena-a03"
+    },
+    {
+     "place": "",
+     "end": "22:30",
+     "time": "20:30",
+     "note": "",
+     "id": "oc-novena-a04",
+     "date": "2027-04-22",
+     "type": "Assaig"
+    },
+    {
+     "place": "",
+     "id": "oc-novena-a05",
+     "end": "22:30",
+     "time": "20:30",
+     "note": "",
+     "date": "2027-04-27",
+     "type": "Assaig"
+    },
+    {
+     "end": "22:30",
+     "date": "2027-04-29",
+     "place": "",
+     "id": "oc-novena-a06",
+     "type": "Assaig",
+     "time": "20:30",
+     "note": ""
+    },
+    {
+     "end": "22:30",
+     "date": "2027-05-04",
+     "type": "Assaig",
+     "id": "oc-novena-a07",
+     "time": "20:30",
+     "place": "",
+     "note": ""
+    },
+    {
+     "end": "22:30",
+     "time": "20:30",
+     "id": "oc-novena-a08",
+     "note": "",
+     "date": "2027-05-06",
+     "place": "",
+     "type": "Assaig"
+    },
+    {
+     "type": "Concert",
+     "date": "2027-05-11",
+     "note": "Amb la Staatskapelle Dresden i el Cor de Cambra del Palau, dirigeix Gatti · BCN Clàssics",
+     "id": "oc-novena-01",
+     "time": "20:00",
+     "place": "Palau de la Música Catalana",
+     "end": ""
+    },
+    {
+     "date": "2027-05-13",
+     "type": "Assaig",
+     "end": "22:30",
+     "id": "oc-novena-a09",
+     "time": "20:30",
+     "place": "",
+     "note": ""
+    },
+    {
+     "type": "Concert",
+     "date": "2027-05-16",
+     "place": "Palau de la Música, València",
+     "note": "Amb la Staatskapelle Dresden i el Cor de Cambra del Palau, dirigeix Gatti",
+     "id": "oc-novena-02",
+     "time": "19:00",
+     "end": ""
+    },
+    {
+     "id": "oc-novena-03",
+     "date": "2027-05-18",
+     "end": "",
+     "place": "Auditorio Nacional de Música, Madrid",
+     "type": "Concert",
+     "time": "19:30",
+     "note": "Amb la Staatskapelle Dresden i el Cor de Cambra del Palau, dirigeix Gatti"
+    }
+   ],
+   "start": "2027-04-13",
+   "end": "2027-05-18",
+   "syncAt": "2026-10-09T00:24:28.687Z",
+   "excluded": [],
+   "name": "La Novena · Beethoven",
+   "id": "oc-novena"
+  },
+  {
+   "syncAt": "2026-10-09T00:24:28.766Z",
+   "sessions": [
+    {
+     "id": "oc-participatiu-a01",
+     "time": "20:30",
+     "end": "22:30",
+     "note": "",
+     "place": "",
+     "date": "2027-06-01",
+     "type": "Assaig"
+    },
+    {
+     "end": "22:30",
+     "place": "",
+     "time": "20:30",
+     "id": "oc-participatiu-a02",
+     "note": "",
+     "date": "2027-06-03",
+     "type": "Assaig"
+    },
+    {
+     "time": "12:00",
+     "note": "Amb el Cor de Noies de l’Orfeó Català, dirigeix Puig · La Casa dels Cants",
+     "end": "",
+     "place": "Palau de la Música Catalana",
+     "date": "2027-06-06",
+     "type": "Concert",
+     "id": "oc-participatiu-01"
+    }
+   ],
+   "excluded": [],
+   "id": "oc-participatiu",
+   "end": "2027-06-06",
+   "name": "Concert participatiu",
+   "start": "2027-06-01"
+  },
+  {
+   "excluded": [],
+   "id": "oc-santesteve",
+   "end": "2026-12-26",
+   "start": "2026-11-17",
+   "sessions": [
+    {
+     "type": "Assaig",
+     "date": "2026-11-17",
+     "place": "",
+     "note": "",
+     "id": "oc-santesteve-a01",
+     "time": "20:30",
      "end": "22:30"
     },
     {
-     "note": "",
-     "date": "2026-12-10",
-     "end": "22:30",
-     "type": "Assaig",
-     "time": "20:30",
-     "place": "",
-     "id": "oc-santesteve-a07"
-    },
-    {
+     "date": "2026-11-19",
+     "id": "oc-santesteve-a02",
      "end": "22:30",
      "place": "",
-     "time": "20:30",
      "type": "Assaig",
-     "date": "2026-12-15",
-     "id": "oc-santesteve-a08",
+     "time": "20:30",
      "note": ""
     },
     {
      "place": "",
-     "id": "oc-santesteve-a09",
      "end": "22:30",
+     "time": "20:30",
+     "id": "oc-santesteve-a03",
      "note": "",
-     "date": "2026-12-17",
+     "date": "2026-11-24",
+     "type": "Assaig"
+    },
+    {
+     "note": "",
+     "time": "20:30",
      "type": "Assaig",
-     "time": "20:30"
+     "place": "",
+     "end": "22:30",
+     "id": "oc-santesteve-a04",
+     "date": "2026-11-26"
     },
     {
      "end": "22:30",
-     "date": "2026-12-22",
+     "date": "2026-12-01",
+     "id": "oc-santesteve-a05",
+     "type": "Assaig",
      "time": "20:30",
      "place": "",
-     "type": "Assaig",
-     "note": "",
-     "id": "oc-santesteve-a10"
+     "note": ""
     },
     {
-     "end": "",
+     "place": "",
+     "note": "",
+     "id": "oc-santesteve-a06",
+     "time": "20:30",
+     "end": "22:30",
+     "type": "Assaig",
+     "date": "2026-12-03"
+    },
+    {
+     "type": "Assaig",
+     "id": "oc-santesteve-a07",
+     "date": "2026-12-10",
+     "end": "22:30",
+     "note": "",
+     "time": "20:30",
+     "place": ""
+    },
+    {
+     "id": "oc-santesteve-a08",
+     "note": "",
+     "time": "20:30",
+     "end": "22:30",
+     "type": "Assaig",
+     "place": "",
+     "date": "2026-12-15"
+    },
+    {
+     "id": "oc-santesteve-a09",
+     "date": "2026-12-17",
+     "end": "22:30",
+     "place": "",
+     "type": "Assaig",
+     "time": "20:30",
+     "note": ""
+    },
+    {
+     "type": "Assaig",
+     "date": "2026-12-22",
+     "note": "",
+     "id": "oc-santesteve-a10",
+     "time": "20:30",
+     "place": "",
+     "end": "22:30"
+    },
+    {
      "note": "Cors de l’Orfeó Català i Cor de Cambra del Palau · La Casa dels Cants",
      "place": "Palau de la Música Catalana",
-     "type": "Concert",
      "time": "19:00",
+     "type": "Concert",
+     "id": "oc-santesteve-01",
      "date": "2026-12-26",
-     "id": "oc-santesteve-01"
+     "end": ""
     }
    ],
+   "name": "Concert de Sant Esteve",
    "syncAt": "2026-10-09T00:24:28.515Z"
   },
   {
    "excluded": [],
+   "start": "2027-02-16",
    "sessions": [
     {
-     "end": "22:30",
-     "place": "",
-     "id": "oc-whitacre-a01",
-     "date": "2027-02-16",
-     "time": "20:30",
-     "type": "Assaig",
-     "note": ""
-    },
-    {
      "note": "",
-     "id": "oc-whitacre-a02",
-     "date": "2027-02-18",
+     "place": "",
      "time": "20:30",
      "type": "Assaig",
-     "place": "",
-     "end": "22:30"
+     "end": "22:30",
+     "id": "oc-whitacre-a01",
+     "date": "2027-02-16"
     },
     {
-     "type": "Assaig",
-     "time": "20:30",
-     "date": "2027-02-23",
      "place": "",
+     "time": "20:30",
+     "note": "",
+     "end": "22:30",
+     "date": "2027-02-18",
+     "id": "oc-whitacre-a02",
+     "type": "Assaig"
+    },
+    {
      "id": "oc-whitacre-a03",
      "note": "",
-     "end": "22:30"
+     "time": "20:30",
+     "place": "",
+     "type": "Assaig",
+     "end": "22:30",
+     "date": "2027-02-23"
     },
     {
+     "date": "2027-02-25",
      "end": "22:30",
-     "note": "",
      "id": "oc-whitacre-a04",
      "place": "",
-     "date": "2027-02-25",
+     "type": "Assaig",
      "time": "20:30",
-     "type": "Assaig"
+     "note": ""
     },
     {
+     "date": "2027-03-02",
+     "type": "Assaig",
+     "end": "22:30",
+     "time": "20:30",
      "id": "oc-whitacre-a05",
      "note": "",
-     "place": "",
-     "type": "Assaig",
-     "time": "20:30",
-     "date": "2027-03-02",
-     "end": "22:30"
+     "place": ""
     },
     {
+     "date": "2027-03-04",
+     "end": "22:30",
+     "place": "",
+     "id": "oc-whitacre-a06",
+     "type": "Assaig",
+     "time": "20:30",
+     "note": ""
+    },
+    {
+     "id": "oc-whitacre-a07",
+     "note": "",
+     "time": "20:30",
+     "type": "Assaig",
+     "end": "22:30",
+     "place": "",
+     "date": "2027-03-09"
+    },
+    {
+     "type": "Assaig",
+     "date": "2027-03-11",
      "place": "",
      "note": "",
-     "id": "oc-whitacre-a06",
-     "date": "2027-03-04",
+     "id": "oc-whitacre-a08",
      "time": "20:30",
-     "type": "Assaig",
      "end": "22:30"
     },
     {
+     "id": "oc-whitacre-a09",
+     "date": "2027-03-16",
      "end": "22:30",
-     "time": "20:30",
-     "type": "Assaig",
-     "date": "2027-03-09",
      "place": "",
-     "id": "oc-whitacre-a07",
+     "type": "Assaig",
+     "time": "20:30",
      "note": ""
     },
     {
      "note": "",
      "place": "",
-     "date": "2027-03-11",
      "time": "20:30",
      "type": "Assaig",
-     "id": "oc-whitacre-a08",
-     "end": "22:30"
-    },
-    {
-     "date": "2027-03-16",
-     "time": "20:30",
-     "type": "Assaig",
-     "place": "",
-     "id": "oc-whitacre-a09",
-     "note": "",
-     "end": "22:30"
-    },
-    {
-     "place": "",
      "id": "oc-whitacre-a10",
-     "end": "22:30",
-     "note": "",
      "date": "2027-03-18",
-     "time": "20:30",
-     "type": "Assaig"
+     "end": "22:30"
     },
     {
-     "time": "20:30",
+     "id": "oc-whitacre-a11",
      "type": "Assaig",
      "date": "2027-03-23",
-     "place": "",
      "end": "22:30",
      "note": "",
-     "id": "oc-whitacre-a11"
+     "time": "20:30",
+     "place": ""
     },
     {
-     "place": "",
+     "end": "22:30",
+     "time": "20:30",
      "id": "oc-whitacre-a12",
-     "end": "22:30",
-     "type": "Assaig",
-     "time": "20:30",
-     "date": "2027-03-25",
-     "note": ""
-    },
-    {
-     "id": "oc-whitacre-a13",
      "note": "",
-     "end": "22:30",
+     "date": "2027-03-25",
      "place": "",
-     "date": "2027-03-30",
-     "time": "20:30",
      "type": "Assaig"
     },
     {
+     "place": "",
+     "id": "oc-whitacre-a13",
      "end": "22:30",
-     "note": "",
-     "place": "",
-     "id": "oc-whitacre-a14",
-     "date": "2027-04-01",
-     "type": "Assaig",
-     "time": "20:30"
-    },
-    {
-     "id": "oc-whitacre-a15",
-     "note": "",
-     "place": "",
-     "date": "2027-04-06",
      "time": "20:30",
-     "type": "Assaig",
-     "end": "22:30"
+     "note": "",
+     "date": "2027-03-30",
+     "type": "Assaig"
     },
     {
+     "date": "2027-04-01",
+     "end": "22:30",
+     "id": "oc-whitacre-a14",
      "place": "",
+     "type": "Assaig",
+     "time": "20:30",
+     "note": ""
+    },
+    {
+     "date": "2027-04-06",
+     "type": "Assaig",
+     "end": "22:30",
+     "time": "20:30",
+     "id": "oc-whitacre-a15",
+     "place": "",
+     "note": ""
+    },
+    {
      "note": "",
      "id": "oc-whitacre-a16",
-     "date": "2027-04-08",
+     "place": "",
      "time": "20:30",
+     "end": "22:30",
      "type": "Assaig",
-     "end": "22:30"
+     "date": "2027-04-08"
     },
     {
-     "end": "",
-     "time": "12:00",
      "date": "2027-04-11",
+     "id": "oc-whitacre-01",
+     "end": "",
      "type": "Concert",
+     "time": "12:00",
      "place": "Palau de la Música Catalana",
-     "note": "Amb Eric Whitacre i els cors de l’Escola Coral de l’Orfeó Català · La Casa dels Cants",
-     "id": "oc-whitacre-01"
+     "note": "Amb Eric Whitacre i els cors de l’Escola Coral de l’Orfeó Català · La Casa dels Cants"
     }
    ],
+   "end": "2027-04-11",
    "id": "oc-whitacre",
    "name": "Obres de Whitacre",
-   "start": "2027-02-16",
-   "end": "2027-04-11",
    "syncAt": "2026-10-09T00:24:28.636Z"
   }
  ],
@@ -2043,232 +2045,232 @@
  "rsvp": [],
  "subs": [
   {
+   "auto": true,
+   "at": "2026-10-09T01:12:51.090Z",
+   "section": "B",
+   "date": "2026-10-10",
    "until": 1791712800000,
    "memberName": "Balaguer Ribera, Narcís",
+   "prodId": "oc-adams",
    "memberId": "oc-B10",
-   "sessionId": "oc-adams-01",
-   "auto": true,
+   "by": "quinglesdavipol@gmail.com",
+   "sessionId": "oc-adams-01"
+  },
+  {
+   "prodId": "oc-adams",
+   "memberName": "Cuscó Marsal, Joan",
    "date": "2026-10-10",
+   "sessionId": "oc-adams-01",
+   "at": "2026-10-09T01:12:51.090Z",
+   "auto": true,
+   "section": "T",
+   "memberId": "oc-T13",
+   "by": "quinglesdavipol@gmail.com",
+   "until": 1791712800000
+  },
+  {
+   "by": "quinglesdavipol@gmail.com",
+   "date": "2026-10-12",
+   "at": "2026-10-09T01:12:51.090Z",
+   "prodId": "oc-adams",
    "section": "B",
+   "memberName": "Balaguer Ribera, Narcís",
+   "until": 1791885600000,
+   "sessionId": "oc-adams-02",
+   "auto": true,
+   "memberId": "oc-B10"
+  },
+  {
+   "sessionId": "oc-adams-02",
+   "memberName": "Cuscó Marsal, Joan",
    "prodId": "oc-adams",
    "by": "quinglesdavipol@gmail.com",
+   "memberId": "oc-T13",
+   "auto": true,
+   "until": 1791885600000,
+   "date": "2026-10-12",
+   "section": "T",
    "at": "2026-10-09T01:12:51.090Z"
   },
   {
-   "by": "quinglesdavipol@gmail.com",
-   "until": 1791712800000,
-   "memberId": "oc-T13",
-   "section": "T",
    "at": "2026-10-09T01:12:51.090Z",
-   "prodId": "oc-adams",
-   "auto": true,
-   "sessionId": "oc-adams-01",
-   "memberName": "Cuscó Marsal, Joan",
-   "date": "2026-10-10"
-  },
-  {
-   "section": "B",
-   "memberName": "Balaguer Ribera, Narcís",
-   "memberId": "oc-B10",
-   "by": "quinglesdavipol@gmail.com",
-   "auto": true,
-   "prodId": "oc-adams",
-   "date": "2026-10-12",
-   "at": "2026-10-09T01:12:51.090Z",
-   "sessionId": "oc-adams-02",
-   "until": 1791885600000
-  },
-  {
-   "memberId": "oc-T13",
-   "prodId": "oc-adams",
-   "date": "2026-10-12",
-   "auto": true,
-   "until": 1791885600000,
-   "section": "T",
-   "memberName": "Cuscó Marsal, Joan",
-   "at": "2026-10-09T01:12:51.090Z",
-   "by": "quinglesdavipol@gmail.com",
-   "sessionId": "oc-adams-02"
-  },
-  {
-   "auto": true,
-   "by": "quinglesdavipol@gmail.com",
-   "section": "B",
    "date": "2026-10-13",
    "prodId": "oc-adams",
-   "at": "2026-10-09T01:12:51.090Z",
    "memberName": "Balaguer Ribera, Narcís",
    "until": 1791972000000,
+   "section": "B",
    "memberId": "oc-B10",
-   "sessionId": "oc-adams-03"
-  },
-  {
    "by": "quinglesdavipol@gmail.com",
-   "memberId": "oc-T13",
-   "auto": true,
-   "date": "2026-10-13",
-   "at": "2026-10-09T01:12:51.090Z",
    "sessionId": "oc-adams-03",
-   "memberName": "Cuscó Marsal, Joan",
-   "until": 1791972000000,
-   "prodId": "oc-adams",
-   "section": "T"
-  },
-  {
-   "memberName": "Balaguer Ribera, Narcís",
-   "auto": true,
-   "until": 1792490400000,
-   "date": "2026-10-19",
-   "prodId": "oc-adams",
-   "by": "quinglesdavipol@gmail.com",
-   "memberId": "oc-B10",
-   "sessionId": "oc-adams-04",
-   "at": "2026-10-09T01:12:51.090Z",
-   "section": "B"
-  },
-  {
-   "memberName": "Cuscó Marsal, Joan",
-   "until": 1792490400000,
-   "memberId": "oc-T13",
-   "at": "2026-10-09T01:12:51.090Z",
-   "date": "2026-10-19",
-   "prodId": "oc-adams",
-   "auto": true,
-   "sessionId": "oc-adams-04",
-   "section": "T",
-   "by": "quinglesdavipol@gmail.com"
-  },
-  {
-   "sessionId": "oc-adams-05",
-   "prodId": "oc-adams",
-   "section": "B",
-   "memberId": "oc-B10",
-   "by": "quinglesdavipol@gmail.com",
-   "until": 1792749600000,
-   "memberName": "Balaguer Ribera, Narcís",
-   "at": "2026-10-09T01:12:51.090Z",
-   "auto": true,
-   "date": "2026-10-22"
-  },
-  {
-   "at": "2026-10-09T01:12:51.090Z",
-   "date": "2026-10-22",
-   "by": "quinglesdavipol@gmail.com",
-   "auto": true,
-   "section": "T",
-   "until": 1792749600000,
-   "memberName": "Cuscó Marsal, Joan",
-   "prodId": "oc-adams",
-   "sessionId": "oc-adams-05",
-   "memberId": "oc-T13"
-  },
-  {
-   "memberId": "oc-B02",
-   "auto": true,
-   "date": "2026-11-13",
-   "sessionId": "oc-mahler2-01",
-   "memberName": "Gasull Giralt, Ernest",
-   "until": 1794654000000,
-   "by": "quinglesdavipol@gmail.com",
-   "prodId": "oc-mahler2",
-   "at": "2026-10-09T01:12:59.432Z",
-   "section": "B"
-  },
-  {
-   "at": "2026-10-09T01:12:59.432Z",
-   "date": "2026-11-14",
-   "by": "quinglesdavipol@gmail.com",
-   "prodId": "oc-mahler2",
-   "auto": true,
-   "sessionId": "oc-mahler2-02",
-   "memberId": "oc-B02",
-   "until": 1794740400000,
-   "section": "B",
-   "memberName": "Gasull Giralt, Ernest"
-  },
-  {
-   "memberName": "Gasull Giralt, Ernest",
-   "memberId": "oc-B02",
-   "prodId": "oc-mahler2",
-   "section": "B",
-   "until": 1793185200000,
-   "sessionId": "oc-mahler2-a01",
-   "at": "2026-10-09T01:12:59.432Z",
-   "by": "quinglesdavipol@gmail.com",
-   "date": "2026-10-27",
    "auto": true
   },
   {
+   "by": "quinglesdavipol@gmail.com",
+   "prodId": "oc-adams",
+   "auto": true,
+   "at": "2026-10-09T01:12:51.090Z",
+   "until": 1791972000000,
+   "date": "2026-10-13",
+   "section": "T",
+   "sessionId": "oc-adams-03",
+   "memberId": "oc-T13",
+   "memberName": "Cuscó Marsal, Joan"
+  },
+  {
+   "memberName": "Balaguer Ribera, Narcís",
+   "date": "2026-10-19",
+   "by": "quinglesdavipol@gmail.com",
+   "sessionId": "oc-adams-04",
+   "prodId": "oc-adams",
+   "section": "B",
+   "at": "2026-10-09T01:12:51.090Z",
+   "until": 1792490400000,
+   "memberId": "oc-B10",
+   "auto": true
+  },
+  {
+   "auto": true,
+   "memberName": "Cuscó Marsal, Joan",
+   "at": "2026-10-09T01:12:51.090Z",
+   "memberId": "oc-T13",
+   "section": "T",
+   "by": "quinglesdavipol@gmail.com",
+   "until": 1792490400000,
+   "prodId": "oc-adams",
+   "sessionId": "oc-adams-04",
+   "date": "2026-10-19"
+  },
+  {
+   "by": "quinglesdavipol@gmail.com",
+   "memberName": "Balaguer Ribera, Narcís",
+   "date": "2026-10-22",
+   "until": 1792749600000,
+   "sessionId": "oc-adams-05",
+   "at": "2026-10-09T01:12:51.090Z",
+   "memberId": "oc-B10",
+   "section": "B",
+   "prodId": "oc-adams",
+   "auto": true
+  },
+  {
+   "memberId": "oc-T13",
+   "until": 1792749600000,
+   "by": "quinglesdavipol@gmail.com",
+   "sessionId": "oc-adams-05",
+   "prodId": "oc-adams",
+   "auto": true,
+   "at": "2026-10-09T01:12:51.090Z",
+   "date": "2026-10-22",
+   "memberName": "Cuscó Marsal, Joan",
+   "section": "T"
+  },
+  {
+   "section": "B",
+   "sessionId": "oc-mahler2-01",
    "memberId": "oc-B02",
    "memberName": "Gasull Giralt, Ernest",
    "at": "2026-10-09T01:12:59.432Z",
-   "date": "2026-10-29",
    "auto": true,
+   "date": "2026-11-13",
+   "until": 1794654000000,
+   "prodId": "oc-mahler2",
+   "by": "quinglesdavipol@gmail.com"
+  },
+  {
+   "sessionId": "oc-mahler2-02",
+   "prodId": "oc-mahler2",
+   "date": "2026-11-14",
+   "memberName": "Gasull Giralt, Ernest",
+   "at": "2026-10-09T01:12:59.432Z",
    "section": "B",
+   "memberId": "oc-B02",
+   "by": "quinglesdavipol@gmail.com",
+   "auto": true,
+   "until": 1794740400000
+  },
+  {
+   "section": "B",
+   "memberId": "oc-B02",
+   "at": "2026-10-09T01:12:59.432Z",
+   "date": "2026-10-27",
+   "memberName": "Gasull Giralt, Ernest",
+   "sessionId": "oc-mahler2-a01",
+   "auto": true,
+   "prodId": "oc-mahler2",
+   "by": "quinglesdavipol@gmail.com",
+   "until": 1793185200000
+  },
+  {
+   "memberId": "oc-B02",
    "sessionId": "oc-mahler2-a02",
+   "memberName": "Gasull Giralt, Ernest",
+   "prodId": "oc-mahler2",
    "by": "quinglesdavipol@gmail.com",
    "until": 1793358000000,
-   "prodId": "oc-mahler2"
+   "date": "2026-10-29",
+   "section": "B",
+   "auto": true,
+   "at": "2026-10-09T01:12:59.432Z"
   },
   {
    "by": "quinglesdavipol@gmail.com",
-   "section": "B",
-   "at": "2026-10-09T01:12:59.432Z",
-   "sessionId": "oc-mahler2-a03",
-   "auto": true,
-   "date": "2026-11-03",
    "memberName": "Gasull Giralt, Ernest",
+   "sessionId": "oc-mahler2-a03",
+   "date": "2026-11-03",
    "memberId": "oc-B02",
+   "prodId": "oc-mahler2",
+   "at": "2026-10-09T01:12:59.432Z",
+   "section": "B",
    "until": 1793790000000,
-   "prodId": "oc-mahler2"
+   "auto": true
   },
   {
-   "memberName": "Gasull Giralt, Ernest",
+   "by": "quinglesdavipol@gmail.com",
+   "prodId": "oc-mahler2",
+   "sessionId": "oc-mahler2-a04",
+   "date": "2026-11-05",
+   "memberId": "oc-B02",
+   "section": "B",
+   "at": "2026-10-09T01:12:59.432Z",
    "until": 1793962800000,
    "auto": true,
-   "by": "quinglesdavipol@gmail.com",
-   "memberId": "oc-B02",
-   "prodId": "oc-mahler2",
-   "date": "2026-11-05",
-   "at": "2026-10-09T01:12:59.432Z",
-   "section": "B",
-   "sessionId": "oc-mahler2-a04"
+   "memberName": "Gasull Giralt, Ernest"
   },
   {
-   "sessionId": "oc-mahler2-a05",
    "section": "B",
-   "prodId": "oc-mahler2",
-   "until": 1794394800000,
    "memberId": "oc-B02",
-   "by": "quinglesdavipol@gmail.com",
-   "memberName": "Gasull Giralt, Ernest",
-   "at": "2026-10-09T01:12:59.432Z",
    "auto": true,
+   "by": "quinglesdavipol@gmail.com",
+   "until": 1794394800000,
+   "prodId": "oc-mahler2",
+   "at": "2026-10-09T01:12:59.432Z",
+   "memberName": "Gasull Giralt, Ernest",
+   "sessionId": "oc-mahler2-a05",
    "date": "2026-11-10"
   },
   {
+   "at": "2026-10-09T01:12:59.432Z",
+   "section": "B",
+   "sessionId": "oc-mahler2-a06",
    "date": "2026-11-12",
    "memberName": "Gasull Giralt, Ernest",
-   "at": "2026-10-09T01:12:59.432Z",
+   "memberId": "oc-B02",
    "auto": true,
-   "section": "B",
    "by": "quinglesdavipol@gmail.com",
-   "until": 1794567600000,
    "prodId": "oc-mahler2",
-   "sessionId": "oc-mahler2-a06",
-   "memberId": "oc-B02"
+   "until": 1794567600000
   }
  ],
  "staff": [
   {
-   "email": "quinglesdavipol@gmail.com",
    "addedAt": "2026-10-08T23:46:37.310Z",
    "name": "Pol Quingles",
-   "lastSeen": "2026-10-12T23:52:40.055Z",
    "roles": [
     "admin"
    ],
-   "role": "admin"
+   "email": "quinglesdavipol@gmail.com",
+   "role": "admin",
+   "lastSeen": "2026-10-13T09:35:49.834Z"
   }
  ],
  "announcements": [],
@@ -2291,1233 +2293,1233 @@
  "prodChoice": [
   {
    "memberId": "oc-B01",
-   "at": "2026-10-08T23:47:58.094Z",
    "prods": {
-    "oc-adams": "no",
     "oc-participatiu": "yes",
+    "oc-elies": "no",
     "oc-whitacre": "yes",
     "oc-santesteve": "yes",
-    "oc-novena": "yes",
-    "oc-elies": "no",
+    "oc-anticcantaire": "yes",
     "oc-mahler2": "yes",
-    "oc-anticcantaire": "yes"
+    "oc-adams": "no",
+    "oc-novena": "yes"
    },
+   "at": "2026-10-08T23:47:58.094Z",
    "by": "quinglesdavipol@gmail.com"
   },
   {
+   "memberId": "oc-B02",
    "by": "quinglesdavipol@gmail.com",
+   "at": "2026-10-08T23:47:58.094Z",
    "prods": {
-    "oc-novena": "yes",
+    "oc-mahler2": "yes",
+    "oc-anticcantaire": "yes",
     "oc-participatiu": "no",
+    "oc-santesteve": "yes",
     "oc-adams": "no",
     "oc-whitacre": "no",
+    "oc-elies": "yes",
+    "oc-novena": "yes"
+   }
+  },
+  {
+   "prods": {
+    "oc-adams": "no",
+    "oc-whitacre": "yes",
+    "oc-santesteve": "yes",
+    "oc-participatiu": "yes",
     "oc-mahler2": "yes",
     "oc-elies": "yes",
-    "oc-santesteve": "yes",
-    "oc-anticcantaire": "yes"
+    "oc-novena": "no",
+    "oc-anticcantaire": "no"
    },
-   "memberId": "oc-B02",
+   "memberId": "oc-B03",
+   "at": "2026-10-08T23:47:58.094Z",
+   "by": "quinglesdavipol@gmail.com"
+  },
+  {
+   "memberId": "oc-B04",
+   "prods": {
+    "oc-anticcantaire": "yes",
+    "oc-elies": "yes",
+    "oc-mahler2": "yes",
+    "oc-santesteve": "no",
+    "oc-whitacre": "yes",
+    "oc-adams": "no",
+    "oc-participatiu": "no",
+    "oc-novena": "yes"
+   },
+   "by": "quinglesdavipol@gmail.com",
    "at": "2026-10-08T23:47:58.094Z"
   },
   {
-   "memberId": "oc-B03",
-   "at": "2026-10-08T23:47:58.094Z",
-   "by": "quinglesdavipol@gmail.com",
    "prods": {
-    "oc-adams": "no",
-    "oc-anticcantaire": "no",
-    "oc-novena": "no",
-    "oc-santesteve": "yes",
-    "oc-whitacre": "yes",
-    "oc-mahler2": "yes",
-    "oc-participatiu": "yes",
-    "oc-elies": "yes"
-   }
-  },
-  {
-   "by": "quinglesdavipol@gmail.com",
-   "prods": {
-    "oc-santesteve": "no",
-    "oc-adams": "no",
-    "oc-novena": "yes",
-    "oc-elies": "yes",
-    "oc-whitacre": "yes",
     "oc-anticcantaire": "yes",
     "oc-mahler2": "yes",
-    "oc-participatiu": "no"
-   },
-   "at": "2026-10-08T23:47:58.094Z",
-   "memberId": "oc-B04"
-  },
-  {
-   "memberId": "oc-B05",
-   "prods": {
-    "oc-santesteve": "yes",
     "oc-novena": "yes",
+    "oc-whitacre": "no",
+    "oc-elies": "yes",
     "oc-adams": "yes",
-    "oc-mahler2": "yes",
     "oc-participatiu": "yes",
-    "oc-elies": "yes",
-    "oc-anticcantaire": "yes",
-    "oc-whitacre": "no"
-   },
-   "at": "2026-10-08T23:47:58.094Z",
-   "by": "quinglesdavipol@gmail.com"
-  },
-  {
-   "at": "2026-10-08T23:47:58.094Z",
-   "prods": {
-    "oc-elies": "no",
-    "oc-participatiu": "no",
-    "oc-whitacre": "yes",
-    "oc-mahler2": "yes",
-    "oc-santesteve": "yes",
-    "oc-adams": "yes",
-    "oc-novena": "yes",
-    "oc-anticcantaire": "no"
-   },
-   "memberId": "oc-B06",
-   "by": "quinglesdavipol@gmail.com"
-  },
-  {
-   "by": "quinglesdavipol@gmail.com",
-   "prods": {
-    "oc-santesteve": "yes",
-    "oc-novena": "yes",
-    "oc-adams": "no",
-    "oc-participatiu": "no",
-    "oc-anticcantaire": "yes",
-    "oc-mahler2": "yes",
-    "oc-elies": "yes",
-    "oc-whitacre": "yes"
-   },
-   "at": "2026-10-08T23:47:58.094Z",
-   "memberId": "oc-B07"
-  },
-  {
-   "prods": {
-    "oc-participatiu": "yes",
-    "oc-novena": "no",
-    "oc-mahler2": "yes",
-    "oc-anticcantaire": "yes",
-    "oc-elies": "yes",
-    "oc-whitacre": "yes",
-    "oc-adams": "no",
     "oc-santesteve": "yes"
    },
-   "by": "quinglesdavipol@gmail.com",
    "at": "2026-10-08T23:47:58.094Z",
-   "memberId": "oc-B08"
+   "by": "quinglesdavipol@gmail.com",
+   "memberId": "oc-B05"
   },
   {
+   "memberId": "oc-B06",
+   "prods": {
+    "oc-adams": "yes",
+    "oc-whitacre": "yes",
+    "oc-participatiu": "no",
+    "oc-mahler2": "yes",
+    "oc-santesteve": "yes",
+    "oc-novena": "yes",
+    "oc-elies": "no",
+    "oc-anticcantaire": "no"
+   },
    "at": "2026-10-08T23:47:58.094Z",
+   "by": "quinglesdavipol@gmail.com"
+  },
+  {
+   "prods": {
+    "oc-adams": "no",
+    "oc-mahler2": "yes",
+    "oc-participatiu": "no",
+    "oc-whitacre": "yes",
+    "oc-elies": "yes",
+    "oc-novena": "yes",
+    "oc-anticcantaire": "yes",
+    "oc-santesteve": "yes"
+   },
+   "memberId": "oc-B07",
    "by": "quinglesdavipol@gmail.com",
-   "memberId": "oc-B09",
+   "at": "2026-10-08T23:47:58.094Z"
+  },
+  {
+   "memberId": "oc-B08",
    "prods": {
     "oc-novena": "no",
+    "oc-whitacre": "yes",
+    "oc-adams": "no",
+    "oc-mahler2": "yes",
+    "oc-participatiu": "yes",
     "oc-anticcantaire": "yes",
+    "oc-santesteve": "yes",
+    "oc-elies": "yes"
+   },
+   "at": "2026-10-08T23:47:58.094Z",
+   "by": "quinglesdavipol@gmail.com"
+  },
+  {
+   "memberId": "oc-B09",
+   "at": "2026-10-08T23:47:58.094Z",
+   "by": "quinglesdavipol@gmail.com",
+   "prods": {
+    "oc-participatiu": "yes",
+    "oc-whitacre": "yes",
+    "oc-novena": "no",
     "oc-adams": "yes",
     "oc-mahler2": "yes",
-    "oc-whitacre": "yes",
     "oc-santesteve": "yes",
-    "oc-participatiu": "yes",
+    "oc-anticcantaire": "yes",
     "oc-elies": "yes"
    }
   },
   {
-   "at": "2026-10-08T23:47:58.094Z",
-   "memberId": "oc-B10",
    "prods": {
+    "oc-novena": "yes",
+    "oc-adams": "yes",
     "oc-whitacre": "yes",
+    "oc-santesteve": "yes",
     "oc-participatiu": "no",
     "oc-elies": "yes",
-    "oc-santesteve": "yes",
     "oc-anticcantaire": "yes",
-    "oc-adams": "yes",
-    "oc-mahler2": "no",
-    "oc-novena": "yes"
-   },
-   "by": "quinglesdavipol@gmail.com"
-  },
-  {
-   "by": "quinglesdavipol@gmail.com",
-   "prods": {
-    "oc-adams": "yes",
-    "oc-participatiu": "yes",
-    "oc-mahler2": "yes",
-    "oc-anticcantaire": "no",
-    "oc-novena": "yes",
-    "oc-santesteve": "yes",
-    "oc-whitacre": "no",
-    "oc-elies": "no"
+    "oc-mahler2": "no"
    },
    "at": "2026-10-08T23:47:58.094Z",
+   "by": "quinglesdavipol@gmail.com",
+   "memberId": "oc-B10"
+  },
+  {
+   "prods": {
+    "oc-whitacre": "no",
+    "oc-santesteve": "yes",
+    "oc-anticcantaire": "no",
+    "oc-mahler2": "yes",
+    "oc-elies": "no",
+    "oc-novena": "yes",
+    "oc-participatiu": "yes",
+    "oc-adams": "yes"
+   },
+   "at": "2026-10-08T23:47:58.094Z",
+   "by": "quinglesdavipol@gmail.com",
    "memberId": "oc-B11"
   },
   {
    "prods": {
-    "oc-participatiu": "yes",
-    "oc-santesteve": "yes",
-    "oc-elies": "no",
-    "oc-whitacre": "no",
-    "oc-mahler2": "yes",
-    "oc-adams": "yes",
+    "oc-anticcantaire": "no",
     "oc-novena": "yes",
-    "oc-anticcantaire": "no"
+    "oc-adams": "yes",
+    "oc-santesteve": "yes",
+    "oc-participatiu": "yes",
+    "oc-elies": "no",
+    "oc-mahler2": "yes",
+    "oc-whitacre": "no"
    },
-   "at": "2026-10-08T23:47:58.094Z",
    "by": "quinglesdavipol@gmail.com",
+   "at": "2026-10-08T23:47:58.094Z",
    "memberId": "oc-B12"
   },
   {
-   "memberId": "oc-B13",
    "at": "2026-10-08T23:47:58.094Z",
+   "by": "quinglesdavipol@gmail.com",
+   "memberId": "oc-B13",
    "prods": {
-    "oc-participatiu": "yes",
-    "oc-adams": "yes",
     "oc-mahler2": "yes",
     "oc-novena": "yes",
+    "oc-adams": "yes",
     "oc-santesteve": "yes",
-    "oc-elies": "yes",
+    "oc-participatiu": "yes",
     "oc-whitacre": "no",
+    "oc-elies": "yes",
     "oc-anticcantaire": "no"
-   },
-   "by": "quinglesdavipol@gmail.com"
+   }
   },
   {
    "at": "2026-10-08T23:47:58.094Z",
    "by": "quinglesdavipol@gmail.com",
-   "memberId": "oc-B14",
    "prods": {
-    "oc-novena": "yes",
-    "oc-adams": "yes",
-    "oc-santesteve": "yes",
-    "oc-whitacre": "yes",
-    "oc-mahler2": "yes",
     "oc-anticcantaire": "no",
-    "oc-participatiu": "no",
-    "oc-elies": "yes"
+    "oc-elies": "yes",
+    "oc-santesteve": "yes",
+    "oc-novena": "yes",
+    "oc-mahler2": "yes",
+    "oc-whitacre": "yes",
+    "oc-adams": "yes",
+    "oc-participatiu": "no"
+   },
+   "memberId": "oc-B14"
+  },
+  {
+   "at": "2026-10-08T23:47:58.094Z",
+   "by": "quinglesdavipol@gmail.com",
+   "memberId": "oc-B15",
+   "prods": {
+    "oc-novena": "no",
+    "oc-adams": "no",
+    "oc-whitacre": "yes",
+    "oc-participatiu": "yes",
+    "oc-santesteve": "yes",
+    "oc-anticcantaire": "no",
+    "oc-elies": "yes",
+    "oc-mahler2": "yes"
+   }
+  },
+  {
+   "at": "2026-10-08T23:47:58.094Z",
+   "by": "quinglesdavipol@gmail.com",
+   "memberId": "oc-B16",
+   "prods": {
+    "oc-anticcantaire": "no",
+    "oc-whitacre": "yes",
+    "oc-elies": "yes",
+    "oc-santesteve": "yes",
+    "oc-mahler2": "yes",
+    "oc-adams": "yes",
+    "oc-novena": "yes",
+    "oc-participatiu": "no"
    }
   },
   {
    "prods": {
-    "oc-santesteve": "yes",
-    "oc-participatiu": "yes",
-    "oc-elies": "yes",
-    "oc-novena": "no",
     "oc-mahler2": "yes",
-    "oc-anticcantaire": "no",
-    "oc-adams": "no",
-    "oc-whitacre": "yes"
-   },
-   "at": "2026-10-08T23:47:58.094Z",
-   "by": "quinglesdavipol@gmail.com",
-   "memberId": "oc-B15"
-  },
-  {
-   "memberId": "oc-B16",
-   "at": "2026-10-08T23:47:58.094Z",
-   "prods": {
-    "oc-mahler2": "yes",
-    "oc-elies": "yes",
-    "oc-novena": "yes",
-    "oc-santesteve": "yes",
-    "oc-whitacre": "yes",
-    "oc-adams": "yes",
-    "oc-anticcantaire": "no",
-    "oc-participatiu": "no"
-   },
-   "by": "quinglesdavipol@gmail.com"
-  },
-  {
-   "prods": {
-    "oc-santesteve": "yes",
-    "oc-novena": "yes",
-    "oc-participatiu": "no",
-    "oc-adams": "no",
     "oc-whitacre": "no",
     "oc-elies": "yes",
-    "oc-anticcantaire": "yes",
-    "oc-mahler2": "yes"
-   },
-   "at": "2026-10-08T23:47:58.094Z",
-   "memberId": "oc-B17",
-   "by": "quinglesdavipol@gmail.com"
-  },
-  {
-   "by": "quinglesdavipol@gmail.com",
-   "prods": {
-    "oc-whitacre": "yes",
-    "oc-participatiu": "yes",
-    "oc-novena": "yes",
-    "oc-elies": "yes",
-    "oc-adams": "no",
-    "oc-mahler2": "yes",
-    "oc-anticcantaire": "yes",
-    "oc-santesteve": "yes"
-   },
-   "memberId": "oc-B18",
-   "at": "2026-10-08T23:47:58.094Z"
-  },
-  {
-   "by": "quinglesdavipol@gmail.com",
-   "memberId": "oc-B19",
-   "at": "2026-10-08T23:47:58.094Z",
-   "prods": {
-    "oc-adams": "yes",
-    "oc-whitacre": "yes",
-    "oc-mahler2": "yes",
-    "oc-anticcantaire": "yes",
-    "oc-elies": "yes",
-    "oc-participatiu": "no",
     "oc-santesteve": "yes",
+    "oc-anticcantaire": "yes",
+    "oc-adams": "no",
+    "oc-novena": "yes",
+    "oc-participatiu": "no"
+   },
+   "at": "2026-10-08T23:47:58.094Z",
+   "by": "quinglesdavipol@gmail.com",
+   "memberId": "oc-B17"
+  },
+  {
+   "memberId": "oc-B18",
+   "at": "2026-10-08T23:47:58.094Z",
+   "by": "quinglesdavipol@gmail.com",
+   "prods": {
+    "oc-whitacre": "yes",
+    "oc-mahler2": "yes",
+    "oc-elies": "yes",
+    "oc-participatiu": "yes",
+    "oc-santesteve": "yes",
+    "oc-anticcantaire": "yes",
+    "oc-adams": "no",
     "oc-novena": "yes"
    }
   },
   {
+   "prods": {
+    "oc-anticcantaire": "yes",
+    "oc-adams": "yes",
+    "oc-santesteve": "yes",
+    "oc-whitacre": "yes",
+    "oc-participatiu": "no",
+    "oc-mahler2": "yes",
+    "oc-elies": "yes",
+    "oc-novena": "yes"
+   },
+   "memberId": "oc-B19",
    "at": "2026-10-08T23:47:58.094Z",
+   "by": "quinglesdavipol@gmail.com"
+  },
+  {
+   "at": "2026-10-08T23:47:58.094Z",
+   "by": "quinglesdavipol@gmail.com",
    "prods": {
     "oc-participatiu": "yes",
+    "oc-anticcantaire": "yes",
+    "oc-santesteve": "yes",
+    "oc-whitacre": "yes",
+    "oc-elies": "yes",
     "oc-mahler2": "yes",
     "oc-adams": "no",
-    "oc-santesteve": "yes",
-    "oc-elies": "yes",
-    "oc-novena": "yes",
-    "oc-whitacre": "yes",
-    "oc-anticcantaire": "yes"
+    "oc-novena": "yes"
    },
-   "memberId": "oc-B20",
-   "by": "quinglesdavipol@gmail.com"
+   "memberId": "oc-B20"
   },
   {
    "memberId": "oc-B21",
+   "at": "2026-10-08T23:47:58.094Z",
+   "by": "quinglesdavipol@gmail.com",
    "prods": {
-    "oc-whitacre": "yes",
-    "oc-elies": "no",
-    "oc-mahler2": "yes",
-    "oc-adams": "yes",
     "oc-anticcantaire": "yes",
     "oc-novena": "yes",
+    "oc-santesteve": "yes",
+    "oc-adams": "yes",
     "oc-participatiu": "no",
-    "oc-santesteve": "yes"
+    "oc-mahler2": "yes",
+    "oc-elies": "no",
+    "oc-whitacre": "yes"
+   }
+  },
+  {
+   "prods": {
+    "oc-anticcantaire": "yes",
+    "oc-novena": "yes",
+    "oc-whitacre": "no",
+    "oc-adams": "no",
+    "oc-mahler2": "yes",
+    "oc-santesteve": "yes",
+    "oc-participatiu": "no",
+    "oc-elies": "yes"
    },
+   "memberId": "oc-B22",
    "by": "quinglesdavipol@gmail.com",
    "at": "2026-10-08T23:47:58.094Z"
   },
   {
-   "memberId": "oc-B22",
-   "by": "quinglesdavipol@gmail.com",
    "at": "2026-10-08T23:47:58.094Z",
+   "by": "quinglesdavipol@gmail.com",
    "prods": {
     "oc-mahler2": "yes",
+    "oc-adams": "no",
+    "oc-anticcantaire": "no",
+    "oc-novena": "yes",
     "oc-elies": "yes",
     "oc-santesteve": "yes",
-    "oc-anticcantaire": "yes",
-    "oc-whitacre": "no",
+    "oc-whitacre": "yes",
+    "oc-participatiu": "no"
+   },
+   "memberId": "oc-B23"
+  },
+  {
+   "at": "2026-10-08T23:47:58.094Z",
+   "by": "quinglesdavipol@gmail.com",
+   "memberId": "oc-B24",
+   "prods": {
+    "oc-santesteve": "yes",
+    "oc-elies": "yes",
+    "oc-whitacre": "yes",
+    "oc-mahler2": "yes",
     "oc-novena": "yes",
-    "oc-participatiu": "no",
-    "oc-adams": "no"
+    "oc-adams": "no",
+    "oc-participatiu": "yes",
+    "oc-anticcantaire": "yes"
    }
   },
   {
    "prods": {
-    "oc-novena": "yes",
-    "oc-adams": "no",
     "oc-santesteve": "yes",
-    "oc-participatiu": "no",
-    "oc-mahler2": "yes",
-    "oc-whitacre": "yes",
+    "oc-novena": "yes",
+    "oc-participatiu": "yes",
+    "oc-mahler2": "no",
+    "oc-adams": "no",
     "oc-anticcantaire": "no",
+    "oc-whitacre": "yes",
     "oc-elies": "yes"
    },
+   "memberId": "oc-B25",
    "at": "2026-10-08T23:47:58.094Z",
-   "memberId": "oc-B23",
    "by": "quinglesdavipol@gmail.com"
   },
   {
-   "at": "2026-10-08T23:47:58.094Z",
-   "memberId": "oc-B24",
-   "by": "quinglesdavipol@gmail.com",
    "prods": {
-    "oc-participatiu": "yes",
-    "oc-santesteve": "yes",
     "oc-anticcantaire": "yes",
-    "oc-novena": "yes",
-    "oc-adams": "no",
-    "oc-whitacre": "yes",
-    "oc-mahler2": "yes",
-    "oc-elies": "yes"
-   }
-  },
-  {
-   "prods": {
-    "oc-participatiu": "yes",
     "oc-elies": "yes",
-    "oc-santesteve": "yes",
-    "oc-anticcantaire": "no",
     "oc-mahler2": "no",
-    "oc-whitacre": "yes",
-    "oc-adams": "no",
-    "oc-novena": "yes"
-   },
-   "by": "quinglesdavipol@gmail.com",
-   "at": "2026-10-08T23:47:58.094Z",
-   "memberId": "oc-B25"
-  },
-  {
-   "at": "2026-10-08T23:47:58.094Z",
-   "memberId": "oc-B26",
-   "prods": {
-    "oc-participatiu": "yes",
-    "oc-elies": "yes",
-    "oc-anticcantaire": "yes",
     "oc-novena": "yes",
-    "oc-mahler2": "no",
+    "oc-participatiu": "yes",
     "oc-whitacre": "yes",
     "oc-adams": "yes",
     "oc-santesteve": "no"
    },
-   "by": "quinglesdavipol@gmail.com"
+   "by": "quinglesdavipol@gmail.com",
+   "at": "2026-10-08T23:47:58.094Z",
+   "memberId": "oc-B26"
   },
   {
+   "at": "2026-10-08T23:47:58.094Z",
    "by": "quinglesdavipol@gmail.com",
-   "memberId": "oc-B27",
    "prods": {
-    "oc-whitacre": "yes",
-    "oc-adams": "no",
-    "oc-participatiu": "yes",
-    "oc-santesteve": "yes",
     "oc-novena": "yes",
+    "oc-santesteve": "yes",
+    "oc-adams": "no",
+    "oc-whitacre": "yes",
+    "oc-participatiu": "yes",
     "oc-mahler2": "no",
     "oc-elies": "yes",
     "oc-anticcantaire": "no"
    },
-   "at": "2026-10-08T23:47:58.094Z"
+   "memberId": "oc-B27"
   },
   {
-   "by": "quinglesdavipol@gmail.com",
    "memberId": "oc-B28",
    "prods": {
-    "oc-elies": "yes",
-    "oc-anticcantaire": "yes",
+    "oc-adams": "yes",
+    "oc-mahler2": "yes",
     "oc-novena": "yes",
     "oc-participatiu": "yes",
-    "oc-santesteve": "yes",
+    "oc-elies": "yes",
     "oc-whitacre": "no",
-    "oc-mahler2": "yes",
-    "oc-adams": "yes"
+    "oc-anticcantaire": "yes",
+    "oc-santesteve": "yes"
    },
+   "by": "quinglesdavipol@gmail.com",
    "at": "2026-10-08T23:47:58.094Z"
   },
   {
    "at": "2026-10-08T23:47:58.094Z",
    "by": "quinglesdavipol@gmail.com",
    "prods": {
-    "oc-participatiu": "yes",
-    "oc-elies": "yes",
     "oc-mahler2": "no",
-    "oc-santesteve": "yes",
+    "oc-elies": "yes",
     "oc-whitacre": "yes",
+    "oc-anticcantaire": "no",
     "oc-adams": "yes",
+    "oc-santesteve": "yes",
     "oc-novena": "yes",
-    "oc-anticcantaire": "no"
+    "oc-participatiu": "yes"
    },
    "memberId": "oc-B29"
   },
   {
-   "prods": {
-    "oc-adams": "yes",
-    "oc-anticcantaire": "no",
-    "oc-participatiu": "yes",
-    "oc-mahler2": "yes",
-    "oc-whitacre": "no",
-    "oc-santesteve": "yes",
-    "oc-novena": "no",
-    "oc-elies": "yes"
-   },
-   "at": "2026-10-08T23:47:58.094Z",
    "by": "quinglesdavipol@gmail.com",
-   "memberId": "oc-B30"
+   "at": "2026-10-08T23:47:58.094Z",
+   "memberId": "oc-B30",
+   "prods": {
+    "oc-elies": "yes",
+    "oc-mahler2": "yes",
+    "oc-santesteve": "yes",
+    "oc-adams": "yes",
+    "oc-whitacre": "no",
+    "oc-participatiu": "yes",
+    "oc-anticcantaire": "no",
+    "oc-novena": "no"
+   }
   },
   {
+   "at": "2026-10-08T23:47:58.094Z",
+   "by": "quinglesdavipol@gmail.com",
    "prods": {
-    "oc-adams": "no",
-    "oc-novena": "no",
-    "oc-participatiu": "yes",
-    "oc-mahler2": "yes",
+    "oc-santesteve": "yes",
     "oc-anticcantaire": "no",
+    "oc-elies": "yes",
     "oc-whitacre": "yes",
-    "oc-santesteve": "yes",
-    "oc-elies": "yes"
+    "oc-novena": "no",
+    "oc-participatiu": "yes",
+    "oc-adams": "no",
+    "oc-mahler2": "yes"
    },
-   "by": "quinglesdavipol@gmail.com",
-   "memberId": "oc-C01",
-   "at": "2026-10-08T23:47:58.094Z"
+   "memberId": "oc-C01"
   },
   {
-   "at": "2026-10-08T23:47:58.094Z",
-   "by": "quinglesdavipol@gmail.com",
+   "memberId": "oc-C02",
    "prods": {
-    "oc-novena": "yes",
-    "oc-participatiu": "yes",
-    "oc-adams": "yes",
-    "oc-whitacre": "no",
-    "oc-mahler2": "yes",
-    "oc-anticcantaire": "yes",
     "oc-elies": "no",
-    "oc-santesteve": "yes"
+    "oc-anticcantaire": "yes",
+    "oc-novena": "yes",
+    "oc-adams": "yes",
+    "oc-santesteve": "yes",
+    "oc-participatiu": "yes",
+    "oc-mahler2": "yes",
+    "oc-whitacre": "no"
    },
-   "memberId": "oc-C02"
+   "by": "quinglesdavipol@gmail.com",
+   "at": "2026-10-08T23:47:58.094Z"
   },
   {
    "memberId": "oc-C03",
    "by": "quinglesdavipol@gmail.com",
+   "at": "2026-10-08T23:47:58.094Z",
    "prods": {
+    "oc-whitacre": "no",
+    "oc-mahler2": "yes",
     "oc-santesteve": "yes",
     "oc-adams": "no",
-    "oc-elies": "yes",
+    "oc-participatiu": "no",
     "oc-anticcantaire": "yes",
-    "oc-whitacre": "no",
+    "oc-novena": "yes",
+    "oc-elies": "yes"
+   }
+  },
+  {
+   "memberId": "oc-C04",
+   "prods": {
+    "oc-elies": "yes",
+    "oc-santesteve": "yes",
+    "oc-participatiu": "yes",
     "oc-novena": "yes",
     "oc-mahler2": "yes",
-    "oc-participatiu": "no"
+    "oc-adams": "no",
+    "oc-whitacre": "no",
+    "oc-anticcantaire": "no"
    },
+   "by": "quinglesdavipol@gmail.com",
    "at": "2026-10-08T23:47:58.094Z"
   },
   {
+   "memberId": "oc-C05",
    "prods": {
-    "oc-participatiu": "yes",
-    "oc-anticcantaire": "no",
-    "oc-novena": "yes",
-    "oc-mahler2": "yes",
-    "oc-elies": "yes",
-    "oc-adams": "no",
-    "oc-whitacre": "no",
-    "oc-santesteve": "yes"
-   },
-   "at": "2026-10-08T23:47:58.094Z",
-   "memberId": "oc-C04",
-   "by": "quinglesdavipol@gmail.com"
-  },
-  {
-   "at": "2026-10-08T23:47:58.094Z",
-   "prods": {
-    "oc-novena": "yes",
-    "oc-participatiu": "no",
     "oc-adams": "no",
     "oc-anticcantaire": "yes",
-    "oc-santesteve": "yes",
+    "oc-novena": "yes",
     "oc-whitacre": "yes",
+    "oc-santesteve": "yes",
+    "oc-mahler2": "yes",
     "oc-elies": "yes",
-    "oc-mahler2": "yes"
+    "oc-participatiu": "no"
    },
-   "memberId": "oc-C05",
-   "by": "quinglesdavipol@gmail.com"
+   "by": "quinglesdavipol@gmail.com",
+   "at": "2026-10-08T23:47:58.094Z"
   },
   {
    "at": "2026-10-08T23:47:58.094Z",
    "by": "quinglesdavipol@gmail.com",
    "memberId": "oc-C06",
    "prods": {
-    "oc-participatiu": "yes",
-    "oc-novena": "yes",
-    "oc-mahler2": "yes",
     "oc-elies": "yes",
-    "oc-whitacre": "yes",
+    "oc-santesteve": "yes",
+    "oc-novena": "yes",
     "oc-adams": "no",
+    "oc-participatiu": "yes",
+    "oc-whitacre": "yes",
     "oc-anticcantaire": "yes",
-    "oc-santesteve": "yes"
+    "oc-mahler2": "yes"
    }
   },
   {
-   "by": "quinglesdavipol@gmail.com",
    "prods": {
-    "oc-santesteve": "yes",
-    "oc-novena": "no",
-    "oc-mahler2": "no",
-    "oc-elies": "no",
-    "oc-whitacre": "yes",
-    "oc-anticcantaire": "yes",
     "oc-adams": "yes",
-    "oc-participatiu": "yes"
-   },
-   "memberId": "oc-C07",
-   "at": "2026-10-08T23:47:58.094Z"
-  },
-  {
-   "by": "quinglesdavipol@gmail.com",
-   "memberId": "oc-C08",
-   "prods": {
+    "oc-whitacre": "yes",
     "oc-santesteve": "yes",
     "oc-participatiu": "yes",
-    "oc-mahler2": "yes",
-    "oc-novena": "yes",
-    "oc-elies": "yes",
-    "oc-whitacre": "yes",
-    "oc-adams": "no",
+    "oc-elies": "no",
+    "oc-mahler2": "no",
+    "oc-novena": "no",
     "oc-anticcantaire": "yes"
    },
-   "at": "2026-10-08T23:47:58.094Z"
-  },
-  {
-   "by": "quinglesdavipol@gmail.com",
    "at": "2026-10-08T23:47:58.094Z",
-   "prods": {
-    "oc-anticcantaire": "yes",
-    "oc-adams": "yes",
-    "oc-whitacre": "yes",
-    "oc-santesteve": "yes",
-    "oc-participatiu": "no",
-    "oc-mahler2": "yes",
-    "oc-elies": "no",
-    "oc-novena": "yes"
-   },
-   "memberId": "oc-C09"
+   "by": "quinglesdavipol@gmail.com",
+   "memberId": "oc-C07"
   },
   {
    "prods": {
     "oc-mahler2": "yes",
-    "oc-anticcantaire": "no",
+    "oc-santesteve": "yes",
+    "oc-anticcantaire": "yes",
     "oc-elies": "yes",
     "oc-whitacre": "yes",
-    "oc-santesteve": "yes",
-    "oc-participatiu": "no",
+    "oc-participatiu": "yes",
     "oc-novena": "yes",
     "oc-adams": "no"
    },
    "at": "2026-10-08T23:47:58.094Z",
    "by": "quinglesdavipol@gmail.com",
-   "memberId": "oc-C10"
+   "memberId": "oc-C08"
+  },
+  {
+   "prods": {
+    "oc-novena": "yes",
+    "oc-elies": "no",
+    "oc-anticcantaire": "yes",
+    "oc-whitacre": "yes",
+    "oc-participatiu": "no",
+    "oc-santesteve": "yes",
+    "oc-adams": "yes",
+    "oc-mahler2": "yes"
+   },
+   "memberId": "oc-C09",
+   "by": "quinglesdavipol@gmail.com",
+   "at": "2026-10-08T23:47:58.094Z"
   },
   {
    "by": "quinglesdavipol@gmail.com",
+   "at": "2026-10-08T23:47:58.094Z",
+   "memberId": "oc-C10",
    "prods": {
+    "oc-participatiu": "no",
     "oc-santesteve": "yes",
+    "oc-elies": "yes",
+    "oc-mahler2": "yes",
+    "oc-novena": "yes",
     "oc-adams": "no",
+    "oc-anticcantaire": "no",
+    "oc-whitacre": "yes"
+   }
+  },
+  {
+   "prods": {
+    "oc-elies": "yes",
+    "oc-santesteve": "yes",
+    "oc-mahler2": "yes",
     "oc-novena": "yes",
     "oc-participatiu": "yes",
-    "oc-elies": "yes",
+    "oc-adams": "no",
     "oc-whitacre": "no",
-    "oc-mahler2": "yes",
     "oc-anticcantaire": "yes"
    },
    "at": "2026-10-08T23:47:58.094Z",
+   "by": "quinglesdavipol@gmail.com",
    "memberId": "oc-C11"
   },
   {
-   "by": "quinglesdavipol@gmail.com",
    "memberId": "oc-C12",
    "prods": {
+    "oc-participatiu": "yes",
+    "oc-adams": "yes",
     "oc-anticcantaire": "yes",
+    "oc-mahler2": "yes",
     "oc-novena": "yes",
     "oc-santesteve": "no",
-    "oc-mahler2": "yes",
-    "oc-adams": "yes",
-    "oc-elies": "yes",
-    "oc-participatiu": "yes",
-    "oc-whitacre": "yes"
-   },
-   "at": "2026-10-08T23:47:58.094Z"
-  },
-  {
-   "prods": {
-    "oc-santesteve": "yes",
-    "oc-participatiu": "yes",
-    "oc-novena": "yes",
-    "oc-adams": "yes",
-    "oc-anticcantaire": "yes",
-    "oc-mahler2": "yes",
-    "oc-elies": "yes",
-    "oc-whitacre": "yes"
+    "oc-whitacre": "yes",
+    "oc-elies": "yes"
    },
    "by": "quinglesdavipol@gmail.com",
-   "memberId": "oc-C13",
    "at": "2026-10-08T23:47:58.094Z"
   },
   {
-   "at": "2026-10-08T23:47:58.094Z",
+   "memberId": "oc-C13",
    "prods": {
-    "oc-participatiu": "no",
+    "oc-adams": "yes",
     "oc-whitacre": "yes",
+    "oc-participatiu": "yes",
+    "oc-mahler2": "yes",
+    "oc-santesteve": "yes",
+    "oc-anticcantaire": "yes",
     "oc-novena": "yes",
-    "oc-elies": "yes",
+    "oc-elies": "yes"
+   },
+   "at": "2026-10-08T23:47:58.094Z",
+   "by": "quinglesdavipol@gmail.com"
+  },
+  {
+   "prods": {
+    "oc-whitacre": "yes",
+    "oc-participatiu": "no",
+    "oc-mahler2": "yes",
     "oc-santesteve": "yes",
     "oc-adams": "no",
-    "oc-mahler2": "yes",
-    "oc-anticcantaire": "no"
+    "oc-anticcantaire": "no",
+    "oc-novena": "yes",
+    "oc-elies": "yes"
    },
    "memberId": "oc-C14",
-   "by": "quinglesdavipol@gmail.com"
-  },
-  {
-   "prods": {
-    "oc-elies": "yes",
-    "oc-anticcantaire": "yes",
-    "oc-santesteve": "yes",
-    "oc-novena": "yes",
-    "oc-whitacre": "yes",
-    "oc-participatiu": "yes",
-    "oc-mahler2": "yes",
-    "oc-adams": "no"
-   },
    "by": "quinglesdavipol@gmail.com",
-   "memberId": "oc-C15",
    "at": "2026-10-08T23:47:58.094Z"
   },
   {
+   "memberId": "oc-C15",
+   "at": "2026-10-08T23:47:58.094Z",
    "by": "quinglesdavipol@gmail.com",
-   "memberId": "oc-C16",
    "prods": {
+    "oc-novena": "yes",
+    "oc-santesteve": "yes",
+    "oc-elies": "yes",
+    "oc-participatiu": "yes",
+    "oc-anticcantaire": "yes",
+    "oc-mahler2": "yes",
+    "oc-adams": "no",
+    "oc-whitacre": "yes"
+   }
+  },
+  {
+   "at": "2026-10-08T23:47:58.094Z",
+   "by": "quinglesdavipol@gmail.com",
+   "prods": {
+    "oc-elies": "no",
+    "oc-anticcantaire": "no",
     "oc-novena": "yes",
     "oc-adams": "yes",
-    "oc-participatiu": "yes",
     "oc-santesteve": "yes",
+    "oc-whitacre": "yes",
     "oc-mahler2": "yes",
-    "oc-anticcantaire": "no",
-    "oc-elies": "no",
-    "oc-whitacre": "yes"
+    "oc-participatiu": "yes"
    },
-   "at": "2026-10-08T23:47:58.094Z"
+   "memberId": "oc-C16"
   },
   {
    "by": "quinglesdavipol@gmail.com",
-   "memberId": "oc-C17",
-   "prods": {
-    "oc-novena": "yes",
-    "oc-adams": "no",
-    "oc-whitacre": "yes",
-    "oc-santesteve": "yes",
-    "oc-mahler2": "yes",
-    "oc-participatiu": "yes",
-    "oc-elies": "yes",
-    "oc-anticcantaire": "no"
-   },
-   "at": "2026-10-08T23:47:58.094Z"
-  },
-  {
-   "memberId": "oc-C18",
    "at": "2026-10-08T23:47:58.094Z",
    "prods": {
-    "oc-anticcantaire": "yes",
-    "oc-mahler2": "no",
+    "oc-anticcantaire": "no",
+    "oc-elies": "yes",
     "oc-santesteve": "yes",
+    "oc-whitacre": "yes",
+    "oc-mahler2": "yes",
+    "oc-adams": "no",
+    "oc-participatiu": "yes",
+    "oc-novena": "yes"
+   },
+   "memberId": "oc-C17"
+  },
+  {
+   "prods": {
+    "oc-adams": "yes",
+    "oc-mahler2": "no",
+    "oc-anticcantaire": "yes",
     "oc-whitacre": "no",
     "oc-elies": "yes",
+    "oc-participatiu": "no",
     "oc-novena": "yes",
-    "oc-adams": "yes",
-    "oc-participatiu": "no"
+    "oc-santesteve": "yes"
    },
-   "by": "quinglesdavipol@gmail.com"
+   "by": "quinglesdavipol@gmail.com",
+   "at": "2026-10-08T23:47:58.094Z",
+   "memberId": "oc-C18"
   },
   {
    "memberId": "oc-C19",
    "at": "2026-10-08T23:47:58.094Z",
    "by": "quinglesdavipol@gmail.com",
    "prods": {
-    "oc-adams": "no",
-    "oc-anticcantaire": "yes",
-    "oc-santesteve": "yes",
-    "oc-participatiu": "yes",
+    "oc-mahler2": "yes",
     "oc-whitacre": "no",
+    "oc-anticcantaire": "yes",
+    "oc-participatiu": "yes",
     "oc-elies": "yes",
-    "oc-novena": "yes",
-    "oc-mahler2": "yes"
+    "oc-santesteve": "yes",
+    "oc-adams": "no",
+    "oc-novena": "yes"
    }
   },
   {
-   "at": "2026-10-08T23:47:58.094Z",
    "prods": {
-    "oc-adams": "no",
-    "oc-whitacre": "yes",
-    "oc-novena": "yes",
-    "oc-santesteve": "yes",
     "oc-participatiu": "no",
+    "oc-santesteve": "yes",
+    "oc-novena": "yes",
+    "oc-whitacre": "yes",
+    "oc-adams": "no",
     "oc-anticcantaire": "no",
     "oc-elies": "yes",
     "oc-mahler2": "yes"
    },
-   "memberId": "oc-C20",
-   "by": "quinglesdavipol@gmail.com"
+   "by": "quinglesdavipol@gmail.com",
+   "at": "2026-10-08T23:47:58.094Z",
+   "memberId": "oc-C20"
   },
   {
    "memberId": "oc-C21",
-   "by": "quinglesdavipol@gmail.com",
    "prods": {
     "oc-participatiu": "no",
-    "oc-elies": "yes",
+    "oc-novena": "yes",
+    "oc-whitacre": "yes",
+    "oc-anticcantaire": "no",
     "oc-mahler2": "yes",
-    "oc-whitacre": "yes",
-    "oc-santesteve": "yes",
     "oc-adams": "yes",
-    "oc-novena": "yes",
-    "oc-anticcantaire": "no"
-   },
-   "at": "2026-10-08T23:47:58.094Z"
-  },
-  {
-   "by": "quinglesdavipol@gmail.com",
-   "prods": {
-    "oc-elies": "yes",
-    "oc-novena": "yes",
-    "oc-participatiu": "yes",
     "oc-santesteve": "yes",
-    "oc-adams": "yes",
-    "oc-whitacre": "yes",
-    "oc-anticcantaire": "yes",
-    "oc-mahler2": "yes"
-   },
-   "at": "2026-10-08T23:47:58.094Z",
-   "memberId": "oc-C22"
-  },
-  {
-   "at": "2026-10-08T23:47:58.094Z",
-   "memberId": "oc-C23",
-   "prods": {
-    "oc-anticcantaire": "yes",
-    "oc-mahler2": "yes",
-    "oc-adams": "no",
-    "oc-whitacre": "yes",
-    "oc-novena": "yes",
-    "oc-santesteve": "yes",
-    "oc-participatiu": "no",
     "oc-elies": "yes"
    },
+   "at": "2026-10-08T23:47:58.094Z",
    "by": "quinglesdavipol@gmail.com"
   },
   {
    "prods": {
+    "oc-mahler2": "yes",
+    "oc-elies": "yes",
+    "oc-novena": "yes",
+    "oc-santesteve": "yes",
+    "oc-participatiu": "yes",
+    "oc-adams": "yes",
+    "oc-whitacre": "yes",
+    "oc-anticcantaire": "yes"
+   },
+   "at": "2026-10-08T23:47:58.094Z",
+   "by": "quinglesdavipol@gmail.com",
+   "memberId": "oc-C22"
+  },
+  {
+   "prods": {
+    "oc-santesteve": "yes",
+    "oc-whitacre": "yes",
+    "oc-novena": "yes",
+    "oc-elies": "yes",
+    "oc-participatiu": "no",
+    "oc-anticcantaire": "yes",
+    "oc-mahler2": "yes",
+    "oc-adams": "no"
+   },
+   "memberId": "oc-C23",
+   "at": "2026-10-08T23:47:58.094Z",
+   "by": "quinglesdavipol@gmail.com"
+  },
+  {
+   "prods": {
+    "oc-mahler2": "yes",
+    "oc-santesteve": "yes",
     "oc-anticcantaire": "yes",
     "oc-adams": "no",
-    "oc-mahler2": "yes",
+    "oc-participatiu": "no",
     "oc-whitacre": "yes",
     "oc-novena": "no",
-    "oc-participatiu": "no",
-    "oc-santesteve": "yes",
     "oc-elies": "yes"
    },
    "by": "quinglesdavipol@gmail.com",
-   "memberId": "oc-C24",
-   "at": "2026-10-08T23:47:58.094Z"
+   "at": "2026-10-08T23:47:58.094Z",
+   "memberId": "oc-C24"
   },
   {
    "prods": {
     "oc-santesteve": "yes",
-    "oc-novena": "yes",
-    "oc-anticcantaire": "yes",
-    "oc-adams": "yes",
     "oc-participatiu": "yes",
     "oc-elies": "yes",
+    "oc-whitacre": "yes",
     "oc-mahler2": "no",
-    "oc-whitacre": "yes"
-   },
-   "by": "quinglesdavipol@gmail.com",
-   "memberId": "oc-C25",
-   "at": "2026-10-08T23:47:58.094Z"
-  },
-  {
-   "memberId": "oc-C26",
-   "prods": {
-    "oc-participatiu": "yes",
-    "oc-novena": "yes",
-    "oc-santesteve": "yes",
-    "oc-whitacre": "yes",
     "oc-adams": "yes",
-    "oc-anticcantaire": "yes",
-    "oc-elies": "no",
-    "oc-mahler2": "yes"
+    "oc-novena": "yes",
+    "oc-anticcantaire": "yes"
    },
    "by": "quinglesdavipol@gmail.com",
-   "at": "2026-10-08T23:47:58.094Z"
+   "at": "2026-10-08T23:47:58.094Z",
+   "memberId": "oc-C25"
   },
   {
-   "memberId": "oc-C27",
    "at": "2026-10-08T23:47:58.094Z",
    "by": "quinglesdavipol@gmail.com",
    "prods": {
+    "oc-novena": "yes",
+    "oc-adams": "yes",
+    "oc-santesteve": "yes",
+    "oc-mahler2": "yes",
+    "oc-participatiu": "yes",
     "oc-anticcantaire": "yes",
+    "oc-whitacre": "yes",
+    "oc-elies": "no"
+   },
+   "memberId": "oc-C26"
+  },
+  {
+   "prods": {
+    "oc-participatiu": "yes",
+    "oc-novena": "yes",
+    "oc-santesteve": "no",
     "oc-adams": "no",
-    "oc-novena": "yes",
-    "oc-santesteve": "no",
-    "oc-whitacre": "yes",
-    "oc-elies": "yes",
     "oc-mahler2": "yes",
-    "oc-participatiu": "yes"
-   }
-  },
-  {
-   "by": "quinglesdavipol@gmail.com",
-   "prods": {
-    "oc-anticcantaire": "yes",
-    "oc-adams": "yes",
-    "oc-novena": "no",
-    "oc-whitacre": "yes",
-    "oc-santesteve": "yes",
-    "oc-elies": "yes",
-    "oc-participatiu": "yes",
-    "oc-mahler2": "no"
-   },
-   "memberId": "oc-C28",
-   "at": "2026-10-08T23:47:58.094Z"
-  },
-  {
-   "by": "quinglesdavipol@gmail.com",
-   "prods": {
-    "oc-participatiu": "yes",
-    "oc-novena": "yes",
-    "oc-elies": "yes",
-    "oc-anticcantaire": "no",
-    "oc-santesteve": "no",
-    "oc-mahler2": "yes",
-    "oc-adams": "yes",
-    "oc-whitacre": "no"
-   },
-   "memberId": "oc-C29",
-   "at": "2026-10-08T23:47:58.094Z"
-  },
-  {
-   "memberId": "oc-C30",
-   "by": "quinglesdavipol@gmail.com",
-   "at": "2026-10-08T23:47:58.094Z",
-   "prods": {
-    "oc-participatiu": "yes",
-    "oc-elies": "yes",
-    "oc-mahler2": "yes",
-    "oc-novena": "yes",
-    "oc-anticcantaire": "no",
-    "oc-santesteve": "yes",
-    "oc-whitacre": "no",
-    "oc-adams": "no"
-   }
-  },
-  {
-   "by": "quinglesdavipol@gmail.com",
-   "prods": {
-    "oc-participatiu": "no",
-    "oc-novena": "yes",
-    "oc-adams": "yes",
-    "oc-mahler2": "yes",
-    "oc-santesteve": "yes",
     "oc-whitacre": "yes",
     "oc-elies": "yes",
     "oc-anticcantaire": "yes"
    },
-   "memberId": "oc-S01",
-   "at": "2026-10-08T23:47:58.094Z"
-  },
-  {
-   "memberId": "oc-S02",
-   "by": "quinglesdavipol@gmail.com",
-   "prods": {
-    "oc-santesteve": "yes",
-    "oc-adams": "no",
-    "oc-elies": "no",
-    "oc-whitacre": "yes",
-    "oc-novena": "yes",
-    "oc-anticcantaire": "yes",
-    "oc-participatiu": "yes",
-    "oc-mahler2": "no"
-   },
-   "at": "2026-10-08T23:47:58.094Z"
-  },
-  {
-   "by": "quinglesdavipol@gmail.com",
-   "prods": {
-    "oc-participatiu": "yes",
-    "oc-novena": "yes",
-    "oc-mahler2": "yes",
-    "oc-elies": "yes",
-    "oc-anticcantaire": "yes",
-    "oc-santesteve": "yes",
-    "oc-adams": "no",
-    "oc-whitacre": "yes"
-   },
-   "memberId": "oc-S03",
-   "at": "2026-10-08T23:47:58.094Z"
-  },
-  {
-   "memberId": "oc-S04",
    "by": "quinglesdavipol@gmail.com",
    "at": "2026-10-08T23:47:58.094Z",
+   "memberId": "oc-C27"
+  },
+  {
+   "memberId": "oc-C28",
    "prods": {
-    "oc-novena": "yes",
+    "oc-adams": "yes",
+    "oc-mahler2": "no",
+    "oc-novena": "no",
+    "oc-whitacre": "yes",
     "oc-anticcantaire": "yes",
-    "oc-whitacre": "no",
-    "oc-adams": "no",
-    "oc-mahler2": "yes",
     "oc-elies": "yes",
     "oc-participatiu": "yes",
     "oc-santesteve": "yes"
+   },
+   "by": "quinglesdavipol@gmail.com",
+   "at": "2026-10-08T23:47:58.094Z"
+  },
+  {
+   "memberId": "oc-C29",
+   "prods": {
+    "oc-santesteve": "no",
+    "oc-adams": "yes",
+    "oc-anticcantaire": "no",
+    "oc-whitacre": "no",
+    "oc-novena": "yes",
+    "oc-participatiu": "yes",
+    "oc-mahler2": "yes",
+    "oc-elies": "yes"
+   },
+   "at": "2026-10-08T23:47:58.094Z",
+   "by": "quinglesdavipol@gmail.com"
+  },
+  {
+   "at": "2026-10-08T23:47:58.094Z",
+   "by": "quinglesdavipol@gmail.com",
+   "memberId": "oc-C30",
+   "prods": {
+    "oc-mahler2": "yes",
+    "oc-anticcantaire": "no",
+    "oc-adams": "no",
+    "oc-santesteve": "yes",
+    "oc-novena": "yes",
+    "oc-elies": "yes",
+    "oc-participatiu": "yes",
+    "oc-whitacre": "no"
    }
   },
   {
+   "at": "2026-10-08T23:47:58.094Z",
+   "by": "quinglesdavipol@gmail.com",
+   "prods": {
+    "oc-whitacre": "yes",
+    "oc-adams": "yes",
+    "oc-anticcantaire": "yes",
+    "oc-novena": "yes",
+    "oc-mahler2": "yes",
+    "oc-santesteve": "yes",
+    "oc-participatiu": "no",
+    "oc-elies": "yes"
+   },
+   "memberId": "oc-S01"
+  },
+  {
+   "prods": {
+    "oc-anticcantaire": "yes",
+    "oc-adams": "no",
+    "oc-santesteve": "yes",
+    "oc-elies": "no",
+    "oc-novena": "yes",
+    "oc-mahler2": "no",
+    "oc-whitacre": "yes",
+    "oc-participatiu": "yes"
+   },
+   "memberId": "oc-S02",
+   "by": "quinglesdavipol@gmail.com",
+   "at": "2026-10-08T23:47:58.094Z"
+  },
+  {
+   "memberId": "oc-S03",
    "prods": {
     "oc-novena": "yes",
     "oc-participatiu": "yes",
-    "oc-elies": "yes",
+    "oc-adams": "no",
+    "oc-whitacre": "yes",
+    "oc-santesteve": "yes",
+    "oc-anticcantaire": "yes",
+    "oc-mahler2": "yes",
+    "oc-elies": "yes"
+   },
+   "by": "quinglesdavipol@gmail.com",
+   "at": "2026-10-08T23:47:58.094Z"
+  },
+  {
+   "prods": {
+    "oc-santesteve": "yes",
+    "oc-novena": "yes",
+    "oc-participatiu": "yes",
     "oc-adams": "no",
     "oc-whitacre": "no",
-    "oc-mahler2": "yes",
+    "oc-anticcantaire": "yes",
+    "oc-elies": "yes",
+    "oc-mahler2": "yes"
+   },
+   "memberId": "oc-S04",
+   "at": "2026-10-08T23:47:58.094Z",
+   "by": "quinglesdavipol@gmail.com"
+  },
+  {
+   "prods": {
+    "oc-whitacre": "no",
+    "oc-participatiu": "yes",
     "oc-anticcantaire": "no",
-    "oc-santesteve": "yes"
+    "oc-santesteve": "yes",
+    "oc-adams": "no",
+    "oc-mahler2": "yes",
+    "oc-novena": "yes",
+    "oc-elies": "yes"
    },
    "memberId": "oc-S05",
    "at": "2026-10-08T23:47:58.094Z",
    "by": "quinglesdavipol@gmail.com"
   },
   {
-   "at": "2026-10-08T23:47:58.094Z",
    "memberId": "oc-S06",
    "prods": {
     "oc-mahler2": "yes",
     "oc-santesteve": "yes",
-    "oc-participatiu": "yes",
-    "oc-whitacre": "yes",
     "oc-elies": "yes",
+    "oc-whitacre": "yes",
     "oc-anticcantaire": "no",
-    "oc-novena": "yes",
-    "oc-adams": "no"
+    "oc-adams": "no",
+    "oc-participatiu": "yes",
+    "oc-novena": "yes"
    },
-   "by": "quinglesdavipol@gmail.com"
+   "by": "quinglesdavipol@gmail.com",
+   "at": "2026-10-08T23:47:58.094Z"
   },
   {
    "prods": {
-    "oc-participatiu": "yes",
-    "oc-santesteve": "yes",
-    "oc-mahler2": "yes",
-    "oc-elies": "yes",
-    "oc-novena": "yes",
-    "oc-whitacre": "yes",
     "oc-anticcantaire": "no",
-    "oc-adams": "yes"
+    "oc-santesteve": "yes",
+    "oc-adams": "yes",
+    "oc-novena": "yes",
+    "oc-mahler2": "yes",
+    "oc-whitacre": "yes",
+    "oc-participatiu": "yes",
+    "oc-elies": "yes"
    },
    "at": "2026-10-08T23:47:58.094Z",
    "by": "quinglesdavipol@gmail.com",
    "memberId": "oc-S07"
   },
   {
-   "by": "quinglesdavipol@gmail.com",
    "at": "2026-10-08T23:47:58.094Z",
+   "by": "quinglesdavipol@gmail.com",
+   "memberId": "oc-S08",
    "prods": {
+    "oc-novena": "yes",
+    "oc-mahler2": "yes",
+    "oc-santesteve": "yes",
+    "oc-adams": "yes",
+    "oc-participatiu": "yes",
     "oc-anticcantaire": "no",
     "oc-whitacre": "yes",
-    "oc-santesteve": "yes",
-    "oc-novena": "yes",
-    "oc-participatiu": "yes",
-    "oc-elies": "yes",
-    "oc-adams": "yes",
-    "oc-mahler2": "yes"
-   },
-   "memberId": "oc-S08"
+    "oc-elies": "yes"
+   }
   },
   {
    "at": "2026-10-08T23:47:58.094Z",
+   "by": "quinglesdavipol@gmail.com",
+   "memberId": "oc-S09",
    "prods": {
     "oc-anticcantaire": "no",
-    "oc-adams": "no",
-    "oc-santesteve": "yes",
-    "oc-mahler2": "yes",
     "oc-novena": "yes",
+    "oc-adams": "no",
+    "oc-mahler2": "yes",
+    "oc-santesteve": "yes",
     "oc-whitacre": "yes",
     "oc-elies": "yes",
     "oc-participatiu": "yes"
-   },
-   "memberId": "oc-S09",
-   "by": "quinglesdavipol@gmail.com"
+   }
   },
   {
-   "at": "2026-10-08T23:47:58.094Z",
    "memberId": "oc-S10",
+   "by": "quinglesdavipol@gmail.com",
+   "at": "2026-10-08T23:47:58.094Z",
    "prods": {
+    "oc-elies": "no",
+    "oc-adams": "no",
+    "oc-mahler2": "yes",
     "oc-whitacre": "yes",
     "oc-novena": "yes",
-    "oc-elies": "no",
+    "oc-anticcantaire": "yes",
     "oc-santesteve": "yes",
-    "oc-mahler2": "yes",
-    "oc-adams": "no",
-    "oc-participatiu": "no",
-    "oc-anticcantaire": "yes"
-   },
-   "by": "quinglesdavipol@gmail.com"
+    "oc-participatiu": "no"
+   }
   },
   {
-   "at": "2026-10-08T23:47:58.094Z",
    "prods": {
-    "oc-mahler2": "yes",
     "oc-anticcantaire": "no",
-    "oc-elies": "yes",
-    "oc-santesteve": "yes",
     "oc-participatiu": "yes",
     "oc-novena": "no",
     "oc-whitacre": "yes",
-    "oc-adams": "no"
+    "oc-santesteve": "yes",
+    "oc-mahler2": "yes",
+    "oc-adams": "no",
+    "oc-elies": "yes"
    },
-   "by": "quinglesdavipol@gmail.com",
-   "memberId": "oc-S11"
+   "memberId": "oc-S11",
+   "at": "2026-10-08T23:47:58.094Z",
+   "by": "quinglesdavipol@gmail.com"
   },
   {
    "memberId": "oc-S12",
-   "by": "quinglesdavipol@gmail.com",
    "prods": {
-    "oc-anticcantaire": "no",
-    "oc-elies": "yes",
-    "oc-novena": "yes",
-    "oc-mahler2": "yes",
-    "oc-whitacre": "no",
-    "oc-adams": "no",
     "oc-participatiu": "yes",
-    "oc-santesteve": "yes"
+    "oc-santesteve": "yes",
+    "oc-elies": "yes",
+    "oc-mahler2": "yes",
+    "oc-anticcantaire": "no",
+    "oc-adams": "no",
+    "oc-whitacre": "no",
+    "oc-novena": "yes"
    },
+   "by": "quinglesdavipol@gmail.com",
    "at": "2026-10-08T23:47:58.094Z"
   },
   {
+   "by": "quinglesdavipol@gmail.com",
    "at": "2026-10-08T23:47:58.094Z",
+   "memberId": "oc-S13",
    "prods": {
     "oc-adams": "yes",
-    "oc-santesteve": "yes",
     "oc-participatiu": "yes",
-    "oc-anticcantaire": "yes",
     "oc-novena": "no",
+    "oc-elies": "yes",
     "oc-mahler2": "no",
     "oc-whitacre": "yes",
-    "oc-elies": "yes"
-   },
-   "memberId": "oc-S13",
-   "by": "quinglesdavipol@gmail.com"
+    "oc-santesteve": "yes",
+    "oc-anticcantaire": "yes"
+   }
   },
   {
    "prods": {
     "oc-novena": "no",
     "oc-adams": "yes",
+    "oc-whitacre": "yes",
+    "oc-elies": "no",
+    "oc-anticcantaire": "yes",
     "oc-santesteve": "yes",
     "oc-mahler2": "yes",
-    "oc-anticcantaire": "yes",
-    "oc-participatiu": "yes",
-    "oc-elies": "no",
-    "oc-whitacre": "yes"
+    "oc-participatiu": "yes"
    },
    "by": "quinglesdavipol@gmail.com",
    "at": "2026-10-08T23:47:58.094Z",
    "memberId": "oc-S14"
   },
   {
-   "at": "2026-10-08T23:47:58.094Z",
    "prods": {
+    "oc-anticcantaire": "yes",
     "oc-novena": "yes",
-    "oc-adams": "no",
+    "oc-elies": "yes",
     "oc-santesteve": "yes",
     "oc-participatiu": "no",
     "oc-mahler2": "yes",
-    "oc-anticcantaire": "yes",
-    "oc-elies": "yes",
+    "oc-adams": "no",
     "oc-whitacre": "yes"
    },
    "memberId": "oc-S15",
+   "at": "2026-10-08T23:47:58.094Z",
    "by": "quinglesdavipol@gmail.com"
   },
   {
-   "memberId": "oc-S16",
    "at": "2026-10-08T23:47:58.094Z",
+   "by": "quinglesdavipol@gmail.com",
    "prods": {
-    "oc-adams": "no",
+    "oc-anticcantaire": "yes",
+    "oc-whitacre": "yes",
+    "oc-novena": "yes",
     "oc-mahler2": "yes",
     "oc-santesteve": "no",
+    "oc-adams": "no",
+    "oc-participatiu": "no",
+    "oc-elies": "yes"
+   },
+   "memberId": "oc-S16"
+  },
+  {
+   "memberId": "oc-S17",
+   "prods": {
+    "oc-santesteve": "no",
+    "oc-anticcantaire": "yes",
+    "oc-whitacre": "no",
+    "oc-elies": "yes",
+    "oc-mahler2": "yes",
+    "oc-participatiu": "yes",
     "oc-novena": "yes",
+    "oc-adams": "no"
+   },
+   "by": "quinglesdavipol@gmail.com",
+   "at": "2026-10-08T23:47:58.094Z"
+  },
+  {
+   "prods": {
+    "oc-novena": "yes",
+    "oc-adams": "yes",
+    "oc-participatiu": "no",
+    "oc-mahler2": "yes",
+    "oc-elies": "yes",
+    "oc-anticcantaire": "no",
+    "oc-whitacre": "no",
+    "oc-santesteve": "yes"
+   },
+   "by": "quinglesdavipol@gmail.com",
+   "at": "2026-10-08T23:47:58.094Z",
+   "memberId": "oc-S18"
+  },
+  {
+   "prods": {
+    "oc-elies": "yes",
     "oc-whitacre": "yes",
     "oc-anticcantaire": "yes",
-    "oc-elies": "yes",
-    "oc-participatiu": "no"
-   },
-   "by": "quinglesdavipol@gmail.com"
-  },
-  {
-   "at": "2026-10-08T23:47:58.094Z",
-   "prods": {
-    "oc-mahler2": "yes",
-    "oc-santesteve": "no",
-    "oc-whitacre": "no",
-    "oc-adams": "no",
-    "oc-anticcantaire": "yes",
-    "oc-elies": "yes",
-    "oc-novena": "yes",
-    "oc-participatiu": "yes"
-   },
-   "by": "quinglesdavipol@gmail.com",
-   "memberId": "oc-S17"
-  },
-  {
-   "by": "quinglesdavipol@gmail.com",
-   "at": "2026-10-08T23:47:58.094Z",
-   "memberId": "oc-S18",
-   "prods": {
-    "oc-santesteve": "yes",
-    "oc-novena": "yes",
     "oc-mahler2": "yes",
     "oc-adams": "yes",
+    "oc-novena": "yes",
+    "oc-santesteve": "no",
+    "oc-participatiu": "no"
+   },
+   "memberId": "oc-S19",
+   "by": "quinglesdavipol@gmail.com",
+   "at": "2026-10-08T23:47:58.094Z"
+  },
+  {
+   "memberId": "oc-S20",
+   "at": "2026-10-08T23:47:58.094Z",
+   "by": "quinglesdavipol@gmail.com",
+   "prods": {
     "oc-anticcantaire": "no",
     "oc-elies": "yes",
+    "oc-participatiu": "yes",
+    "oc-mahler2": "yes",
+    "oc-santesteve": "yes",
+    "oc-adams": "yes",
     "oc-whitacre": "no",
-    "oc-participatiu": "no"
+    "oc-novena": "no"
    }
   },
   {
-   "prods": {
-    "oc-participatiu": "no",
-    "oc-mahler2": "yes",
-    "oc-adams": "yes",
-    "oc-anticcantaire": "yes",
-    "oc-santesteve": "no",
-    "oc-elies": "yes",
-    "oc-novena": "yes",
-    "oc-whitacre": "yes"
-   },
-   "by": "quinglesdavipol@gmail.com",
-   "memberId": "oc-S19",
-   "at": "2026-10-08T23:47:58.094Z"
-  },
-  {
-   "by": "quinglesdavipol@gmail.com",
-   "prods": {
-    "oc-whitacre": "no",
-    "oc-elies": "yes",
-    "oc-novena": "no",
-    "oc-participatiu": "yes",
-    "oc-adams": "yes",
-    "oc-anticcantaire": "no",
-    "oc-santesteve": "yes",
-    "oc-mahler2": "yes"
-   },
-   "at": "2026-10-08T23:47:58.094Z",
-   "memberId": "oc-S20"
-  },
-  {
-   "prods": {
-    "oc-whitacre": "yes",
-    "oc-participatiu": "yes",
-    "oc-novena": "yes",
-    "oc-adams": "no",
-    "oc-anticcantaire": "yes",
-    "oc-santesteve": "yes",
-    "oc-elies": "yes",
-    "oc-mahler2": "yes"
-   },
-   "at": "2026-10-08T23:47:58.094Z",
    "memberId": "oc-S21",
-   "by": "quinglesdavipol@gmail.com"
-  },
-  {
-   "memberId": "oc-S22",
+   "at": "2026-10-08T23:47:58.094Z",
    "by": "quinglesdavipol@gmail.com",
    "prods": {
+    "oc-novena": "yes",
+    "oc-adams": "no",
+    "oc-anticcantaire": "yes",
+    "oc-mahler2": "yes",
+    "oc-santesteve": "yes",
+    "oc-participatiu": "yes",
     "oc-whitacre": "yes",
+    "oc-elies": "yes"
+   }
+  },
+  {
+   "by": "quinglesdavipol@gmail.com",
+   "at": "2026-10-08T23:47:58.094Z",
+   "memberId": "oc-S22",
+   "prods": {
+    "oc-elies": "yes",
     "oc-santesteve": "no",
     "oc-adams": "no",
-    "oc-novena": "no",
+    "oc-participatiu": "yes",
     "oc-anticcantaire": "yes",
-    "oc-elies": "yes",
+    "oc-novena": "no",
     "oc-mahler2": "yes",
-    "oc-participatiu": "yes"
-   },
-   "at": "2026-10-08T23:47:58.094Z"
+    "oc-whitacre": "yes"
+   }
   },
   {
    "memberId": "oc-S23",
@@ -3527,38 +3529,38 @@
     "oc-elies": "yes",
     "oc-santesteve": "yes",
     "oc-mahler2": "yes",
-    "oc-novena": "yes",
-    "oc-participatiu": "yes",
     "oc-anticcantaire": "no",
+    "oc-whitacre": "yes",
+    "oc-novena": "yes",
     "oc-adams": "yes",
-    "oc-whitacre": "yes"
+    "oc-participatiu": "yes"
    }
   },
   {
-   "at": "2026-10-08T23:47:58.094Z",
-   "memberId": "oc-S24",
    "prods": {
     "oc-adams": "yes",
-    "oc-santesteve": "no",
-    "oc-mahler2": "yes",
-    "oc-anticcantaire": "yes",
     "oc-participatiu": "yes",
+    "oc-anticcantaire": "yes",
+    "oc-elies": "yes",
+    "oc-mahler2": "yes",
     "oc-whitacre": "yes",
     "oc-novena": "yes",
-    "oc-elies": "yes"
+    "oc-santesteve": "no"
    },
+   "memberId": "oc-S24",
+   "at": "2026-10-08T23:47:58.094Z",
    "by": "quinglesdavipol@gmail.com"
   },
   {
    "prods": {
+    "oc-adams": "no",
     "oc-whitacre": "yes",
     "oc-participatiu": "no",
-    "oc-anticcantaire": "no",
-    "oc-adams": "no",
+    "oc-santesteve": "yes",
     "oc-novena": "yes",
-    "oc-mahler2": "yes",
     "oc-elies": "yes",
-    "oc-santesteve": "yes"
+    "oc-mahler2": "yes",
+    "oc-anticcantaire": "no"
    },
    "by": "quinglesdavipol@gmail.com",
    "at": "2026-10-08T23:47:58.094Z",
@@ -3567,596 +3569,596 @@
   {
    "by": "quinglesdavipol@gmail.com",
    "at": "2026-10-08T23:47:58.094Z",
+   "memberId": "oc-S26",
    "prods": {
-    "oc-novena": "yes",
     "oc-elies": "yes",
-    "oc-participatiu": "yes",
-    "oc-adams": "yes",
     "oc-whitacre": "no",
-    "oc-anticcantaire": "yes",
-    "oc-mahler2": "yes",
-    "oc-santesteve": "yes"
-   },
-   "memberId": "oc-S26"
-  },
-  {
-   "by": "quinglesdavipol@gmail.com",
-   "prods": {
-    "oc-mahler2": "yes",
-    "oc-elies": "yes",
-    "oc-whitacre": "yes",
-    "oc-anticcantaire": "no",
-    "oc-adams": "yes",
-    "oc-santesteve": "yes",
     "oc-novena": "yes",
-    "oc-participatiu": "no"
-   },
-   "memberId": "oc-S27",
-   "at": "2026-10-08T23:47:58.094Z"
-  },
-  {
-   "by": "quinglesdavipol@gmail.com",
-   "prods": {
-    "oc-adams": "yes",
-    "oc-mahler2": "yes",
     "oc-anticcantaire": "yes",
-    "oc-whitacre": "yes",
+    "oc-santesteve": "yes",
+    "oc-adams": "yes",
     "oc-participatiu": "yes",
-    "oc-novena": "yes",
-    "oc-santesteve": "no",
-    "oc-elies": "yes"
-   },
-   "memberId": "oc-S28",
-   "at": "2026-10-08T23:47:58.094Z"
-  },
-  {
-   "memberId": "oc-S29",
-   "by": "quinglesdavipol@gmail.com",
-   "prods": {
-    "oc-participatiu": "no",
-    "oc-whitacre": "yes",
-    "oc-elies": "yes",
-    "oc-novena": "yes",
-    "oc-mahler2": "yes",
-    "oc-santesteve": "yes",
-    "oc-adams": "yes",
-    "oc-anticcantaire": "yes"
-   },
-   "at": "2026-10-08T23:47:58.094Z"
-  },
-  {
-   "by": "quinglesdavipol@gmail.com",
-   "memberId": "oc-S30",
-   "prods": {
-    "oc-novena": "yes",
-    "oc-adams": "no",
-    "oc-anticcantaire": "yes",
-    "oc-mahler2": "yes",
-    "oc-whitacre": "yes",
-    "oc-santesteve": "yes",
-    "oc-elies": "yes",
-    "oc-participatiu": "yes"
-   },
-   "at": "2026-10-08T23:47:58.094Z"
-  },
-  {
-   "at": "2026-10-08T23:47:58.094Z",
-   "memberId": "oc-S31",
-   "by": "quinglesdavipol@gmail.com",
-   "prods": {
-    "oc-participatiu": "yes",
-    "oc-novena": "yes",
-    "oc-elies": "yes",
-    "oc-adams": "no",
-    "oc-whitacre": "yes",
-    "oc-mahler2": "yes",
-    "oc-santesteve": "yes",
-    "oc-anticcantaire": "no"
+    "oc-mahler2": "yes"
    }
   },
   {
+   "at": "2026-10-08T23:47:58.094Z",
+   "by": "quinglesdavipol@gmail.com",
+   "memberId": "oc-S27",
+   "prods": {
+    "oc-novena": "yes",
+    "oc-mahler2": "yes",
+    "oc-santesteve": "yes",
+    "oc-elies": "yes",
+    "oc-anticcantaire": "no",
+    "oc-whitacre": "yes",
+    "oc-adams": "yes",
+    "oc-participatiu": "no"
+   }
+  },
+  {
+   "memberId": "oc-S28",
+   "prods": {
+    "oc-adams": "yes",
+    "oc-anticcantaire": "yes",
+    "oc-whitacre": "yes",
+    "oc-participatiu": "yes",
+    "oc-elies": "yes",
+    "oc-novena": "yes",
+    "oc-santesteve": "no",
+    "oc-mahler2": "yes"
+   },
+   "at": "2026-10-08T23:47:58.094Z",
+   "by": "quinglesdavipol@gmail.com"
+  },
+  {
+   "at": "2026-10-08T23:47:58.094Z",
+   "by": "quinglesdavipol@gmail.com",
+   "memberId": "oc-S29",
+   "prods": {
+    "oc-adams": "yes",
+    "oc-santesteve": "yes",
+    "oc-anticcantaire": "yes",
+    "oc-novena": "yes",
+    "oc-mahler2": "yes",
+    "oc-elies": "yes",
+    "oc-participatiu": "no",
+    "oc-whitacre": "yes"
+   }
+  },
+  {
+   "prods": {
+    "oc-novena": "yes",
+    "oc-elies": "yes",
+    "oc-mahler2": "yes",
+    "oc-participatiu": "yes",
+    "oc-anticcantaire": "yes",
+    "oc-whitacre": "yes",
+    "oc-santesteve": "yes",
+    "oc-adams": "no"
+   },
+   "at": "2026-10-08T23:47:58.094Z",
+   "by": "quinglesdavipol@gmail.com",
+   "memberId": "oc-S30"
+  },
+  {
+   "at": "2026-10-08T23:47:58.094Z",
+   "by": "quinglesdavipol@gmail.com",
+   "prods": {
+    "oc-elies": "yes",
+    "oc-santesteve": "yes",
+    "oc-mahler2": "yes",
+    "oc-anticcantaire": "no",
+    "oc-participatiu": "yes",
+    "oc-adams": "no",
+    "oc-novena": "yes",
+    "oc-whitacre": "yes"
+   },
+   "memberId": "oc-S31"
+  },
+  {
+   "at": "2026-10-08T23:47:58.094Z",
+   "by": "quinglesdavipol@gmail.com",
    "memberId": "oc-S32",
    "prods": {
-    "oc-novena": "yes",
-    "oc-whitacre": "yes",
-    "oc-mahler2": "yes",
     "oc-adams": "yes",
-    "oc-elies": "yes",
+    "oc-novena": "yes",
     "oc-participatiu": "yes",
     "oc-anticcantaire": "yes",
+    "oc-whitacre": "yes",
+    "oc-elies": "yes",
+    "oc-mahler2": "yes",
     "oc-santesteve": "yes"
-   },
-   "by": "quinglesdavipol@gmail.com",
-   "at": "2026-10-08T23:47:58.094Z"
+   }
   },
   {
-   "at": "2026-10-08T23:47:58.094Z",
-   "memberId": "oc-T01",
    "prods": {
+    "oc-novena": "yes",
+    "oc-adams": "yes",
+    "oc-mahler2": "yes",
     "oc-elies": "yes",
     "oc-santesteve": "yes",
-    "oc-novena": "yes",
-    "oc-participatiu": "no",
-    "oc-whitacre": "no",
-    "oc-mahler2": "yes",
     "oc-anticcantaire": "yes",
-    "oc-adams": "yes"
+    "oc-participatiu": "no",
+    "oc-whitacre": "no"
    },
+   "memberId": "oc-T01",
+   "at": "2026-10-08T23:47:58.094Z",
    "by": "quinglesdavipol@gmail.com"
   },
   {
-   "at": "2026-10-08T23:47:58.094Z",
    "prods": {
-    "oc-novena": "yes",
-    "oc-adams": "no",
-    "oc-santesteve": "yes",
-    "oc-anticcantaire": "yes",
     "oc-whitacre": "yes",
-    "oc-elies": "yes",
-    "oc-participatiu": "no",
-    "oc-mahler2": "yes"
-   },
-   "by": "quinglesdavipol@gmail.com",
-   "memberId": "oc-T02"
-  },
-  {
-   "by": "quinglesdavipol@gmail.com",
-   "prods": {
-    "oc-santesteve": "yes",
-    "oc-whitacre": "yes",
-    "oc-adams": "no",
     "oc-mahler2": "yes",
-    "oc-anticcantaire": "yes",
-    "oc-elies": "yes",
-    "oc-participatiu": "yes",
-    "oc-novena": "no"
-   },
-   "memberId": "oc-T03",
-   "at": "2026-10-08T23:47:58.094Z"
-  },
-  {
-   "memberId": "oc-T04",
-   "at": "2026-10-08T23:47:58.094Z",
-   "prods": {
-    "oc-mahler2": "no",
-    "oc-santesteve": "yes",
-    "oc-adams": "yes",
-    "oc-anticcantaire": "yes",
     "oc-elies": "yes",
     "oc-novena": "yes",
-    "oc-whitacre": "yes",
+    "oc-anticcantaire": "yes",
+    "oc-santesteve": "yes",
+    "oc-adams": "no",
     "oc-participatiu": "no"
    },
+   "memberId": "oc-T02",
+   "at": "2026-10-08T23:47:58.094Z",
    "by": "quinglesdavipol@gmail.com"
   },
   {
+   "memberId": "oc-T03",
+   "at": "2026-10-08T23:47:58.094Z",
    "by": "quinglesdavipol@gmail.com",
    "prods": {
+    "oc-santesteve": "yes",
+    "oc-novena": "no",
+    "oc-anticcantaire": "yes",
+    "oc-adams": "no",
+    "oc-participatiu": "yes",
+    "oc-elies": "yes",
     "oc-whitacre": "yes",
-    "oc-adams": "yes",
-    "oc-anticcantaire": "no",
+    "oc-mahler2": "yes"
+   }
+  },
+  {
+   "prods": {
+    "oc-anticcantaire": "yes",
+    "oc-mahler2": "no",
+    "oc-elies": "yes",
+    "oc-participatiu": "no",
+    "oc-novena": "yes",
+    "oc-santesteve": "yes",
+    "oc-whitacre": "yes",
+    "oc-adams": "yes"
+   },
+   "by": "quinglesdavipol@gmail.com",
+   "at": "2026-10-08T23:47:58.094Z",
+   "memberId": "oc-T04"
+  },
+  {
+   "prods": {
+    "oc-participatiu": "no",
+    "oc-santesteve": "yes",
     "oc-novena": "yes",
     "oc-elies": "yes",
-    "oc-santesteve": "yes",
-    "oc-participatiu": "no",
-    "oc-mahler2": "yes"
+    "oc-anticcantaire": "no",
+    "oc-whitacre": "yes",
+    "oc-mahler2": "yes",
+    "oc-adams": "yes"
    },
    "at": "2026-10-08T23:47:58.094Z",
+   "by": "quinglesdavipol@gmail.com",
    "memberId": "oc-T05"
   },
   {
-   "prods": {
-    "oc-santesteve": "yes",
-    "oc-adams": "no",
-    "oc-participatiu": "no",
-    "oc-whitacre": "yes",
-    "oc-novena": "no",
-    "oc-mahler2": "yes",
-    "oc-elies": "yes",
-    "oc-anticcantaire": "yes"
-   },
    "memberId": "oc-T06",
    "at": "2026-10-08T23:47:58.094Z",
-   "by": "quinglesdavipol@gmail.com"
-  },
-  {
    "by": "quinglesdavipol@gmail.com",
-   "at": "2026-10-08T23:47:58.094Z",
    "prods": {
+    "oc-participatiu": "no",
+    "oc-novena": "no",
+    "oc-anticcantaire": "yes",
+    "oc-elies": "yes",
     "oc-mahler2": "yes",
     "oc-santesteve": "yes",
-    "oc-adams": "yes",
-    "oc-participatiu": "yes",
-    "oc-novena": "yes",
-    "oc-elies": "yes",
-    "oc-whitacre": "yes",
-    "oc-anticcantaire": "yes"
-   },
-   "memberId": "oc-T07"
-  },
-  {
-   "memberId": "oc-T08",
-   "at": "2026-10-08T23:47:58.094Z",
-   "by": "quinglesdavipol@gmail.com",
-   "prods": {
-    "oc-anticcantaire": "yes",
-    "oc-mahler2": "yes",
-    "oc-adams": "yes",
-    "oc-whitacre": "no",
-    "oc-participatiu": "no",
-    "oc-elies": "yes",
-    "oc-novena": "yes",
-    "oc-santesteve": "yes"
+    "oc-adams": "no",
+    "oc-whitacre": "yes"
    }
   },
   {
-   "at": "2026-10-08T23:47:58.094Z",
    "prods": {
-    "oc-elies": "yes",
-    "oc-participatiu": "yes",
-    "oc-anticcantaire": "yes",
+    "oc-adams": "yes",
     "oc-whitacre": "yes",
     "oc-santesteve": "yes",
-    "oc-mahler2": "yes",
+    "oc-anticcantaire": "yes",
+    "oc-participatiu": "yes",
     "oc-novena": "yes",
-    "oc-adams": "no"
+    "oc-mahler2": "yes",
+    "oc-elies": "yes"
+   },
+   "memberId": "oc-T07",
+   "at": "2026-10-08T23:47:58.094Z",
+   "by": "quinglesdavipol@gmail.com"
+  },
+  {
+   "by": "quinglesdavipol@gmail.com",
+   "at": "2026-10-08T23:47:58.094Z",
+   "prods": {
+    "oc-anticcantaire": "yes",
+    "oc-novena": "yes",
+    "oc-whitacre": "no",
+    "oc-participatiu": "no",
+    "oc-adams": "yes",
+    "oc-santesteve": "yes",
+    "oc-mahler2": "yes",
+    "oc-elies": "yes"
+   },
+   "memberId": "oc-T08"
+  },
+  {
+   "prods": {
+    "oc-anticcantaire": "yes",
+    "oc-adams": "no",
+    "oc-whitacre": "yes",
+    "oc-novena": "yes",
+    "oc-elies": "yes",
+    "oc-mahler2": "yes",
+    "oc-santesteve": "yes",
+    "oc-participatiu": "yes"
    },
    "memberId": "oc-T09",
-   "by": "quinglesdavipol@gmail.com"
+   "by": "quinglesdavipol@gmail.com",
+   "at": "2026-10-08T23:47:58.094Z"
   },
   {
    "memberId": "oc-T10",
-   "by": "quinglesdavipol@gmail.com",
    "at": "2026-10-08T23:47:58.094Z",
+   "by": "quinglesdavipol@gmail.com",
    "prods": {
-    "oc-santesteve": "yes",
     "oc-participatiu": "yes",
+    "oc-santesteve": "yes",
     "oc-novena": "yes",
+    "oc-elies": "yes",
     "oc-anticcantaire": "yes",
-    "oc-adams": "yes",
     "oc-mahler2": "yes",
     "oc-whitacre": "yes",
-    "oc-elies": "yes"
+    "oc-adams": "yes"
    }
   },
   {
-   "by": "quinglesdavipol@gmail.com",
-   "memberId": "oc-T11",
    "prods": {
-    "oc-adams": "no",
-    "oc-participatiu": "yes",
-    "oc-anticcantaire": "yes",
-    "oc-santesteve": "yes",
-    "oc-novena": "yes",
-    "oc-mahler2": "yes",
     "oc-elies": "yes",
+    "oc-anticcantaire": "yes",
+    "oc-participatiu": "yes",
+    "oc-novena": "yes",
+    "oc-santesteve": "yes",
+    "oc-mahler2": "yes",
+    "oc-adams": "no",
     "oc-whitacre": "no"
    },
-   "at": "2026-10-08T23:47:58.094Z"
+   "at": "2026-10-08T23:47:58.094Z",
+   "by": "quinglesdavipol@gmail.com",
+   "memberId": "oc-T11"
   },
   {
    "at": "2026-10-08T23:47:58.094Z",
    "by": "quinglesdavipol@gmail.com",
    "memberId": "oc-T12",
    "prods": {
+    "oc-anticcantaire": "yes",
     "oc-whitacre": "yes",
-    "oc-participatiu": "no",
-    "oc-adams": "no",
-    "oc-mahler2": "yes",
-    "oc-novena": "yes",
     "oc-elies": "no",
+    "oc-novena": "yes",
+    "oc-mahler2": "yes",
+    "oc-adams": "no",
     "oc-santesteve": "yes",
-    "oc-anticcantaire": "yes"
+    "oc-participatiu": "no"
    }
   },
   {
    "prods": {
     "oc-anticcantaire": "yes",
-    "oc-elies": "yes",
-    "oc-whitacre": "yes",
-    "oc-santesteve": "yes",
-    "oc-novena": "yes",
-    "oc-mahler2": "yes",
     "oc-participatiu": "no",
-    "oc-adams": "yes"
+    "oc-mahler2": "yes",
+    "oc-santesteve": "yes",
+    "oc-adams": "yes",
+    "oc-whitacre": "yes",
+    "oc-novena": "yes",
+    "oc-elies": "yes"
    },
    "at": "2026-10-08T23:47:58.094Z",
-   "memberId": "oc-T13",
+   "by": "quinglesdavipol@gmail.com",
+   "memberId": "oc-T13"
+  },
+  {
+   "prods": {
+    "oc-participatiu": "no",
+    "oc-novena": "yes",
+    "oc-mahler2": "yes",
+    "oc-elies": "yes",
+    "oc-santesteve": "yes",
+    "oc-whitacre": "yes",
+    "oc-adams": "no",
+    "oc-anticcantaire": "yes"
+   },
+   "at": "2026-10-08T23:47:58.094Z",
+   "by": "quinglesdavipol@gmail.com",
+   "memberId": "oc-T14"
+  },
+  {
+   "prods": {
+    "oc-novena": "yes",
+    "oc-adams": "no",
+    "oc-participatiu": "yes",
+    "oc-whitacre": "yes",
+    "oc-anticcantaire": "yes",
+    "oc-elies": "yes",
+    "oc-santesteve": "yes",
+    "oc-mahler2": "yes"
+   },
+   "memberId": "oc-T15",
+   "at": "2026-10-08T23:47:58.094Z",
    "by": "quinglesdavipol@gmail.com"
   },
   {
-   "memberId": "oc-T14",
-   "by": "quinglesdavipol@gmail.com",
    "prods": {
-    "oc-elies": "yes",
-    "oc-whitacre": "yes",
-    "oc-participatiu": "no",
-    "oc-mahler2": "yes",
-    "oc-anticcantaire": "yes",
     "oc-adams": "no",
-    "oc-novena": "yes",
-    "oc-santesteve": "yes"
-   },
-   "at": "2026-10-08T23:47:58.094Z"
-  },
-  {
-   "at": "2026-10-08T23:47:58.094Z",
-   "memberId": "oc-T15",
-   "by": "quinglesdavipol@gmail.com",
-   "prods": {
-    "oc-elies": "yes",
     "oc-santesteve": "yes",
-    "oc-mahler2": "yes",
     "oc-anticcantaire": "yes",
-    "oc-adams": "no",
-    "oc-participatiu": "yes",
+    "oc-mahler2": "yes",
     "oc-whitacre": "yes",
-    "oc-novena": "yes"
-   }
-  },
-  {
-   "by": "quinglesdavipol@gmail.com",
-   "at": "2026-10-08T23:47:58.094Z",
+    "oc-elies": "yes",
+    "oc-novena": "yes",
+    "oc-participatiu": "yes"
+   },
    "memberId": "oc-T16",
-   "prods": {
-    "oc-participatiu": "yes",
-    "oc-santesteve": "yes",
-    "oc-novena": "yes",
-    "oc-mahler2": "yes",
-    "oc-adams": "no",
-    "oc-anticcantaire": "yes",
-    "oc-elies": "yes",
-    "oc-whitacre": "yes"
-   }
+   "at": "2026-10-08T23:47:58.094Z",
+   "by": "quinglesdavipol@gmail.com"
   },
   {
-   "at": "2026-10-08T23:47:58.094Z",
-   "by": "quinglesdavipol@gmail.com",
    "prods": {
+    "oc-mahler2": "yes",
     "oc-whitacre": "no",
-    "oc-elies": "yes",
     "oc-santesteve": "yes",
+    "oc-anticcantaire": "yes",
+    "oc-adams": "no",
     "oc-participatiu": "no",
     "oc-novena": "yes",
-    "oc-mahler2": "yes",
-    "oc-adams": "no",
-    "oc-anticcantaire": "yes"
+    "oc-elies": "yes"
    },
+   "at": "2026-10-08T23:47:58.094Z",
+   "by": "quinglesdavipol@gmail.com",
    "memberId": "oc-T17"
   },
   {
    "at": "2026-10-08T23:47:58.094Z",
+   "by": "quinglesdavipol@gmail.com",
    "prods": {
-    "oc-santesteve": "yes",
-    "oc-whitacre": "yes",
-    "oc-adams": "no",
-    "oc-anticcantaire": "yes",
-    "oc-elies": "yes",
-    "oc-novena": "yes",
-    "oc-mahler2": "yes",
-    "oc-participatiu": "yes"
-   },
-   "memberId": "oc-T18",
-   "by": "quinglesdavipol@gmail.com"
-  },
-  {
-   "at": "2026-10-08T23:47:58.094Z",
-   "memberId": "oc-T19",
-   "prods": {
-    "oc-novena": "yes",
-    "oc-adams": "no",
     "oc-participatiu": "yes",
+    "oc-santesteve": "yes",
     "oc-mahler2": "yes",
+    "oc-novena": "yes",
+    "oc-elies": "yes",
+    "oc-adams": "no",
+    "oc-whitacre": "yes",
+    "oc-anticcantaire": "yes"
+   },
+   "memberId": "oc-T18"
+  },
+  {
+   "prods": {
+    "oc-mahler2": "yes",
+    "oc-whitacre": "no",
+    "oc-santesteve": "yes",
+    "oc-participatiu": "yes",
     "oc-elies": "yes",
     "oc-anticcantaire": "yes",
-    "oc-whitacre": "no",
-    "oc-santesteve": "yes"
+    "oc-adams": "no",
+    "oc-novena": "yes"
    },
+   "memberId": "oc-T19",
+   "at": "2026-10-08T23:47:58.094Z",
    "by": "quinglesdavipol@gmail.com"
   },
   {
-   "at": "2026-10-08T23:47:58.094Z",
    "memberId": "oc-T20",
    "prods": {
     "oc-whitacre": "yes",
-    "oc-adams": "yes",
     "oc-mahler2": "yes",
-    "oc-participatiu": "yes",
-    "oc-santesteve": "yes",
     "oc-elies": "yes",
     "oc-novena": "no",
-    "oc-anticcantaire": "no"
+    "oc-anticcantaire": "no",
+    "oc-santesteve": "yes",
+    "oc-adams": "yes",
+    "oc-participatiu": "yes"
    },
+   "at": "2026-10-08T23:47:58.094Z",
    "by": "quinglesdavipol@gmail.com"
   },
   {
-   "at": "2026-10-08T23:47:58.094Z",
    "memberId": "oc-T21",
    "prods": {
-    "oc-participatiu": "no",
-    "oc-whitacre": "yes",
-    "oc-elies": "yes",
-    "oc-mahler2": "yes",
     "oc-santesteve": "yes",
-    "oc-adams": "yes",
-    "oc-novena": "no",
-    "oc-anticcantaire": "yes"
-   },
-   "by": "quinglesdavipol@gmail.com"
-  },
-  {
-   "by": "quinglesdavipol@gmail.com",
-   "prods": {
-    "oc-whitacre": "no",
-    "oc-novena": "yes",
-    "oc-adams": "no",
     "oc-anticcantaire": "yes",
     "oc-elies": "yes",
-    "oc-participatiu": "no",
-    "oc-santesteve": "yes",
-    "oc-mahler2": "yes"
-   },
-   "at": "2026-10-08T23:47:58.094Z",
-   "memberId": "oc-T22"
-  },
-  {
-   "prods": {
-    "oc-novena": "yes",
-    "oc-mahler2": "yes",
-    "oc-elies": "yes",
     "oc-whitacre": "yes",
-    "oc-participatiu": "yes",
-    "oc-anticcantaire": "no",
+    "oc-mahler2": "yes",
     "oc-adams": "yes",
-    "oc-santesteve": "yes"
+    "oc-participatiu": "no",
+    "oc-novena": "no"
    },
    "by": "quinglesdavipol@gmail.com",
+   "at": "2026-10-08T23:47:58.094Z"
+  },
+  {
+   "memberId": "oc-T22",
    "at": "2026-10-08T23:47:58.094Z",
-   "memberId": "oc-T23"
+   "by": "quinglesdavipol@gmail.com",
+   "prods": {
+    "oc-elies": "yes",
+    "oc-santesteve": "yes",
+    "oc-novena": "yes",
+    "oc-participatiu": "no",
+    "oc-adams": "no",
+    "oc-anticcantaire": "yes",
+    "oc-mahler2": "yes",
+    "oc-whitacre": "no"
+   }
+  },
+  {
+   "memberId": "oc-T23",
+   "at": "2026-10-08T23:47:58.094Z",
+   "by": "quinglesdavipol@gmail.com",
+   "prods": {
+    "oc-santesteve": "yes",
+    "oc-elies": "yes",
+    "oc-anticcantaire": "no",
+    "oc-novena": "yes",
+    "oc-mahler2": "yes",
+    "oc-whitacre": "yes",
+    "oc-adams": "yes",
+    "oc-participatiu": "yes"
+   }
   },
   {
    "memberId": "oc-T24",
-   "by": "quinglesdavipol@gmail.com",
-   "at": "2026-10-08T23:47:58.094Z",
    "prods": {
-    "oc-participatiu": "yes",
-    "oc-anticcantaire": "yes",
     "oc-novena": "no",
+    "oc-adams": "yes",
+    "oc-anticcantaire": "yes",
     "oc-elies": "yes",
+    "oc-santesteve": "yes",
+    "oc-whitacre": "yes",
+    "oc-mahler2": "yes",
+    "oc-participatiu": "yes"
+   },
+   "at": "2026-10-08T23:47:58.094Z",
+   "by": "quinglesdavipol@gmail.com"
+  },
+  {
+   "memberId": "oc-T25",
+   "prods": {
+    "oc-mahler2": "yes",
+    "oc-adams": "yes",
+    "oc-novena": "yes",
+    "oc-anticcantaire": "yes",
+    "oc-participatiu": "yes",
+    "oc-elies": "yes",
+    "oc-whitacre": "no",
+    "oc-santesteve": "yes"
+   },
+   "by": "quinglesdavipol@gmail.com",
+   "at": "2026-10-08T23:47:58.094Z"
+  },
+  {
+   "at": "2026-10-08T23:47:58.094Z",
+   "by": "quinglesdavipol@gmail.com",
+   "memberId": "oc-T26",
+   "prods": {
+    "oc-elies": "yes",
+    "oc-novena": "yes",
+    "oc-anticcantaire": "no",
+    "oc-santesteve": "yes",
     "oc-adams": "yes",
     "oc-whitacre": "yes",
-    "oc-santesteve": "yes",
+    "oc-participatiu": "no",
     "oc-mahler2": "yes"
    }
   },
   {
-   "memberId": "oc-T25",
-   "by": "quinglesdavipol@gmail.com",
-   "prods": {
-    "oc-whitacre": "no",
-    "oc-santesteve": "yes",
-    "oc-anticcantaire": "yes",
-    "oc-elies": "yes",
-    "oc-mahler2": "yes",
-    "oc-adams": "yes",
-    "oc-novena": "yes",
-    "oc-participatiu": "yes"
-   },
-   "at": "2026-10-08T23:47:58.094Z"
-  },
-  {
-   "by": "quinglesdavipol@gmail.com",
-   "memberId": "oc-T26",
-   "prods": {
-    "oc-santesteve": "yes",
-    "oc-anticcantaire": "no",
-    "oc-adams": "yes",
-    "oc-whitacre": "yes",
-    "oc-mahler2": "yes",
-    "oc-novena": "yes",
-    "oc-elies": "yes",
-    "oc-participatiu": "no"
-   },
-   "at": "2026-10-08T23:47:58.094Z"
-  },
-  {
    "prods": {
     "oc-anticcantaire": "no",
-    "oc-elies": "yes",
-    "oc-mahler2": "yes",
-    "oc-santesteve": "yes",
-    "oc-novena": "yes",
-    "oc-whitacre": "yes",
     "oc-adams": "yes",
+    "oc-novena": "yes",
+    "oc-santesteve": "yes",
+    "oc-mahler2": "yes",
+    "oc-elies": "yes",
+    "oc-whitacre": "yes",
     "oc-participatiu": "yes"
    },
-   "by": "quinglesdavipol@gmail.com",
    "at": "2026-10-08T23:47:58.094Z",
+   "by": "quinglesdavipol@gmail.com",
    "memberId": "oc-T27"
   },
   {
-   "by": "quinglesdavipol@gmail.com",
+   "memberId": "oc-T28",
    "prods": {
     "oc-whitacre": "yes",
-    "oc-elies": "yes",
-    "oc-participatiu": "yes",
     "oc-mahler2": "yes",
-    "oc-santesteve": "no",
+    "oc-elies": "yes",
+    "oc-anticcantaire": "no",
     "oc-adams": "yes",
     "oc-novena": "yes",
-    "oc-anticcantaire": "no"
+    "oc-participatiu": "yes",
+    "oc-santesteve": "no"
    },
-   "memberId": "oc-T28",
+   "by": "quinglesdavipol@gmail.com",
    "at": "2026-10-08T23:47:58.094Z"
   }
  ],
  "scores": [],
  "memberPriv": [
   {
+   "memberId": "oc-B01",
    "history": [
     {
      "kind": "alta",
-     "date": "2024-09-04",
-     "note": ""
+     "note": "",
+     "date": "2024-09-04"
     }
    ],
-   "memberId": "oc-B01",
    "syncAt": "2026-10-09T00:20:22.066Z"
   },
   {
-   "syncAt": "2026-10-09T00:20:22.066Z",
    "memberId": "oc-B02",
+   "syncAt": "2026-10-09T00:20:22.066Z",
    "history": [
     {
      "date": "1992-09-01",
-     "kind": "alta",
-     "note": ""
+     "note": "",
+     "kind": "alta"
     }
    ]
   },
   {
+   "syncAt": "2026-10-09T00:20:22.066Z",
    "history": [
     {
-     "note": "",
      "kind": "alta",
+     "note": "",
      "date": "1992-09-12"
     }
    ],
-   "syncAt": "2026-10-09T00:20:22.066Z",
    "memberId": "oc-B03"
   },
   {
    "memberId": "oc-B04",
-   "syncAt": "2026-10-09T00:20:22.066Z",
    "history": [
     {
-     "date": "2010-09-06",
+     "note": "",
      "kind": "alta",
-     "note": ""
+     "date": "2010-09-06"
     }
-   ]
+   ],
+   "syncAt": "2026-10-09T00:20:22.066Z"
   },
   {
    "memberId": "oc-B05",
    "syncAt": "2026-10-09T00:20:22.066Z",
    "history": [
     {
-     "note": "",
+     "date": "2017-09-15",
      "kind": "alta",
-     "date": "2017-09-15"
+     "note": ""
     }
    ]
   },
   {
-   "syncAt": "2026-10-09T00:20:22.066Z",
-   "memberId": "oc-B06",
    "history": [
     {
      "kind": "alta",
-     "date": "2015-09-23",
-     "note": ""
+     "note": "",
+     "date": "2015-09-23"
     }
-   ]
+   ],
+   "syncAt": "2026-10-09T00:20:22.066Z",
+   "memberId": "oc-B06"
   },
   {
    "memberId": "oc-B07",
@@ -4170,17 +4172,18 @@
    ]
   },
   {
-   "memberId": "oc-B08",
+   "syncAt": "2026-10-09T00:20:22.066Z",
    "history": [
     {
-     "note": "",
+     "date": "2011-09-28",
      "kind": "alta",
-     "date": "2011-09-28"
+     "note": ""
     }
    ],
-   "syncAt": "2026-10-09T00:20:22.066Z"
+   "memberId": "oc-B08"
   },
   {
+   "memberId": "oc-B09",
    "syncAt": "2026-10-09T00:20:22.066Z",
    "history": [
     {
@@ -4188,11 +4191,9 @@
      "kind": "alta",
      "note": ""
     }
-   ],
-   "memberId": "oc-B09"
+   ]
   },
   {
-   "memberId": "oc-B10",
    "history": [
     {
      "date": "2011-09-21",
@@ -4200,75 +4201,77 @@
      "note": ""
     }
    ],
+   "memberId": "oc-B10",
    "syncAt": "2026-10-09T00:20:22.066Z"
   },
   {
-   "syncAt": "2026-10-09T00:20:22.066Z",
    "memberId": "oc-B11",
+   "syncAt": "2026-10-09T00:20:22.066Z",
    "history": [
     {
      "note": "",
-     "date": "2011-09-03",
-     "kind": "alta"
+     "kind": "alta",
+     "date": "2011-09-03"
     }
    ]
   },
   {
    "memberId": "oc-B12",
+   "syncAt": "2026-10-09T00:20:22.066Z",
    "history": [
     {
      "note": "",
      "kind": "alta",
      "date": "1989-09-07"
     }
-   ],
-   "syncAt": "2026-10-09T00:20:22.066Z"
+   ]
   },
   {
-   "memberId": "oc-B13",
    "history": [
     {
      "note": "",
-     "date": "2022-09-17",
-     "kind": "alta"
+     "kind": "alta",
+     "date": "2022-09-17"
     }
    ],
-   "syncAt": "2026-10-09T00:20:22.066Z"
+   "syncAt": "2026-10-09T00:20:22.066Z",
+   "memberId": "oc-B13"
   },
   {
    "syncAt": "2026-10-09T00:20:22.066Z",
    "memberId": "oc-B14",
    "history": [
     {
-     "kind": "alta",
      "date": "2012-09-05",
-     "note": ""
-    }
-   ]
-  },
-  {
-   "syncAt": "2026-10-09T00:20:22.066Z",
-   "memberId": "oc-B15",
-   "history": [
-    {
      "note": "",
-     "date": "2020-09-21",
      "kind": "alta"
     }
    ]
   },
   {
+   "syncAt": "2026-10-09T00:20:22.066Z",
    "history": [
     {
      "note": "",
      "kind": "alta",
+     "date": "2020-09-21"
+    }
+   ],
+   "memberId": "oc-B15"
+  },
+  {
+   "history": [
+    {
+     "kind": "alta",
+     "note": "",
      "date": "1998-09-23"
     }
    ],
-   "memberId": "oc-B16",
-   "syncAt": "2026-10-09T00:20:22.066Z"
+   "syncAt": "2026-10-09T00:20:22.066Z",
+   "memberId": "oc-B16"
   },
   {
+   "syncAt": "2026-10-09T00:20:22.066Z",
    "history": [
     {
      "date": "2010-09-19",
@@ -4276,19 +4279,18 @@
      "note": ""
     }
    ],
-   "memberId": "oc-B17",
-   "syncAt": "2026-10-09T00:20:22.066Z"
+   "memberId": "oc-B17"
   },
   {
-   "syncAt": "2026-10-09T00:20:22.066Z",
-   "memberId": "oc-B18",
    "history": [
     {
-     "note": "",
      "kind": "alta",
+     "note": "",
      "date": "2013-09-21"
     }
-   ]
+   ],
+   "memberId": "oc-B18",
+   "syncAt": "2026-10-09T00:20:22.066Z"
   },
   {
    "memberId": "oc-B19",
@@ -4296,138 +4298,138 @@
    "history": [
     {
      "kind": "alta",
-     "date": "1999-09-15",
-     "note": ""
+     "note": "",
+     "date": "1999-09-15"
     }
    ]
   },
   {
+   "syncAt": "2026-10-09T00:20:22.066Z",
+   "memberId": "oc-B20",
    "history": [
     {
      "date": "1994-09-05",
-     "kind": "alta",
-     "note": ""
+     "note": "",
+     "kind": "alta"
     }
-   ],
-   "syncAt": "2026-10-09T00:20:22.066Z",
-   "memberId": "oc-B20"
+   ]
   },
   {
+   "syncAt": "2026-10-09T00:20:22.066Z",
    "memberId": "oc-B21",
    "history": [
     {
      "note": "",
-     "date": "2006-09-28",
-     "kind": "alta"
-    }
-   ],
-   "syncAt": "2026-10-09T00:20:22.066Z"
-  },
-  {
-   "syncAt": "2026-10-09T00:20:22.066Z",
-   "history": [
-    {
-     "note": "",
      "kind": "alta",
-     "date": "1995-09-10"
-    }
-   ],
-   "memberId": "oc-B22"
-  },
-  {
-   "history": [
-    {
-     "kind": "alta",
-     "date": "2001-09-12",
-     "note": ""
-    }
-   ],
-   "memberId": "oc-B23",
-   "syncAt": "2026-10-09T00:20:22.066Z"
-  },
-  {
-   "syncAt": "2026-10-09T00:20:22.066Z",
-   "memberId": "oc-B24",
-   "history": [
-    {
-     "note": "",
-     "kind": "alta",
-     "date": "2003-09-10"
+     "date": "2006-09-28"
     }
    ]
   },
   {
-   "memberId": "oc-B25",
+   "memberId": "oc-B22",
+   "syncAt": "2026-10-09T00:20:22.066Z",
    "history": [
     {
-     "note": "",
+     "date": "1995-09-10",
      "kind": "alta",
+     "note": ""
+    }
+   ]
+  },
+  {
+   "history": [
+    {
+     "date": "2001-09-12",
+     "kind": "alta",
+     "note": ""
+    }
+   ],
+   "syncAt": "2026-10-09T00:20:22.066Z",
+   "memberId": "oc-B23"
+  },
+  {
+   "memberId": "oc-B24",
+   "history": [
+    {
+     "date": "2003-09-10",
+     "kind": "alta",
+     "note": ""
+    }
+   ],
+   "syncAt": "2026-10-09T00:20:22.066Z"
+  },
+  {
+   "syncAt": "2026-10-09T00:20:22.066Z",
+   "history": [
+    {
+     "kind": "alta",
+     "note": "",
      "date": "2025-09-14"
     }
    ],
-   "syncAt": "2026-10-09T00:20:22.066Z"
+   "memberId": "oc-B25"
   },
   {
+   "memberId": "oc-B26",
    "syncAt": "2026-10-09T00:20:22.066Z",
    "history": [
     {
      "kind": "alta",
-     "date": "2013-09-26",
-     "note": ""
+     "note": "",
+     "date": "2013-09-26"
     }
-   ],
-   "memberId": "oc-B26"
+   ]
   },
   {
+   "memberId": "oc-B27",
    "history": [
     {
-     "note": "",
      "kind": "alta",
+     "note": "",
      "date": "1992-09-10"
     }
    ],
-   "memberId": "oc-B27",
    "syncAt": "2026-10-09T00:20:22.066Z"
   },
   {
+   "memberId": "oc-B28",
    "syncAt": "2026-10-09T00:20:22.066Z",
    "history": [
     {
-     "kind": "alta",
      "date": "2000-09-14",
+     "kind": "alta",
      "note": ""
     }
-   ],
-   "memberId": "oc-B28"
+   ]
   },
   {
    "syncAt": "2026-10-09T00:20:22.066Z",
    "history": [
     {
+     "date": "2011-09-17",
      "note": "",
-     "kind": "alta",
-     "date": "2011-09-17"
+     "kind": "alta"
     }
    ],
    "memberId": "oc-B29"
   },
   {
+   "memberId": "oc-B30",
    "syncAt": "2026-10-09T00:20:22.066Z",
    "history": [
     {
+     "kind": "alta",
      "note": "",
-     "date": "2011-09-14",
-     "kind": "alta"
+     "date": "2011-09-14"
     }
-   ],
-   "memberId": "oc-B30"
+   ]
   },
   {
    "history": [
     {
-     "kind": "alta",
      "date": "2006-09-20",
-     "note": ""
+     "note": "",
+     "kind": "alta"
     }
    ],
    "syncAt": "2026-10-09T00:20:22.066Z",
@@ -4435,45 +4437,45 @@
   },
   {
    "memberId": "oc-C02",
-   "syncAt": "2026-10-09T00:20:22.066Z",
    "history": [
     {
-     "note": "",
      "kind": "alta",
+     "note": "",
      "date": "2010-09-08"
     }
-   ]
+   ],
+   "syncAt": "2026-10-09T00:20:22.066Z"
   },
   {
    "history": [
     {
-     "date": "1997-09-02",
      "kind": "alta",
-     "note": ""
+     "note": "",
+     "date": "1997-09-02"
     }
    ],
-   "memberId": "oc-C03",
-   "syncAt": "2026-10-09T00:20:22.066Z"
+   "syncAt": "2026-10-09T00:20:22.066Z",
+   "memberId": "oc-C03"
   },
   {
    "memberId": "oc-C04",
    "syncAt": "2026-10-09T00:20:22.066Z",
    "history": [
     {
-     "note": "",
      "date": "1990-09-01",
+     "note": "",
      "kind": "alta"
     }
    ]
   },
   {
-   "memberId": "oc-C05",
    "syncAt": "2026-10-09T00:20:22.066Z",
+   "memberId": "oc-C05",
    "history": [
     {
-     "date": "2015-09-23",
      "kind": "alta",
-     "note": ""
+     "note": "",
+     "date": "2015-09-23"
     }
    ]
   },
@@ -4483,260 +4485,260 @@
    "history": [
     {
      "kind": "alta",
-     "date": "1991-09-15",
-     "note": ""
+     "note": "",
+     "date": "1991-09-15"
     }
    ]
   },
   {
-   "syncAt": "2026-10-09T00:20:22.066Z",
    "history": [
     {
      "note": "",
-     "date": "1992-09-26",
-     "kind": "alta"
+     "kind": "alta",
+     "date": "1992-09-26"
     }
    ],
-   "memberId": "oc-C07"
+   "memberId": "oc-C07",
+   "syncAt": "2026-10-09T00:20:22.066Z"
   },
   {
    "syncAt": "2026-10-09T00:20:22.066Z",
-   "memberId": "oc-C08",
    "history": [
     {
      "date": "2002-09-01",
      "kind": "alta",
      "note": ""
     }
-   ]
+   ],
+   "memberId": "oc-C08"
   },
   {
+   "memberId": "oc-C09",
+   "syncAt": "2026-10-09T00:20:22.066Z",
    "history": [
     {
      "kind": "alta",
-     "date": "2013-09-16",
-     "note": ""
+     "note": "",
+     "date": "2013-09-16"
     }
-   ],
-   "memberId": "oc-C09",
-   "syncAt": "2026-10-09T00:20:22.066Z"
+   ]
   },
   {
-   "memberId": "oc-C10",
    "syncAt": "2026-10-09T00:20:22.066Z",
    "history": [
     {
      "date": "2022-09-04",
+     "note": "",
+     "kind": "alta"
+    }
+   ],
+   "memberId": "oc-C10"
+  },
+  {
+   "history": [
+    {
+     "kind": "alta",
+     "note": "",
+     "date": "1993-09-17"
+    }
+   ],
+   "syncAt": "2026-10-09T00:20:22.066Z",
+   "memberId": "oc-C11"
+  },
+  {
+   "memberId": "oc-C12",
+   "syncAt": "2026-10-09T00:20:22.066Z",
+   "history": [
+    {
+     "date": "2001-09-25",
      "kind": "alta",
      "note": ""
     }
    ]
   },
   {
-   "memberId": "oc-C11",
-   "history": [
-    {
-     "note": "",
-     "kind": "alta",
-     "date": "1993-09-17"
-    }
-   ],
-   "syncAt": "2026-10-09T00:20:22.066Z"
-  },
-  {
-   "memberId": "oc-C12",
-   "history": [
-    {
-     "kind": "alta",
-     "date": "2001-09-25",
-     "note": ""
-    }
-   ],
-   "syncAt": "2026-10-09T00:20:22.066Z"
-  },
-  {
    "memberId": "oc-C13",
+   "syncAt": "2026-10-09T00:20:22.066Z",
    "history": [
     {
      "kind": "alta",
-     "date": "1999-09-21",
-     "note": ""
+     "note": "",
+     "date": "1999-09-21"
     }
-   ],
-   "syncAt": "2026-10-09T00:20:22.066Z"
+   ]
   },
   {
    "memberId": "oc-C14",
    "history": [
     {
+     "kind": "alta",
      "note": "",
-     "date": "1999-09-08",
-     "kind": "alta"
+     "date": "1999-09-08"
     }
    ],
    "syncAt": "2026-10-09T00:20:22.066Z"
   },
   {
-   "syncAt": "2026-10-09T00:20:22.066Z",
-   "memberId": "oc-C15",
    "history": [
     {
-     "note": "",
      "kind": "alta",
+     "note": "",
      "date": "1990-09-27"
     }
-   ]
-  },
-  {
-   "memberId": "oc-C16",
-   "history": [
-    {
-     "date": "2020-09-21",
-     "kind": "alta",
-     "note": ""
-    }
    ],
-   "syncAt": "2026-10-09T00:20:22.066Z"
-  },
-  {
-   "memberId": "oc-C17",
    "syncAt": "2026-10-09T00:20:22.066Z",
-   "history": [
-    {
-     "date": "1993-09-28",
-     "kind": "alta",
-     "note": ""
-    }
-   ]
+   "memberId": "oc-C15"
   },
   {
-   "memberId": "oc-C18",
    "history": [
     {
      "note": "",
-     "date": "2015-09-28",
-     "kind": "alta"
+     "kind": "alta",
+     "date": "2020-09-21"
     }
    ],
-   "syncAt": "2026-10-09T00:20:22.066Z"
+   "syncAt": "2026-10-09T00:20:22.066Z",
+   "memberId": "oc-C16"
   },
   {
    "syncAt": "2026-10-09T00:20:22.066Z",
-   "memberId": "oc-C19",
+   "memberId": "oc-C17",
+   "history": [
+    {
+     "note": "",
+     "kind": "alta",
+     "date": "1993-09-28"
+    }
+   ]
+  },
+  {
+   "history": [
+    {
+     "kind": "alta",
+     "note": "",
+     "date": "2015-09-28"
+    }
+   ],
+   "syncAt": "2026-10-09T00:20:22.066Z",
+   "memberId": "oc-C18"
+  },
+  {
+   "syncAt": "2026-10-09T00:20:22.066Z",
    "history": [
     {
      "note": "",
      "kind": "alta",
      "date": "2018-09-25"
     }
-   ]
+   ],
+   "memberId": "oc-C19"
   },
   {
    "memberId": "oc-C20",
-   "syncAt": "2026-10-09T00:20:22.066Z",
+   "history": [
+    {
+     "kind": "alta",
+     "note": "",
+     "date": "1989-09-26"
+    }
+   ],
+   "syncAt": "2026-10-09T00:20:22.066Z"
+  },
+  {
    "history": [
     {
      "note": "",
      "kind": "alta",
-     "date": "1989-09-26"
-    }
-   ]
-  },
-  {
-   "memberId": "oc-C21",
-   "syncAt": "2026-10-09T00:20:22.066Z",
-   "history": [
-    {
-     "date": "2021-09-02",
-     "kind": "alta",
-     "note": ""
-    }
-   ]
-  },
-  {
-   "history": [
-    {
-     "date": "1995-09-23",
-     "kind": "alta",
-     "note": ""
+     "date": "2021-09-02"
     }
    ],
    "syncAt": "2026-10-09T00:20:22.066Z",
-   "memberId": "oc-C22"
+   "memberId": "oc-C21"
+  },
+  {
+   "syncAt": "2026-10-09T00:20:22.066Z",
+   "memberId": "oc-C22",
+   "history": [
+    {
+     "note": "",
+     "kind": "alta",
+     "date": "1995-09-23"
+    }
+   ]
   },
   {
    "syncAt": "2026-10-09T00:20:22.066Z",
    "history": [
     {
-     "date": "1998-09-09",
      "kind": "alta",
-     "note": ""
+     "note": "",
+     "date": "1998-09-09"
     }
    ],
    "memberId": "oc-C23"
   },
   {
+   "syncAt": "2026-10-09T00:20:22.066Z",
    "history": [
     {
+     "note": "",
      "kind": "alta",
-     "date": "2020-09-24",
-     "note": ""
+     "date": "2020-09-24"
     }
    ],
-   "syncAt": "2026-10-09T00:20:22.066Z",
    "memberId": "oc-C24"
   },
   {
    "syncAt": "2026-10-09T00:20:22.066Z",
-   "memberId": "oc-C25",
    "history": [
     {
-     "note": "",
      "date": "2016-09-17",
-     "kind": "alta"
-    }
-   ]
-  },
-  {
-   "syncAt": "2026-10-09T00:20:22.066Z",
-   "memberId": "oc-C26",
-   "history": [
-    {
      "kind": "alta",
-     "date": "2023-09-04",
-     "note": ""
-    }
-   ]
-  },
-  {
-   "memberId": "oc-C27",
-   "history": [
-    {
-     "kind": "alta",
-     "date": "2008-09-19",
      "note": ""
     }
    ],
+   "memberId": "oc-C25"
+  },
+  {
+   "syncAt": "2026-10-09T00:20:22.066Z",
+   "history": [
+    {
+     "date": "2023-09-04",
+     "kind": "alta",
+     "note": ""
+    }
+   ],
+   "memberId": "oc-C26"
+  },
+  {
+   "history": [
+    {
+     "note": "",
+     "kind": "alta",
+     "date": "2008-09-19"
+    }
+   ],
+   "memberId": "oc-C27",
    "syncAt": "2026-10-09T00:20:22.066Z"
   },
   {
    "memberId": "oc-C28",
+   "syncAt": "2026-10-09T00:20:22.066Z",
    "history": [
     {
-     "note": "",
+     "date": "1997-09-09",
      "kind": "alta",
-     "date": "1997-09-09"
+     "note": ""
     }
-   ],
-   "syncAt": "2026-10-09T00:20:22.066Z"
+   ]
   },
   {
    "memberId": "oc-C29",
    "history": [
     {
      "note": "",
-     "date": "1990-09-05",
-     "kind": "alta"
+     "kind": "alta",
+     "date": "1990-09-05"
     }
    ],
    "syncAt": "2026-10-09T00:20:22.066Z"
@@ -4746,13 +4748,14 @@
    "syncAt": "2026-10-09T00:20:22.066Z",
    "history": [
     {
-     "note": "",
+     "date": "2004-09-16",
      "kind": "alta",
-     "date": "2004-09-16"
+     "note": ""
     }
    ]
   },
   {
+   "memberId": "oc-S01",
    "history": [
     {
      "note": "",
@@ -4760,11 +4763,9 @@
      "date": "1997-09-17"
     }
    ],
-   "syncAt": "2026-10-09T00:20:22.066Z",
-   "memberId": "oc-S01"
+   "syncAt": "2026-10-09T00:20:22.066Z"
   },
   {
-   "memberId": "oc-S02",
    "history": [
     {
      "date": "2000-09-01",
@@ -4772,40 +4773,41 @@
      "note": ""
     }
    ],
+   "memberId": "oc-S02",
    "syncAt": "2026-10-09T00:20:22.066Z"
   },
   {
-   "syncAt": "2026-10-09T00:20:22.066Z",
-   "memberId": "oc-S03",
    "history": [
     {
      "note": "",
      "kind": "alta",
      "date": "1997-09-05"
     }
-   ]
+   ],
+   "syncAt": "2026-10-09T00:20:22.066Z",
+   "memberId": "oc-S03"
   },
   {
+   "memberId": "oc-S04",
    "syncAt": "2026-10-09T00:20:22.066Z",
    "history": [
     {
-     "kind": "alta",
      "date": "2012-09-20",
+     "kind": "alta",
      "note": ""
     }
-   ],
-   "memberId": "oc-S04"
+   ]
   },
   {
-   "syncAt": "2026-10-09T00:20:22.066Z",
-   "memberId": "oc-S05",
    "history": [
     {
      "note": "",
      "kind": "alta",
      "date": "2014-09-13"
     }
-   ]
+   ],
+   "syncAt": "2026-10-09T00:20:22.066Z",
+   "memberId": "oc-S05"
   },
   {
    "memberId": "oc-S06",
@@ -4819,51 +4821,50 @@
    "syncAt": "2026-10-09T00:20:22.066Z"
   },
   {
+   "memberId": "oc-S07",
    "history": [
     {
-     "note": "",
      "date": "1994-09-21",
-     "kind": "alta"
-    }
-   ],
-   "syncAt": "2026-10-09T00:20:22.066Z",
-   "memberId": "oc-S07"
-  },
-  {
-   "syncAt": "2026-10-09T00:20:22.066Z",
-   "memberId": "oc-S08",
-   "history": [
-    {
      "note": "",
-     "kind": "alta",
-     "date": "2014-09-16"
-    }
-   ]
-  },
-  {
-   "memberId": "oc-S09",
-   "history": [
-    {
-     "note": "",
-     "date": "2011-09-13",
      "kind": "alta"
     }
    ],
    "syncAt": "2026-10-09T00:20:22.066Z"
   },
   {
-   "memberId": "oc-S10",
-   "syncAt": "2026-10-09T00:20:22.066Z",
    "history": [
     {
      "note": "",
+     "kind": "alta",
+     "date": "2014-09-16"
+    }
+   ],
+   "syncAt": "2026-10-09T00:20:22.066Z",
+   "memberId": "oc-S08"
+  },
+  {
+   "history": [
+    {
+     "date": "2011-09-13",
+     "note": "",
+     "kind": "alta"
+    }
+   ],
+   "memberId": "oc-S09",
+   "syncAt": "2026-10-09T00:20:22.066Z"
+  },
+  {
+   "syncAt": "2026-10-09T00:20:22.066Z",
+   "memberId": "oc-S10",
+   "history": [
+    {
      "date": "2014-09-08",
+     "note": "",
      "kind": "alta"
     }
    ]
   },
   {
-   "syncAt": "2026-10-09T00:20:22.066Z",
    "memberId": "oc-S11",
    "history": [
     {
@@ -4871,66 +4872,67 @@
      "kind": "alta",
      "note": ""
     }
-   ]
-  },
-  {
-   "history": [
-    {
-     "note": "",
-     "kind": "alta",
-     "date": "1994-09-23"
-    }
    ],
-   "memberId": "oc-S12",
-   "syncAt": "2026-10-09T00:20:22.066Z"
-  },
-  {
-   "history": [
-    {
-     "note": "",
-     "date": "2023-09-12",
-     "kind": "alta"
-    }
-   ],
-   "memberId": "oc-S13",
-   "syncAt": "2026-10-09T00:20:22.066Z"
-  },
-  {
-   "history": [
-    {
-     "note": "",
-     "kind": "alta",
-     "date": "2000-09-12"
-    }
-   ],
-   "memberId": "oc-S14",
    "syncAt": "2026-10-09T00:20:22.066Z"
   },
   {
    "syncAt": "2026-10-09T00:20:22.066Z",
    "history": [
     {
-     "date": "2001-09-24",
+     "date": "1994-09-23",
+     "note": "",
+     "kind": "alta"
+    }
+   ],
+   "memberId": "oc-S12"
+  },
+  {
+   "memberId": "oc-S13",
+   "syncAt": "2026-10-09T00:20:22.066Z",
+   "history": [
+    {
+     "date": "2023-09-12",
+     "note": "",
+     "kind": "alta"
+    }
+   ]
+  },
+  {
+   "memberId": "oc-S14",
+   "history": [
+    {
+     "date": "2000-09-12",
+     "note": "",
+     "kind": "alta"
+    }
+   ],
+   "syncAt": "2026-10-09T00:20:22.066Z"
+  },
+  {
+   "syncAt": "2026-10-09T00:20:22.066Z",
+   "history": [
+    {
      "kind": "alta",
-     "note": ""
+     "note": "",
+     "date": "2001-09-24"
     }
    ],
    "memberId": "oc-S15"
   },
   {
-   "memberId": "oc-S16",
    "history": [
     {
      "date": "1999-09-02",
-     "kind": "alta",
-     "note": ""
+     "note": "",
+     "kind": "alta"
     }
    ],
-   "syncAt": "2026-10-09T00:20:22.066Z"
+   "syncAt": "2026-10-09T00:20:22.066Z",
+   "memberId": "oc-S16"
   },
   {
-   "memberId": "oc-S17",
    "syncAt": "2026-10-09T00:20:22.066Z",
+   "memberId": "oc-S17",
    "history": [
     {
      "date": "2022-09-09",
@@ -4941,58 +4943,58 @@
   },
   {
    "syncAt": "2026-10-09T00:20:22.066Z",
+   "memberId": "oc-S18",
    "history": [
     {
-     "note": "",
      "date": "2006-09-22",
+     "note": "",
      "kind": "alta"
     }
-   ],
-   "memberId": "oc-S18"
-  },
-  {
-   "memberId": "oc-S19",
-   "history": [
-    {
-     "note": "",
-     "kind": "alta",
-     "date": "2004-09-23"
-    }
-   ],
-   "syncAt": "2026-10-09T00:20:22.066Z"
+   ]
   },
   {
    "syncAt": "2026-10-09T00:20:22.066Z",
    "history": [
     {
+     "date": "2004-09-23",
      "note": "",
-     "date": "2009-09-20",
      "kind": "alta"
     }
    ],
-   "memberId": "oc-S20"
+   "memberId": "oc-S19"
   },
   {
+   "memberId": "oc-S20",
+   "syncAt": "2026-10-09T00:20:22.066Z",
    "history": [
     {
+     "date": "2009-09-20",
      "kind": "alta",
+     "note": ""
+    }
+   ]
+  },
+  {
+   "syncAt": "2026-10-09T00:20:22.066Z",
+   "history": [
+    {
      "date": "2017-09-12",
+     "kind": "alta",
      "note": ""
     }
    ],
-   "memberId": "oc-S21",
-   "syncAt": "2026-10-09T00:20:22.066Z"
+   "memberId": "oc-S21"
   },
   {
-   "memberId": "oc-S22",
+   "syncAt": "2026-10-09T00:20:22.066Z",
    "history": [
     {
-     "note": "",
      "date": "2011-09-01",
+     "note": "",
      "kind": "alta"
     }
    ],
-   "syncAt": "2026-10-09T00:20:22.066Z"
+   "memberId": "oc-S22"
   },
   {
    "memberId": "oc-S23",
@@ -5000,8 +5002,8 @@
    "history": [
     {
      "note": "",
-     "date": "2015-09-14",
-     "kind": "alta"
+     "kind": "alta",
+     "date": "2015-09-14"
     }
    ]
   },
@@ -5009,285 +5011,274 @@
    "history": [
     {
      "kind": "alta",
-     "date": "1996-09-04",
-     "note": ""
+     "note": "",
+     "date": "1996-09-04"
     }
    ],
    "memberId": "oc-S24",
    "syncAt": "2026-10-09T00:20:22.066Z"
   },
   {
-   "syncAt": "2026-10-09T00:20:22.066Z",
    "memberId": "oc-S25",
+   "syncAt": "2026-10-09T00:20:22.066Z",
    "history": [
     {
      "note": "",
-     "date": "2018-09-05",
+     "kind": "alta",
+     "date": "2018-09-05"
+    }
+   ]
+  },
+  {
+   "syncAt": "2026-10-09T00:20:22.066Z",
+   "memberId": "oc-S26",
+   "history": [
+    {
+     "date": "1988-09-16",
+     "kind": "alta",
+     "note": ""
+    }
+   ]
+  },
+  {
+   "history": [
+    {
+     "date": "2022-09-17",
+     "note": "",
      "kind": "alta"
     }
-   ]
+   ],
+   "syncAt": "2026-10-09T00:20:22.066Z",
+   "memberId": "oc-S27"
   },
   {
-   "memberId": "oc-S26",
    "syncAt": "2026-10-09T00:20:22.066Z",
    "history": [
     {
      "kind": "alta",
-     "date": "1988-09-16",
-     "note": ""
+     "note": "",
+     "date": "1997-09-20"
     }
-   ]
+   ],
+   "memberId": "oc-S28"
   },
   {
    "syncAt": "2026-10-09T00:20:22.066Z",
-   "memberId": "oc-S27",
-   "history": [
-    {
-     "kind": "alta",
-     "date": "2022-09-17",
-     "note": ""
-    }
-   ]
-  },
-  {
-   "memberId": "oc-S28",
-   "syncAt": "2026-10-09T00:20:22.066Z",
-   "history": [
-    {
-     "date": "1997-09-20",
-     "kind": "alta",
-     "note": ""
-    }
-   ]
-  },
-  {
    "memberId": "oc-S29",
    "history": [
     {
-     "note": "",
      "date": "2000-09-09",
-     "kind": "alta"
-    }
-   ],
-   "syncAt": "2026-10-09T00:20:22.066Z"
-  },
-  {
-   "memberId": "oc-S30",
-   "syncAt": "2026-10-09T00:20:22.066Z",
-   "history": [
-    {
      "note": "",
-     "date": "1994-09-25",
      "kind": "alta"
     }
    ]
   },
   {
-   "memberId": "oc-S31",
+   "memberId": "oc-S30",
    "history": [
     {
+     "date": "1994-09-25",
      "note": "",
-     "kind": "alta",
-     "date": "1994-09-03"
+     "kind": "alta"
     }
    ],
    "syncAt": "2026-10-09T00:20:22.066Z"
+  },
+  {
+   "memberId": "oc-S31",
+   "syncAt": "2026-10-09T00:20:22.066Z",
+   "history": [
+    {
+     "date": "1994-09-03",
+     "note": "",
+     "kind": "alta"
+    }
+   ]
   },
   {
    "syncAt": "2026-10-09T00:20:22.066Z",
    "memberId": "oc-S32",
    "history": [
     {
-     "note": "",
      "date": "2023-09-06",
-     "kind": "alta"
+     "kind": "alta",
+     "note": ""
     }
    ]
   },
   {
-   "memberId": "oc-T01",
    "history": [
     {
-     "date": "1998-09-25",
      "kind": "alta",
-     "note": ""
-    }
-   ],
-   "syncAt": "2026-10-09T00:20:22.066Z"
-  },
-  {
-   "history": [
-    {
      "note": "",
-     "date": "1994-09-04",
-     "kind": "alta"
+     "date": "1998-09-25"
     }
    ],
+   "memberId": "oc-T01",
+   "syncAt": "2026-10-09T00:20:22.066Z"
+  },
+  {
    "memberId": "oc-T02",
-   "syncAt": "2026-10-09T00:20:22.066Z"
-  },
-  {
-   "memberId": "oc-T03",
-   "history": [
-    {
-     "date": "1992-09-28",
-     "kind": "alta",
-     "note": ""
-    }
-   ],
-   "syncAt": "2026-10-09T00:20:22.066Z"
-  },
-  {
    "syncAt": "2026-10-09T00:20:22.066Z",
    "history": [
     {
+     "date": "1994-09-04",
+     "kind": "alta",
+     "note": ""
+    }
+   ]
+  },
+  {
+   "history": [
+    {
+     "date": "1992-09-28",
      "note": "",
-     "date": "1998-09-28",
      "kind": "alta"
     }
    ],
+   "syncAt": "2026-10-09T00:20:22.066Z",
+   "memberId": "oc-T03"
+  },
+  {
+   "history": [
+    {
+     "date": "1998-09-28",
+     "note": "",
+     "kind": "alta"
+    }
+   ],
+   "syncAt": "2026-10-09T00:20:22.066Z",
    "memberId": "oc-T04"
   },
   {
    "history": [
     {
      "kind": "alta",
-     "date": "2012-09-12",
-     "note": ""
+     "note": "",
+     "date": "2012-09-12"
     }
    ],
    "memberId": "oc-T05",
    "syncAt": "2026-10-09T00:20:22.066Z"
   },
   {
+   "memberId": "oc-T06",
+   "syncAt": "2026-10-09T00:20:22.066Z",
    "history": [
     {
      "date": "1995-09-02",
-     "kind": "alta",
-     "note": ""
-    }
-   ],
-   "memberId": "oc-T06",
-   "syncAt": "2026-10-09T00:20:22.066Z"
-  },
-  {
-   "memberId": "oc-T07",
-   "syncAt": "2026-10-09T00:20:22.066Z",
-   "history": [
-    {
      "note": "",
-     "kind": "alta",
-     "date": "1988-09-27"
+     "kind": "alta"
     }
    ]
   },
   {
    "syncAt": "2026-10-09T00:20:22.066Z",
+   "history": [
+    {
+     "date": "1988-09-27",
+     "kind": "alta",
+     "note": ""
+    }
+   ],
+   "memberId": "oc-T07"
+  },
+  {
    "memberId": "oc-T08",
    "history": [
     {
-     "kind": "alta",
      "date": "1997-09-14",
+     "kind": "alta",
      "note": ""
     }
-   ]
+   ],
+   "syncAt": "2026-10-09T00:20:22.066Z"
   },
   {
    "memberId": "oc-T09",
+   "syncAt": "2026-10-09T00:20:22.066Z",
    "history": [
     {
+     "kind": "alta",
      "note": "",
-     "date": "2022-09-17",
+     "date": "2022-09-17"
+    }
+   ]
+  },
+  {
+   "memberId": "oc-T10",
+   "syncAt": "2026-10-09T00:20:22.066Z",
+   "history": [
+    {
+     "date": "2007-09-11",
+     "kind": "alta",
+     "note": ""
+    }
+   ]
+  },
+  {
+   "history": [
+    {
+     "date": "2007-09-11",
+     "note": "",
      "kind": "alta"
     }
    ],
-   "syncAt": "2026-10-09T00:20:22.066Z"
-  },
-  {
-   "syncAt": "2026-10-09T00:20:22.066Z",
-   "memberId": "oc-T10",
-   "history": [
-    {
-     "kind": "alta",
-     "date": "2007-09-11",
-     "note": ""
-    }
-   ]
-  },
-  {
    "memberId": "oc-T11",
-   "syncAt": "2026-10-09T00:20:22.066Z",
-   "history": [
-    {
-     "date": "2007-09-11",
-     "kind": "alta",
-     "note": ""
-    }
-   ]
-  },
-  {
-   "history": [
-    {
-     "kind": "alta",
-     "date": "2024-09-22",
-     "note": ""
-    }
-   ],
-   "memberId": "oc-T12",
    "syncAt": "2026-10-09T00:20:22.066Z"
   },
   {
    "syncAt": "2026-10-09T00:20:22.066Z",
    "history": [
     {
+     "date": "2024-09-22",
      "kind": "alta",
-     "date": "1996-09-11",
      "note": ""
     }
    ],
+   "memberId": "oc-T12"
+  },
+  {
+   "history": [
+    {
+     "date": "1996-09-11",
+     "note": "",
+     "kind": "alta"
+    }
+   ],
+   "syncAt": "2026-10-09T00:20:22.066Z",
    "memberId": "oc-T13"
   },
   {
    "history": [
     {
+     "kind": "alta",
      "note": "",
-     "date": "2008-09-20",
-     "kind": "alta"
+     "date": "2008-09-20"
     }
    ],
    "memberId": "oc-T14",
    "syncAt": "2026-10-09T00:20:22.066Z"
   },
   {
-   "memberId": "oc-T15",
-   "history": [
-    {
-     "kind": "alta",
-     "date": "1991-09-14",
-     "note": ""
-    }
-   ],
-   "syncAt": "2026-10-09T00:20:22.066Z"
-  },
-  {
    "history": [
     {
      "note": "",
-     "date": "2014-09-06",
-     "kind": "alta"
+     "kind": "alta",
+     "date": "1991-09-14"
     }
    ],
-   "memberId": "oc-T16",
-   "syncAt": "2026-10-09T00:20:22.066Z"
+   "syncAt": "2026-10-09T00:20:22.066Z",
+   "memberId": "oc-T15"
   },
   {
+   "memberId": "oc-T16",
    "syncAt": "2026-10-09T00:20:22.066Z",
-   "memberId": "oc-T17",
    "history": [
     {
+     "note": "",
      "kind": "alta",
-     "date": "2021-09-19",
-     "note": ""
+     "date": "2014-09-06"
     }
    ]
   },
@@ -5295,78 +5286,89 @@
    "syncAt": "2026-10-09T00:20:22.066Z",
    "history": [
     {
-     "note": "",
-     "date": "2010-09-06",
-     "kind": "alta"
+     "date": "2021-09-19",
+     "kind": "alta",
+     "note": ""
     }
    ],
-   "memberId": "oc-T18"
+   "memberId": "oc-T17"
   },
   {
+   "memberId": "oc-T18",
    "syncAt": "2026-10-09T00:20:22.066Z",
    "history": [
     {
-     "note": "",
      "kind": "alta",
+     "note": "",
+     "date": "2010-09-06"
+    }
+   ]
+  },
+  {
+   "history": [
+    {
+     "kind": "alta",
+     "note": "",
      "date": "2000-09-23"
     }
    ],
-   "memberId": "oc-T19"
+   "memberId": "oc-T19",
+   "syncAt": "2026-10-09T00:20:22.066Z"
   },
   {
    "memberId": "oc-T20",
    "history": [
     {
-     "date": "2015-09-11",
      "kind": "alta",
-     "note": ""
+     "note": "",
+     "date": "2015-09-11"
     }
    ],
    "syncAt": "2026-10-09T00:20:22.066Z"
   },
   {
-   "memberId": "oc-T21",
-   "syncAt": "2026-10-09T00:20:22.066Z",
    "history": [
     {
      "date": "2005-09-25",
-     "kind": "alta",
-     "note": ""
+     "note": "",
+     "kind": "alta"
     }
-   ]
+   ],
+   "syncAt": "2026-10-09T00:20:22.066Z",
+   "memberId": "oc-T21"
   },
   {
-   "memberId": "oc-T22",
-   "syncAt": "2026-10-09T00:20:22.066Z",
    "history": [
     {
-     "kind": "alta",
      "date": "2012-09-25",
-     "note": ""
-    }
-   ]
-  },
-  {
-   "syncAt": "2026-10-09T00:20:22.066Z",
-   "history": [
-    {
      "kind": "alta",
-     "date": "2018-09-04",
      "note": ""
     }
    ],
+   "memberId": "oc-T22",
+   "syncAt": "2026-10-09T00:20:22.066Z"
+  },
+  {
+   "history": [
+    {
+     "date": "2018-09-04",
+     "kind": "alta",
+     "note": ""
+    }
+   ],
+   "syncAt": "2026-10-09T00:20:22.066Z",
    "memberId": "oc-T23"
   },
   {
-   "memberId": "oc-T24",
-   "syncAt": "2026-10-09T00:20:22.066Z",
    "history": [
     {
+     "kind": "alta",
      "note": "",
-     "date": "2023-09-17",
-     "kind": "alta"
+     "date": "2023-09-17"
     }
-   ]
+   ],
+   "memberId": "oc-T24",
+   "syncAt": "2026-10-09T00:20:22.066Z"
   },
   {
    "memberId": "oc-T25",
@@ -5385,32 +5387,32 @@
    "history": [
     {
      "note": "",
-     "date": "2008-09-06",
-     "kind": "alta"
+     "kind": "alta",
+     "date": "2008-09-06"
     }
    ]
   },
   {
-   "memberId": "oc-T27",
-   "syncAt": "2026-10-09T00:20:22.066Z",
    "history": [
     {
-     "date": "2023-09-12",
      "kind": "alta",
-     "note": ""
+     "note": "",
+     "date": "2023-09-12"
     }
-   ]
+   ],
+   "syncAt": "2026-10-09T00:20:22.066Z",
+   "memberId": "oc-T27"
   },
   {
-   "memberId": "oc-T28",
-   "syncAt": "2026-10-09T00:20:22.066Z",
    "history": [
     {
      "kind": "alta",
-     "date": "2021-09-27",
-     "note": ""
+     "note": "",
+     "date": "2021-09-27"
     }
-   ]
+   ],
+   "syncAt": "2026-10-09T00:20:22.066Z",
+   "memberId": "oc-T28"
   }
  ],
  "wardrobe": [],
